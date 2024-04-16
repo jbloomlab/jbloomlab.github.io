@@ -1,0 +1,18 @@
+# Dependency directories
+node_modules/
+
+# VitePress build output
+dist/
+.vitepress/dist/
+.vitepress/cache/
+.vitepress/.temp/
+
+# macOS folder attributes
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Vscode config
+.vscode/
