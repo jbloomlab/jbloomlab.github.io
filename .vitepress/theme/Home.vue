@@ -67,7 +67,8 @@ export default {
         </p>
     </div>
 </template>
-<style>
+
+<style scoped>
 .fade-enter-active,
 .fade-leave-active {
     transition: opacity 0.8s ease;
@@ -79,11 +80,6 @@ export default {
 }
 
 a {
-    text-decoration: none;
-    color: #FB6D48 !important;
-}
-
-a:hover {
     text-decoration: underline;
 }
 </style>

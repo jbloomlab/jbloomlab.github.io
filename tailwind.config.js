@@ -2,7 +2,11 @@
 module.exports = {
   content: [".vitepress/theme/**/*.vue", "./**/*.md"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "custom-orange": "#F26522",
+      },
+    },
   },
   plugins: [],
 };
