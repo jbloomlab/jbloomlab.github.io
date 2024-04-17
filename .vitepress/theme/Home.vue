@@ -6,7 +6,7 @@ export default {
             currentVirus: 'Viruses',
             virusIndex: 0,
             intervalId: null,
-            colors: ['#FF0000', '#0000FF', '#61ad5f', '#FF7F00', '#9400D3', '#d3d61c', '#00aaff', '#FF1493', '#FFD700', '#8B0000'],
+            colors: ["#FFAF45", "#FB6D48", "#D74B76", "#673F69", "#4793AF", "#FFC470", "#DD5746", "#8B322C", "#007F73", "#E72929"],
             useOpacity: true, // Toggle to apply opacity to background color
             opacityLevel: 0.1, // Background color opacity level
             currentColor: '#000000', // default color
@@ -39,7 +39,7 @@ export default {
             Welcome to the <span class="font-bold">Bloom Lab</span>
         </h1>
         <p class="text-3xl text-gray-600 mt-4">
-            Where we study the evolution of
+            where we study the evolution of
             <transition name="fade" mode="out-in">
                 <span :key="currentVirus" class="italic"
                     :style="{ color: currentColor, backgroundColor: getBackgroundWithOpacity(currentColor) }">{{
@@ -48,10 +48,10 @@ export default {
         </p>
         <br>
         <p class="text-lg text-gray-500 mt-6">
-            Welcome to the <strong>Bloom lab</strong>! We study the evolution of proteins and viruses, employing both
+            In the <strong>Bloom lab</strong>, we focus on the evolution of proteins and viruses. Using a blend of
             experimental and
-            computational methods to investigate how viruses evolve under different selective pressures and to
-            understand the public health implications of viral genetic variation.
+            computational techniques, we explore how viruses adapt to various selective pressures. Our research aims to
+            unravel the complexities of viral genetic variation and its implications for public health.
             <br><br>
             Our lab is part of the <a
                 href="https://www.fredhutch.org/en/research/divisions/basic-sciences-division.html">Basic Sciences
@@ -60,7 +60,7 @@ export default {
                 Biology Program</a> at the Fred Hutch. We are
             also affiliated with the <a
                 href="https://research.fredhutch.org/bloom/en.html#:~:text=Genome%20Sciences%20department%20at%20the%20University%20of%20Washington">Genome
-                Sciences department at the University of Washington</a>, and Jesse Bloom is an
+                Sciences Department</a> at the University of Washington, and Jesse Bloom is an
             Investigator of the <a
                 href="https://research.fredhutch.org/bloom/en.html#:~:text=Howard%20Hughes%20Medical%20Institute">Howard
                 Hughes Medical Institute</a>.
@@ -70,7 +70,7 @@ export default {
 <style>
 .fade-enter-active,
 .fade-leave-active {
-    transition: opacity 0.8s;
+    transition: opacity 0.8s ease;
 }
 
 .fade-enter,
@@ -80,10 +80,10 @@ export default {
 
 a {
     text-decoration: none;
+    color: #FB6D48 !important;
 }
 
 a:hover {
     text-decoration: underline;
-    color: rgb(0, 136, 255);
 }
 </style>
