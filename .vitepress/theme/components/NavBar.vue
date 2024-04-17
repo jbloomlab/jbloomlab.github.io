@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <div class="flex justify-between items-center w-full px-4">
+    <div class="flex justify-between items-center w-full px-4 select-none">
         <NavBarTitle />
         <NavBarMenu />
     </div>
