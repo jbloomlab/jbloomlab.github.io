@@ -38,7 +38,7 @@ export default {
         <h1 class="text-8xl text-gray-800">
             Welcome to the <span class="font-bold">Bloom Lab</span>
         </h1>
-        <p class="text-2xl text-gray-600 mt-4">
+        <p class="text-3xl text-gray-600 mt-4">
             Where we study the evolution of
             <transition name="fade" mode="out-in">
                 <span :key="currentVirus" class="italic"
@@ -48,9 +48,10 @@ export default {
         </p>
         <br>
         <p class="text-lg text-gray-500 mt-6">
-            Welcome to the Bloom lab! We study the evolution of proteins and viruses.
-            We use a mix of experimental and computational approaches to study how viruses evolve in the face of
-            different selection pressures, and to understand the public-health consequences of viral genetic variation.
+            Welcome to the <strong>Bloom lab</strong>! We study the evolution of proteins and viruses, employing both
+            experimental and
+            computational methods to investigate how viruses evolve under different selective pressures and to
+            understand the public health implications of viral genetic variation.
             <br><br>
             Our lab is part of the <a
                 href="https://www.fredhutch.org/en/research/divisions/basic-sciences-division.html">Basic Sciences
