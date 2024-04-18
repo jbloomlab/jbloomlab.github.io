@@ -2,18 +2,18 @@
 export default {
     data() {
         return {
-            viruses: ["Influenza", "SARS-CoV-2", "Lassa", "Nipah", "Rabies", "HIV", "Chikungunya", "Measles", "Zika", "Dengue"],
+            viruses: ["Influenza", "SARS-CoV-2", "Lassa", "Nipah", "Rabies", "HIV", "Chikungunya", "Measles", "Zika", "Dengue", "Proteins"],
             currentVirus: 'Viruses',
-            virusIndex: 0,
+            virusIndex: -1,
             intervalId: null,
-            colors: ["#FFAF45", "#FB6D48", "#D74B76", "#673F69", "#4793AF", "#FFC470", "#DD5746", "#8B322C", "#007F73", "#E72929"],
+            colors: ["#FFAF45", "#FB6D48", "#D74B76", "#673F69", "#4793AF", "#FFC470", "#DD5746", "#8B322C", "#007F73", "#E72929", "#6c42f5"],
             useOpacity: true, // Toggle to apply opacity to background color
             opacityLevel: 0.1, // Background color opacity level
             currentColor: '#000000', // default color
         }
     },
     mounted() {
-        this.intervalId = setInterval(this.updateVirus, 5000); // Update virus every 5 seconds
+        this.intervalId = setInterval(this.updateVirus, 2500); // Update virus every 5 seconds
     },
     beforeDestroy() {
         clearInterval(this.intervalId);
@@ -35,15 +35,15 @@ export default {
 
 <template>
     <div class="mx-auto max-w-4xl px-4 text-left">
-        <h1 class="text-8xl text-gray-800">
+        <h1 class="text-8xl text-gray-800 font-extra-light select-none">
             Welcome to the <span class="font-bold">Bloom Lab</span>
         </h1>
-        <p class="text-3xl text-gray-600 mt-4">
+        <p class="text-3xl text-gray-600 mt-4 select-none">
             where we study the evolution of
             <transition name="fade" mode="out-in">
                 <span :key="currentVirus" class="italic"
                     :style="{ color: currentColor, backgroundColor: getBackgroundWithOpacity(currentColor) }">{{
-                        currentVirus }}</span>
+                    currentVirus }}</span>
             </transition>.
         </p>
         <br>

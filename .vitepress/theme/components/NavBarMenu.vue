@@ -8,7 +8,7 @@ export default {
     data() {
         return {
             menuItems: [
-                { text: 'Blog', href: '/blog' },
+                { text: 'Blog', href: '/posts/' },
                 { text: 'Papers', href: '/papers' },
                 { text: 'Team', href: '/team' },
                 { text: 'Software', href: '/software' },

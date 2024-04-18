@@ -6,6 +6,10 @@ module.exports = {
       colors: {
         "custom-orange": "#F26522",
       },
+      fontWeight: {
+        "extra-light": 200,
+        light: 300,
+      },
     },
   },
   plugins: [],
