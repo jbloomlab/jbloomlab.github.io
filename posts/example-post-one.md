@@ -7,6 +7,8 @@ author: Will Hannon
 
 Here's a really solid example post. Lots of cool things to come.
 
+---
+
 ## Cool Stuff
 
 Woah, how neat! You must feel pretty blessed to be reading this interesting content. I spent a lot of time crafting it. Some might say *too much time*, but those people are just **haters**!
