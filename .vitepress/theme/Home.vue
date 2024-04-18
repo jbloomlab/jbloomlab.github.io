@@ -35,7 +35,7 @@ export default {
 
 <template>
     <div class="mx-auto max-w-4xl px-4 text-left">
-        <h1 class="text-8xl text-gray-800 font-extra-light select-none">
+        <h1 class="text-8xl text-gray-800 select-none">
             Welcome to the <span class="font-bold">Bloom Lab</span>
         </h1>
         <p class="text-3xl text-gray-600 mt-4 select-none">

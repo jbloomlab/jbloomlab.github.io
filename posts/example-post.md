@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Example post about something really important
 date: 2024-04-17
 author: Will Hannon

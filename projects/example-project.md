@@ -1,4 +1,5 @@
 ---
+layout: project
 name: "name of the project/software"
 github: "link to source code"
 documentation: "link to documentation"

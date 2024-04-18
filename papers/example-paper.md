@@ -1,4 +1,6 @@
 ---
+layout: paper
+title: "Heres the title of my papers."
 date: "example date"
 authors: []
 doi: "example doi"

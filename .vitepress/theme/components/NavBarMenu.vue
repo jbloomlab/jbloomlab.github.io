@@ -9,9 +9,9 @@ export default {
         return {
             menuItems: [
                 { text: 'Blog', href: '/posts/' },
-                { text: 'Papers', href: '/papers' },
-                { text: 'Team', href: '/team' },
-                { text: 'Software', href: '/software' },
+                { text: 'Papers', href: '/papers/' },
+                { text: 'Team', href: '/people/' },
+                { text: 'Software', href: '/projects/' },
             ]
         }
     }

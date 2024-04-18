@@ -1,6 +1,6 @@
 import { createContentLoader } from "vitepress";
 
-export default createContentLoader("posts/*.md", {
+export default createContentLoader("projects/*.md", {
   transform: (raw) => {
     return raw
       .map(({ url, frontmatter, subtext }) => ({
