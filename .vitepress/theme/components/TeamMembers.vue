@@ -15,6 +15,7 @@ export default {
                     title: "Principal Investigator",
                     links: [
                         { link: "https://www.linkedin.com/in/williamhannon/", icon: "linkedin" },
+                        { link: "https://github.com/WillHannon-MCB", icon: "twitter" },
                         { link: "https://github.com/WillHannon-MCB", icon: "github" }
                     ]
                 },
@@ -23,8 +24,8 @@ export default {
                     image: "https://research.fredhutch.org/content/stripe/bloom/en/members/_jcr_content/par/labmember_1919102050/image.img.jpg/1621376508623.jpg",
                     title: "Lab Manager",
                     links: [
-                        { link: "https://www.linkedin.com/in/williamhannon/", icon: "linkedin" },
-                        { link: "https://github.com/WillHannon-MCB", icon: "github" }
+                        { link: "https://github.com/WillHannon-MCB", icon: "github" },
+                        { link: "https://github.com/WillHannon-MCB", icon: "orcid" },
                     ]
                 },
                 {
@@ -33,7 +34,9 @@ export default {
                     title: "Staff Scientist",
                     links: [
                         { link: "https://www.linkedin.com/in/williamhannon/", icon: "linkedin" },
-                        { link: "https://github.com/WillHannon-MCB", icon: "github" }
+                        { link: "https://github.com/WillHannon-MCB", icon: "twitter" },
+                        { link: "https://github.com/WillHannon-MCB", icon: "github" },
+                        { link: "https://github.com/WillHannon-MCB", icon: "orcid" }
                     ]
                 },
 
@@ -43,7 +46,10 @@ export default {
                     title: "Data Scientist",
                     links: [
                         { link: "https://www.linkedin.com/in/williamhannon/", icon: "linkedin" },
-                        { link: "https://github.com/WillHannon-MCB", icon: "github" }
+                        { link: "https://github.com/WillHannon-MCB", icon: "github" },
+                        { link: "https://github.com/WillHannon-MCB", icon: "website" },
+                        { link: "https://github.com/WillHannon-MCB", icon: "orcid" },
+
                     ]
                 },
             ]
