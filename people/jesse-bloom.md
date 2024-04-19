@@ -4,8 +4,8 @@ image: "https://research.fredhutch.org/content/stripe/bloom/en/members/_jcr_cont
 title: "Principal Investigator"
 category: "Faculty"
 links:
-  - link: "https://twitter.com/jbloom_lab?lang=en"
-    icon: "twitter"
   - link: "https://github.com/jbloomlab"
     icon: "github"
+  - link: "https://twitter.com/jbloom_lab?lang=en"
+    icon: "twitter"
 ---

@@ -6,4 +6,6 @@ category: "Postdocs"
 links:
   - link: "https://github.com/bblarsen-sci"
     icon: "github"
+  - link: "https://twitter.com/i/flow/login?redirect_after_login=%2Fbblarsen1"
+    icon: "twitter"
 ---

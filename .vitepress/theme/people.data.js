@@ -6,6 +6,10 @@ export default createContentLoader("people/*.md", {
       .map(({ url, frontmatter, subtext }) => ({
         name: frontmatter.name,
         image: frontmatter.image,
+        title: frontmatter.title,
+        category: frontmatter.category,
+        desc: frontmatter.desc,
+        links: frontmatter.links,
         socials: frontmatter.socials,
         url,
       }))

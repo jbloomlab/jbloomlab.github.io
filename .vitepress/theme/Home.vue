@@ -2,11 +2,11 @@
 export default {
     data() {
         return {
-            viruses: ["Influenza", "SARS-CoV-2", "Lassa", "Nipah", "Rabies", "HIV", "Chikungunya", "Measles", "Zika", "Dengue", "Proteins"],
+            viruses: ["Influenza", "SARS-CoV-2", "Lassa", "Nipah", "Rabies", "HIV", "Chikungunya", "229E", "Measles", "Zika", "Dengue", "Proteins"],
             currentVirus: 'Viruses',
             virusIndex: -1,
             intervalId: null,
-            colors: ["#FFAF45", "#FB6D48", "#D74B76", "#673F69", "#4793AF", "#FFC470", "#DD5746", "#8B322C", "#007F73", "#E72929", "#6c42f5"],
+            colors: ["#7F3C8D", "#11A579", "#3969AC", "#F2B701", "#E73F74", "#80BA5A", "#E68310", "#008695", "#CF1C90", "#f97b72", "#4b4b8f", "#A5AA99"],
             useOpacity: true, // Toggle to apply opacity to background color
             opacityLevel: 0.1, // Background color opacity level
             currentColor: '#000000', // default color
