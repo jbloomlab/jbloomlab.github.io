@@ -6,10 +6,47 @@ export default {
     components: {
         TeamMembersItem
     },
-    props: {
-        members: {
-            type: Array,
-            required: true
+    data() {
+        return {
+            members: [
+                {
+                    name: "Jesse Bloom",
+                    image: "https://research.fredhutch.org/content/stripe/bloom/en/members/_jcr_content/par/labmember/image.img.jpg/1540125095310.jpg",
+                    title: "Principal Investigator",
+                    links: [
+                        { link: "https://www.linkedin.com/in/williamhannon/", icon: "linkedin" },
+                        { link: "https://github.com/WillHannon-MCB", icon: "github" }
+                    ]
+                },
+                {
+                    name: "Andrea Loes",
+                    image: "https://research.fredhutch.org/content/stripe/bloom/en/members/_jcr_content/par/labmember_1919102050/image.img.jpg/1621376508623.jpg",
+                    title: "Lab Manager",
+                    links: [
+                        { link: "https://www.linkedin.com/in/williamhannon/", icon: "linkedin" },
+                        { link: "https://github.com/WillHannon-MCB", icon: "github" }
+                    ]
+                },
+                {
+                    name: "Bernadeta Dadonaite",
+                    image: "https://research.fredhutch.org/content/stripe/bloom/en/members/_jcr_content/par/labmember_1939500834/image.img.jpg/1657559048742.jpg",
+                    title: "Staff Scientist",
+                    links: [
+                        { link: "https://www.linkedin.com/in/williamhannon/", icon: "linkedin" },
+                        { link: "https://github.com/WillHannon-MCB", icon: "github" }
+                    ]
+                },
+
+                {
+                    name: "Will Hannon",
+                    image: "https://research.fredhutch.org/content/stripe/bloom/en/members/_jcr_content/par/labmember_13944287/image.img.png/1709610002260.png",
+                    title: "Data Scientist",
+                    links: [
+                        { link: "https://www.linkedin.com/in/williamhannon/", icon: "linkedin" },
+                        { link: "https://github.com/WillHannon-MCB", icon: "github" }
+                    ]
+                },
+            ]
         }
     },
     computed: {

@@ -1,22 +1,22 @@
 <script>
-import { data as people } from './people.data.js';
+// import { data as people } from './people.data.js';
+import TeamMembers from './components/TeamMembers.vue';
 
 export default {
-    data() {
-        return {
-            people: people
-        };
-    }
+    components: {
+        TeamMembers
+    },
 }
 </script>
 
 <template>
+    <div class="pt-6 pb-8 space-y-2 md:space-y-5">
+        <h1
+            class="text-3xl leading-9 font-bold text-gray-800 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            Our Team
+        </h1>
+    </div>
     <div>
-        <h1>Team</h1>
-        <ul>
-            <li v-for="person in people" :key="person.url">
-                <a :href="person.url">{{ person.name }}</a>
-            </li>
-        </ul>
+        <TeamMembers></TeamMembers>
     </div>
 </template>

@@ -1,11 +1,9 @@
 <script>
-import VPLink from './VPLink.vue'
-import VPSocialLinks from './VPSocialLinks.vue'
+import SocialLink from './SocialLink.vue'
 
 export default {
     components: {
-        VPLink,
-        VPSocialLinks
+        SocialLink
     },
     props: {
         member: {
@@ -17,107 +15,25 @@ export default {
 </script>
 
 <template>
-    <article class="container">
-        <div class="profile">
-            <figure class="avatar">
-                <img class="avatar-img" :src="member.avatar" :alt="member.name" />
+    <article class="flex flex-col gap-px rounded-lg w-full h-full overflow-hidden">
+        <div class="py-12 px-8 flex-grow bg-custom-soft">
+            <figure class="relative shrink-0 mx-auto rounded-full shadow w-24 h-24">
+                <img class="absolute inset-0 rounded-full object-cover" :src="member.image" :alt="member.name" />
             </figure>
-            <div class="data">
-                <h1 class="name">
+            <div class="text-center pt-6">
+                <h1 class="m-0 font-semibold tracking-wide leading-7 text-lg">
                     {{ member.name }}
                 </h1>
-                <p v-if="member.title" class="title">
+                <p v-if="member.title" class="m-0 font-medium text-gray-600 pt-1 text-base">
                     <span v-if="member.title">
                         {{ member.title }}
                     </span>
                 </p>
-                <p v-if="member.desc" class="desc" v-html="member.desc"></p>
-                <div v-if="member.links" class="links">
-                    <VPSocialLinks :links="member.links" />
+                <p v-if="member.desc" class="m-0 mx-auto pt-4 max-w-[18rem] text-base" v-html="member.desc"></p>
+                <div v-if="member.links" class="flex justify-center h-14 m-[-1rem -4rem -3rem] pt-4 px-3">
+                    <SocialLink v-for="{ link, icon } in member.links" :key="link" :icon="icon" :link="link" />
                 </div>
             </div>
         </div>
     </article>
 </template>
-
-<style scoped>
-.container {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    border-radius: 12px;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.profile {
-    padding: 48px 32px;
-    flex-grow: 1;
-    background-color: var(--vp-c-bg-soft);
-}
-
-.data {
-    text-align: center;
-    padding-top: 24px;
-    text-align: center;
-}
-
-.avatar {
-    position: relative;
-    flex-shrink: 0;
-    margin: 0 auto;
-    border-radius: 50%;
-    box-shadow: var(--vp-shadow-3);
-    width: 96px;
-    height: 96px;
-}
-
-.avatar-img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.name {
-    margin: 0;
-    font-weight: 600;
-    letter-spacing: 0.15px;
-    line-height: 28px;
-    font-size: 20px;
-}
-
-.title {
-    margin: 0;
-    font-weight: 500;
-    color: var(--vp-c-text-2);
-    padding-top: 4px;
-    font-size: 16px;
-}
-
-.desc {
-    margin: 0 auto;
-    padding-top: 16px;
-    max-width: 288px;
-    font-size: 16px;
-}
-
-.desc :deep(a) {
-    font-weight: 500;
-    color: var(--vp-c-brand-1);
-    text-decoration-style: dotted;
-    transition: color 0.25s;
-}
-
-.links {
-    display: flex;
-    justify-content: center;
-    height: 56px;
-    margin: 0 -16px -12px;
-    padding: 16px 12px 0;
-}
-</style>
