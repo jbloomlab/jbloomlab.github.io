@@ -1,33 +1,28 @@
 ---
-title: "Deep mutational scanning of SARS-CoV-2 receptor binding domain reveals constraints on folding and ACE2 binding"
-date: "2020-09-03"
+title: "Shifting mutational constraints in the SARS-CoV-2 receptor-binding domain during viral evolution"
+date: "2022-06-28"
 authors: 
     - "Tyler N Starr*"
     - "Allison J Greaney*"
-    - "Sarah K Hilton"
-    - "Daniel Ellis"
-    - "Katharine HD Crawford"
-    - "Adam S Dingens"
-    - "Mary Jane Navarro"
-    - "John E Bowen"
-    - "M Alejandra Tortorici"
-    - "Alexandra C Walls"
-    - "Neil P King"
+    - "William W Hannon"
+    - "Andrea N Loes"
+    - "Kevin Hauser"
+    - "Josh R Dillen"
+    - "Elena Ferri"
+    - "Ariana Ghez Farrell"
+    - "Bernadeta Dadonaite"
+    - "Matthew McCallum"
+    - "Kenneth A Matreyek"
+    - "Davide Corti"
     - "David Veesler"
+    - "Gyorgy Snell"
     - "Jesse D Bloom"
-journal: "Cell"
-doi: "10.1016/j.cell.2020.08.012"
-link: "https://www.cell.com/cell/pdf/S0092-8674(20)31003-5.pdf"
-image: "/assets/papers/starr_greany_2020.png"
+journal: "Science"
+doi: "10.1126/science.abo7896"
+link: "https://doi.org/10.1126/science.abo7896"
+image: "/assets/papers/starr_greany_2022.png"
 ---
 
 ## Abstract
 
-The receptor binding domain (RBD) of the SARS-CoV-2 spike glycoprotein mediates viral attachment to
-ACE2 receptor and is a major determinant of host range and a dominant target of neutralizing antibodies.
-Here, we experimentally measure how all amino acid mutations to the RBD affect expression of folded protein
-and its affinity for ACE2. Most mutations are deleterious for RBD expression and ACE2 binding, and we identify constrained regions on the RBD’s surface that may be desirable targets for vaccines and antibody-based
-therapeutics. But a substantial number of mutations are well tolerated or even enhance ACE2 binding,
-including at ACE2 interface residues that vary across SARS-related coronaviruses. However, we find no evidence that these ACE2-affinity-enhancing mutations have been selected in current SARS-CoV-2 pandemic
-isolates. We present an interactive visualization and open analysis pipeline to facilitate use of our dataset for
-vaccine design and functional annotation of mutations observed during viral surveillance.
+Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has evolved variants with substitutions in the spike receptor-binding domain (RBD) that affect its affinity for angiotensin-converting enzyme 2 (ACE2) receptor and recognition by antibodies. These substitutions could also shape future evolution by modulating the effects of mutations at other sites—a phenomenon called epistasis. To investigate this possibility, we performed deep mutational scans to measure the effects on ACE2 binding of all single–amino acid mutations in the Wuhan-Hu-1, Alpha, Beta, Delta, and Eta variant RBDs. Some substitutions, most prominently Asn501→Tyr (N501Y), cause epistatic shifts in the effects of mutations at other sites. These epistatic shifts shape subsequent evolutionary change—for example, enabling many of the antibody-escape substitutions in the Omicron RBD. These epistatic shifts occur despite high conservation of the overall RBD structure. Our data shed light on RBD sequence-function relationships and facilitate interpretation of ongoing SARS-CoV-2 evolution.
