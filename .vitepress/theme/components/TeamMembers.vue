@@ -22,8 +22,7 @@ export default {
 
 <template>
     <div :class="classes">
-        <div class="mx-auto grid grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] sm:grid-cols-[repeat(auto-fit,minmax(18rem,1fr))] gap-6"
-            :class="{
+        <div class="mx-auto grid grid-cols-1 sm:grid-cols-[repeat(auto-fit,minmax(18rem,1fr))] gap-6" :class="{
         'max-w-7xl': members.length >= 3,
         'max-w-[368px]': members.length === 1,
         'max-w-[760px]': members.length === 2
