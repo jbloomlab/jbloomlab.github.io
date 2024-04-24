@@ -20,9 +20,10 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
   color: #f26522;
+  transition: color 0.25s;
 }

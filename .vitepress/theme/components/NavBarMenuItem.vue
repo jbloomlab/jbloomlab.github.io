@@ -14,3 +14,9 @@ export default {
         {{ item.text }}
     </a>
 </template>
+
+<style scoped>
+a {
+    text-decoration: none;
+}
+</style>

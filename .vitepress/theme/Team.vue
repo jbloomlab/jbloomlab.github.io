@@ -37,7 +37,7 @@ export default {
                 Meet the Team
             </h1>
             <p class="text-lg leading-7 text-gray-600">
-                If you interested in joining the Bloom Lab, please reach out to us!
+                Get <a href="/about">in touch</a> if you're interested in joining us!
             </p>
         </div>
         <div class="w-full border-t border-gray-200"></div>

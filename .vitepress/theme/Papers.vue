@@ -26,7 +26,8 @@ export default {
                 Publications
             </h1>
             <p class="text-lg leading-7 text-gray-600">
-                Check out some of the key papers from the Bloom Lab team.
+                Key papers from the Bloom Lab team. Check out <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Bloom+JD"
+                    target="_blank">PubMed</a> for a complete list of our publications.
             </p>
         </div>
         <ul class="divide-y divide-gray-200">
@@ -39,7 +40,8 @@ export default {
                     <div class="space-y-5 md:flex-grow">
                         <div class="space-y-2">
                             <h2 class="text-2xl leading-8 font-bold tracking-tight">
-                                <a class="text-gray-900" :href="paper.url">{{ paper.title }}</a>
+                                <a class="text-gray-900 hover:text-gray-900 no-underline" :href="paper.url">{{
+                paper.title }}</a>
                             </h2>
                             <div v-if="paper.authors" class="max-w-none text-gray-700 hidden lg:block">
                                 {{ paper.authors }}
@@ -50,7 +52,7 @@ export default {
                             </div>
                         </div>
                         <div class="mt-4 md:mt-0 md:self-end">
-                            <a class="text-base leading-6 font-medium text-custom-orange"
+                            <a class="text-base leading-6 font-medium text-custom-orange no-underline"
                                 aria-label="read more about {{ paper.title }}" :href="paper.url">Read more →</a>
                         </div>
                     </div>

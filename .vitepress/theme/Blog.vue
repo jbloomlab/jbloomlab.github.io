@@ -34,12 +34,13 @@ export default {
                     <div class="space-y-5 xl:col-span-3">
                         <div class="space-y-6">
                             <h2 class="text-2xl leading-8 font-bold tracking-tight">
-                                <a class="text-gray-900" :href="post.url">{{ post.title }}</a>
+                                <a class="text-gray-900 hover:text-gray-900 no-underline" :href="post.url">{{ post.title
+                                    }}</a>
                             </h2>
                             <div v-if="post.excerpt" class="max-w-none text-gray-500" v-html="post.excerpt"></div>
                         </div>
                         <div class="text-base leading-6 font-medium">
-                            <a class="text-custom-orange" aria-label="read more about {{ post.title }}"
+                            <a class="text-custom-orange no-underline" aria-label="read more about {{ post.title }}"
                                 :href="post.url">Read more
                                 →</a>
                         </div>
