@@ -41,7 +41,7 @@ I'm not sure if the alt text will get rendered as a figure caption or not. It wo
 
 I'm running out of ideas for what can go into a markdown file. I guess code is in markdown? 
 
-```
+```js
 var code = "some code is nice"
 console.log(code)
 ```

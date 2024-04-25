@@ -40,11 +40,11 @@ export default {
 }
 
 .prose code {
-    @apply bg-gray-100 rounded text-custom-orange font-mono text-sm;
+    @apply bg-gray-100 rounded text-sm text-custom-orange;
 }
 
 .prose pre {
-    @apply bg-gray-100 p-2 rounded text-sm;
+    @apply bg-gray-100 p-4 rounded text-sm;
 }
 
 .prose blockquote {
@@ -66,20 +66,11 @@ export default {
 }
 
 /* Image and Figure Styles */
-.prose img {
-    @apply mx-auto my-4;
-}
-
 .prose figure {
     @apply text-center;
 }
 
 .prose figcaption {
     @apply text-sm text-gray-500;
-}
-
-/* Divider Style */
-.prose hr {
-    @apply invisible;
 }
 </style>
