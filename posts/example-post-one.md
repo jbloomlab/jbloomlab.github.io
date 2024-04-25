@@ -19,7 +19,7 @@ Wait, there's more?! You bet there is. I've got a lot more to talk about. A LOT 
 
 For example, here's some code that does something (*I think*):
 
-```js
+```
 const myAmazingWebsite = new AmazingWebsite;
 console.log(myAmazingWebsite)
 ```

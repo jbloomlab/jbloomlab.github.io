@@ -11,7 +11,7 @@ Here's your exclusive sneak peek at the ultimate guide to utterly astonishing ti
 
 ## Astonishing Anecdotes
 
-Wow, what a treasure trove! You're incredibly lucky to be witnessing these gems of wisdom. Crafting this took eons—okay, not eons, but definitely longer than it took to heat my lunch. Critics say it's a procrastinator's masterpiece, but really, they're just jealous!
+Wow, what a treasure trove! You're incredibly lucky to be witnessing these gems of wisdom. Crafting this took eons—okay, not eons, but longer than it took to heat my lunch. Critics say it's a procrastinator's masterpiece, but really, they're just jealous!
 
 ## Even More Astonishing Anecdotes
 
@@ -19,7 +19,7 @@ Hold onto your hats, because yes, there's more where that came from! The marvels
 
 Here's a snippet of code that might revolutionize how we think about making toast (or maybe not):
 
-```js
+```
 const myUltimateToaster = new SuperToaster();
 console.log(myUltimateToaster)
 ```
