@@ -1,5 +1,21 @@
+<script>
+import { useData } from 'vitepress'
+
+export default {
+    setup() {
+        const { page, frontmatter } = useData()
+        return {
+            page,
+            frontmatter
+        }
+    }
+}
+
+</script>
+
 <template>
     <div class="prose">
+        <h1>{{ frontmatter.title }}</h1>
         <slot />
     </div>
 </template>
@@ -7,24 +23,20 @@
 <style>
 /* Heading Styles */
 .prose h1 {
-    @apply text-3xl font-bold my-4;
+    @apply text-4xl tracking-tight leading-10 font-bold;
 }
 
 .prose h2 {
-    @apply text-2xl font-bold my-3;
+    @apply text-2xl tracking-tight leading-8 font-semibold border-t mt-10 mb-4 pt-6;
 }
 
 .prose h3 {
-    @apply text-xl font-semibold my-2;
+    @apply text-xl tracking-tight leading-7 font-semibold mt-8 mb-0 ml-0 mr-0;
 }
 
 /* Paragraph and Text Styles */
 .prose p {
-    @apply text-base text-gray-700 leading-relaxed my-2;
-}
-
-.prose blockquote {
-    @apply border-l-4 border-gray-200 pl-4 italic text-gray-600;
+    @apply text-base text-gray-700 leading-7 my-4;
 }
 
 .prose code {
@@ -35,11 +47,14 @@
     @apply bg-gray-100 p-2 rounded text-sm;
 }
 
+.prose blockquote {
+    @apply border-l-4 border-gray-200 pl-4 italic text-gray-600;
+}
 
 /* List Styles */
 .prose ul,
 .prose ol {
-    @apply list-disc list-inside my-2;
+    @apply list-inside list-disc pl-5 my-4;
 }
 
 .prose ol {
@@ -47,7 +62,7 @@
 }
 
 .prose li {
-    @apply mb-1;
+    @apply text-gray-700 mb-1;
 }
 
 /* Image and Figure Styles */
@@ -61,5 +76,10 @@
 
 .prose figcaption {
     @apply text-sm text-gray-500;
+}
+
+/* Divider Style */
+.prose hr {
+    @apply invisible;
 }
 </style>
