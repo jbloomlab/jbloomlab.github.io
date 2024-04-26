@@ -35,19 +35,18 @@ export default {
 
 <template>
     <div class="mx-auto max-w-4xl px-4 text-left">
-        <h1 class="text-8xl text-gray-800 select-none">
-            Welcome to the <span class="font-bold">Bloom Lab</span>
+        <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gray-800 select-none">
+            Welcome to the <span class="block font-bold">Bloom Lab</span>
         </h1>
-        <p class="text-3xl text-gray-600 mt-4 select-none">
+        <p class="text-xl md:text-2xl lg:text-3xl text-gray-600 mt-2 lg:mt-4 select-none">
             where we study the evolution of
             <transition name="fade" mode="out-in">
                 <span :key="currentVirus" class="italic"
                     :style="{ color: currentColor, backgroundColor: getBackgroundWithOpacity(currentColor) }">{{
                     currentVirus }}</span>
-            </transition>.
+            </transition>
         </p>
-        <br>
-        <p class="text-lg text-gray-500 mt-6">
+        <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-4 md:mt-6 lg:mt-12">
             In the <strong>Bloom lab</strong>, we focus on the evolution of proteins and viruses. Using a blend of
             experimental and
             computational techniques, we explore how viruses adapt to various selective pressures. Our research aims to
