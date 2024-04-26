@@ -17,12 +17,12 @@ export default {
 <template>
     <article
         class="hover:shadow-lg hover:shadow-custom-orange flex flex-col gap-px rounded-lg w-full h-full overflow-hidden transition-shadow duration-300 ease-in-out">
-        <div class="py-8 px-6 sm:py-12 sm:px-8 flex-grow bg-custom-soft">
+        <a :href="member.url" class="py-8 px-6 sm:py-12 sm:px-8 flex-grow bg-custom-soft no-underline">
             <figure class="relative shrink-0 mx-auto rounded-full shadow w-24 h-24">
                 <img class="absolute inset-0 rounded-full object-cover" :src="member.image" :alt="member.name" />
             </figure>
             <div class="text-center pt-6">
-                <h1 class="m-0 font-semibold tracking-wide leading-7 text-lg">
+                <h1 class="m-0 text-gray-800 font-semibold tracking-wide leading-7 text-lg ease-in-out">
                     {{ member.name }}
                 </h1>
                 <p v-if="member.title" class="m-0 font-medium text-gray-600 pt-1 text-base">
@@ -35,6 +35,6 @@ export default {
                     <SocialLink v-for="{ link, icon } in member.links" :key="link" :icon="icon" :link="link" />
                 </div>
             </div>
-        </div>
+        </a>
     </article>
 </template>

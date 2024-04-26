@@ -1,6 +1,7 @@
 ---
+layout: person
 name: "Will Hannon"
-image: "https://media.licdn.com/dms/image/D5603AQGfbxuEvoBfJw/profile-displayphoto-shrink_200_200/0/1705800788896?e=1718841600&v=beta&t=nJXfUHJN9tqZC8QiP7YMY8bphh_JSULQI2ugmkW7vrw"
+image: "/assets/papers/will-hannon.jpeg"
 title: "Data Scientist"
 category: "Staff"
 links:
@@ -9,3 +10,5 @@ links:
   - link: "https://www.linkedin.com/in/williamhannon/"
     icon: "linkedin"
 ---
+
+As a Data Scientist in the Bloom Lab, I develop and implement computational approaches to study viral evolution and communicate with our data. I’m interested in improving access to the information-rich datasets we generate to aid in antigen engineering, therapeutic design, viral surveillance, and gaining a better understanding of viral evolution.
