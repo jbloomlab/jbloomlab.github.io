@@ -1,4 +1,5 @@
 ---
+layout: paper
 title: "Shifting mutational constraints in the SARS-CoV-2 receptor-binding domain during viral evolution"
 date: "2022-06-28"
 authors: 

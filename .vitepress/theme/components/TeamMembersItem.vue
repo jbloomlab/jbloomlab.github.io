@@ -15,7 +15,8 @@ export default {
 </script>
 
 <template>
-    <article class="flex flex-col gap-px rounded-lg w-full h-full overflow-hidden">
+    <article
+        class="hover:shadow-lg hover:shadow-custom-orange flex flex-col gap-px rounded-lg w-full h-full overflow-hidden transition-shadow duration-300 ease-in-out">
         <div class="py-8 px-6 sm:py-12 sm:px-8 flex-grow bg-custom-soft">
             <figure class="relative shrink-0 mx-auto rounded-full shadow w-24 h-24">
                 <img class="absolute inset-0 rounded-full object-cover" :src="member.image" :alt="member.name" />

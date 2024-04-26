@@ -37,7 +37,7 @@ export default {
                 Meet the Team
             </h1>
             <p class="text-lg leading-7 text-gray-600">
-                Get <a href="/about">in touch</a> if you're interested in joining us!
+                Get <a href="/about">in touch with us</a> if you're interested in joining the team!
             </p>
         </div>
         <div class="w-full border-t border-gray-200"></div>

@@ -1,4 +1,5 @@
 ---
+layout: paper
 title: "Deep mutational scanning of SARS-CoV-2 receptor binding domain reveals constraints on folding and ACE2 binding"
 date: "2020-09-03"
 authors: 
