@@ -12,7 +12,6 @@ export default {
         const currentPath = ref(page.value.relativePath);
 
         watch(() => page.value.relativePath, (newPath) => {
-            console.log('newPath', newPath)
             currentPath.value = newPath;
         });
 
