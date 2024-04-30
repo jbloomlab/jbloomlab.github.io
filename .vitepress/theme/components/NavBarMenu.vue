@@ -23,12 +23,18 @@ export default {
         ]);
 
         return { menuItems };
+    },
+    methods: {
+        handleItemClick() {
+            this.$emit('menu-item-clicked');
+        }
     }
 }
 </script>
 
 <template>
     <div class="flex">
-        <NavBarMenuItem v-for="item in menuItems" :key="item.text" :item="item" :isActive="item.active" />
+        <NavBarMenuItem v-for="item in menuItems" :key="item.text" :item="item" :isActive="item.active"
+            @item-clicked="handleItemClick" />
     </div>
 </template>
