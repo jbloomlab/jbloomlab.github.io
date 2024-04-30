@@ -35,7 +35,7 @@ export default {
 
 <template>
     <div class="flex justify-between items-center w-full px-4 select-none">
-        <NavBarTitle />
+        <NavBarTitle @title-clicked="closeMenu" />
         <button class="flex md:hidden text-gray-600" @click="toggleMenu">
             <span :class="isMenuOpen ? 'i-x h-6 w-6' : 'i-menu h-6 w-6'"></span>
         </button>
