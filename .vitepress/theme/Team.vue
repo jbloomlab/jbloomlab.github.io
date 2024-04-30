@@ -44,7 +44,7 @@ export default {
         <div v-for="category in categories" :key="category" class="category-section my-6">
             <div class="pt-6 pb-8 space-y-2 md:space-y-5">
                 <h1
-                    class="text-xl leading-9 font-bold text-gray-800 tracking-tight sm:text-2xl sm:leading-10 md:text-4xl md:leading-14">
+                    class="text-xl leading-9 font-bold text-gray-800 tracking-tight text-center md:text-left sm:text-2xl sm:leading-10 md:text-4xl md:leading-14">
                     {{ category }}
                 </h1>
             </div>
