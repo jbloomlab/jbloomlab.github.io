@@ -79,7 +79,7 @@ The general file structure of this website is as follows:
 └── package-lock.json
 ```
 
-Any file ending `*.md` is converted to a page on the site. The main markdown content lives in the `people`, `papers`, `posts`, and `projects` directories. A page on the website is added for each `.md` file in these directories and a 'landing' page for each is updated accordingly.
+Any file ending `*.md` is converted to a page on the site. The main markdown content lives in the `people`, `papers`, `posts`, and `projects` directories. A page on the website is added for each `.md` file in these directories and a 'landing' page for each is updated accordingly. On each `*.md` page, there is `YAML` frontmatter that configures how the page is rendered and the content of that page.
 
 ### Adding Team Members
 
