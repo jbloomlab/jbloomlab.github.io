@@ -22,6 +22,7 @@ link: "https://www.sciencedirect.com/science/article/pii/S0092867420310035?via%3
 image: "/assets/papers/starr_greany_2020.png"
 keywords:
     - "SARS-CoV-2"
+    - "Yeast display"
     - "Deep mutational scanning"
 ---
 
