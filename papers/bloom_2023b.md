@@ -11,6 +11,9 @@ journal: "Molecular Biology and Evolution"
 doi: "10.1093/molbev/msad085"
 link: "https://academic.oup.com/mbe/article/40/4/msad085/7113660"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "SARS-CoV-2"
+    - "Phylogenetics"
 ---
 
 ## Abstract

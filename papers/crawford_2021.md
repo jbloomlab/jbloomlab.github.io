@@ -22,6 +22,10 @@ journal: "The Journal of infectious diseases"
 doi: "10.1093/infdis/jiaa618"
 link: "https://academic.oup.com/jid/article/223/2/197/5916372"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "SARS-CoV-2"
+    - "Immunity"
+    - "Pseudovirus"
 ---
 
 ## Abstract

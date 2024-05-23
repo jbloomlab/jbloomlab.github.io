@@ -15,6 +15,10 @@ journal: "Science translational medicine"
 doi: "10.1126/scitranslmed.abi9915"
 link: "https://www.science.org/doi/full/10.1126/scitranslmed.abi9915"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "SARS-CoV-2"
+    - "Deep mutational scanning"
+    - "Immunity"
 ---
 
 ## Abstract

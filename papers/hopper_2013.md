@@ -9,6 +9,8 @@ journal: "Journal of virology"
 doi: "10.1128/jvi.01889-13"
 link: "https://journals.asm.org/doi/full/10.1128/jvi.01889-13"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "Influenza"
 ---
 
 ## Abstract

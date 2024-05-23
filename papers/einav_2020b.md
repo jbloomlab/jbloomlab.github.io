@@ -9,6 +9,9 @@ journal: "PLoS computational biology"
 doi: "10.1371/journal.pcbi.1007830"
 link: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007830"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "Modeling"
+    - "Immunity"
 ---
 
 ## Abstract

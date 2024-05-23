@@ -27,6 +27,10 @@ journal: "Nature communications"
 doi: "10.1038/s41467-020-18178-1"
 link: "https://www.nature.com/articles/s41467-020-18178-1"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "SARS-CoV-2"
+    - "Pseudovirus"
+    - "Immunity"
 ---
 
 ## Abstract

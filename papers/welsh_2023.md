@@ -26,6 +26,10 @@ journal: "bioRxiv"
 doi: "10.1101/2023.12.12.571235"
 link: "https://www.biorxiv.org/content/10.1101/2023.12.12.571235v1"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "Influenza"
+    - "Deep mutational scanning"
+    - "Immunity"
 ---
 
 ## Abstract

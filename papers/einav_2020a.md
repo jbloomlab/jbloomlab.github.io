@@ -10,6 +10,8 @@ journal: "Cell"
 doi: "10.1038/s41467-020-18178-1"
 link: "https://www.cell.com/cell/pdf/S0092-8674(20)30566-3.pdf"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "Influenza"
 ---
 
 ## Abstract

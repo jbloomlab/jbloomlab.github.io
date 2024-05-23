@@ -10,6 +10,8 @@ journal: "PLoS pathogens"
 doi: "10.1371/journal.ppat.1007518"
 link: "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1007518"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "Influenza"
 ---
 
 ## Abstract

@@ -15,6 +15,9 @@ journal: "PLoS pathogens"
 doi: "10.1371/journal.ppat.1009453"
 link: "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1009453"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "Seasonal Coronavirus"
+    - "Immunity"
 ---
 
 ## Abstract

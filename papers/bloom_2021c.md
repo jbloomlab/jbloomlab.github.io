@@ -15,6 +15,8 @@ journal: "Viruses"
 doi: "10.3390/v13050719"
 link: "https://www.mdpi.com/1999-4915/13/5/719"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "Influenza"
 ---
 
 ## Abstract

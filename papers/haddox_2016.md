@@ -2,7 +2,7 @@
 layout: paper
 title: "Experimental estimation of the effects of all amino-acid mutations to HIV’s envelope protein on viral replication in cell culture"
 date: "2016-12-13"
-authors: 
+authors:
     - "Hugh K Haddox"
     - "Adam S Dingens"
     - "Jesse D Bloom"
@@ -10,6 +10,9 @@ journal: "PLoS pathogens"
 doi: "10.1371/journal.ppat.1006114"
 link: "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006114"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "HIV"
+    - "Deep mutational scanning"
 ---
 
 ## Abstract

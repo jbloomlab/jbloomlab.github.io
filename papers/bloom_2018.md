@@ -3,12 +3,13 @@ layout: paper
 title: "Estimating the frequency of multiplets in single-cell RNA sequencing from cell-mixing experiments"
 date: "2018-09-03"
 authors: 
-    - "Katharine HD Crawford*"
     - "Jesse D Bloom"
 journal: "PeerJ"
 doi: "10.7717/peerj.5578"
 link: "https://peerj.com/articles/5578/"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "Single-cell sequencing"
 ---
 
 ## Abstract

@@ -2,7 +2,7 @@
 layout: paper
 title: "Mapping mutations to the SARS-CoV-2 RBD that escape binding by different classes of antibodies"
 date: "2021-07-07"
-authors: 
+authors:
     - "Allison J Greaney"
     - "Tyler N Starr"
     - "Christopher O Barnes"
@@ -26,6 +26,10 @@ journal: "Nature Communications"
 doi: "10.1038/s41467-021-24435-8"
 link: "https://www.nature.com/articles/s41467-021-24435-8"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "SARS-CoV-2"
+    - "Deep mutational scanning"
+    - "Immunity"
 ---
 
 ## Abstract

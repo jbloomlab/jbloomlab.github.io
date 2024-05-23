@@ -14,6 +14,10 @@ journal: "Cell host & microbe"
 doi: "10.1016/j.chom.2021.02.003"
 link: "https://www.cell.com/cell-host-microbe/pdf/S1931-3128(21)00082-2.pdf"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "SARS-CoV-2"
+    - "Deep mutational scanning"
+    - "Immunity"
 ---
 
 ## Abstract

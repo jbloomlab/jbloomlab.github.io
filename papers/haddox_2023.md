@@ -13,6 +13,10 @@ journal: "bioRxiv"
 doi: "10.1101/2023.07.31.551037"
 link: "https://www.biorxiv.org/content/10.1101/2023.07.31.551037v1"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "SARS-CoV-2"
+    - "Deep mutational scanning"
+    - "Epistasis"
 ---
 
 ## Abstract

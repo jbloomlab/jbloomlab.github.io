@@ -15,6 +15,10 @@ journal: "Science"
 doi: "10.1126/science.abf9302"
 link: "https://www.science.org/doi/full/10.1126/science.abf9302"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "SARS-CoV-2"
+    - "Yeast display"
+    - "Deep mutational scanning"
 ---
 
 ## Abstract

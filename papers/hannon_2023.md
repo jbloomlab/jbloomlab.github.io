@@ -9,6 +9,9 @@ journal: "bioRxiv"
 doi: "10.1101/2023.10.29.564578"
 link: "https://www.biorxiv.org/content/10.1101/2023.10.29.564578v1"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "Software tools"
+    - "Deep mutational scanning"
 ---
 
 ## Abstract

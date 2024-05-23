@@ -21,6 +21,9 @@ journal: "Viruses"
 doi: "10.3390/v12050513"
 link: "https://www.mdpi.com/1999-4915/12/5/513"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "SARS-CoV-2"
+    - "Pseudovirus"
 ---
 
 ## Abstract

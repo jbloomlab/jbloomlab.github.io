@@ -14,6 +14,10 @@ journal: "Nature"
 doi: "10.1038/s41586-022-04464-z"
 link: "https://www.nature.com/articles/s41586-022-04464-z"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "Sarbecoviruses"
+    - "Phylogenetics"
+    - "Yeast display"
 ---
 
 ## Abstract

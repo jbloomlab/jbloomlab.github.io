@@ -18,6 +18,10 @@ journal: "bioRxiv"
 doi: "10.1101/2023.11.13.566961"
 link: "https://www.biorxiv.org/content/10.1101/2023.11.13.566961v1"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "SARS-CoV-2"
+    - "Deep mutational scanning"
+    - "Pseudovirus"
 ---
 
 ## Abstract

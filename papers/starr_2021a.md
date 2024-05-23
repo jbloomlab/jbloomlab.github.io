@@ -64,6 +64,10 @@ journal: "Nature"
 doi: "10.1038/s41586-021-03807-6"
 link: "https://www.nature.com/articles/s41586-021-03807-6"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "SARS-CoV-2"
+    - "Yeast display"
+    - "Deep mutational scanning"
 ---
 
 ## Abstract

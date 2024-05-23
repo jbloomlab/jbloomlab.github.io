@@ -8,6 +8,8 @@ journal: "Virus Evolution"
 doi: "10.1093/ve/vead089"
 link: "https://academic.oup.com/ve/article/10/1/vead089/7504441"
 image: "/assets/papers/starr_greany_2020.png"
+keywords:
+    - "SARS-CoV-2"
 ---
 
 ## Abstract
