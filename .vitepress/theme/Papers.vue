@@ -4,6 +4,9 @@ import { useData } from 'vitepress'
 
 export default {
     data() {
+        // Get the keywords from the papers
+        const uniqueKeywords = Array.from(new Set(papers.flatMap(paper => paper.keywords)));
+
         return {
             papers: papers
                 .filter(paper => paper.url.endsWith('.html'))
@@ -13,8 +16,20 @@ export default {
                     year: new Date(paper.date).getFullYear().toString() || "",
                 })),
             frontmatter: useData().frontmatter,
-            keywords: ['Deep mutational scanning', 'SARS-CoV-2', 'Influenza', 'Epistasis', 'Software tools', 'Lassa'], // Example keywords for now
+            keywords: uniqueKeywords,
+            activeKeyword: null,
         };
+    },
+    methods: {
+        setActiveKeyword(keyword) {
+            this.activeKeyword = keyword;
+        },
+        filteredPapers() {
+            if (!this.activeKeyword) {
+                return this.papers;
+            }
+            return this.papers.filter(paper => paper.keywords.includes(this.activeKeyword));
+        }
     }
 }
 </script>
@@ -33,28 +48,20 @@ export default {
             </p>
         </div>
         <div class="flex">
-            <div class="sidebar sticky h-full top-12 w-40 lg:w-64 py-12 pr-5 bg-white">
-                <div class="hidden lg:block">
-                    <h2 class="font-bold text-gray-800 text-lg pb-2">Filter by keyword</h2>
-                    <div class="flex flex-wrap gap-2 leading-5">
+            <div class="collapse lg:visible sidebar sticky h-full top-12 w-64 py-12 pr-5 bg-white">
+                <div class="p-2 rounded-lg bg-slate-50">
+                    <h2 class="font-bold text-gray-800 text-center text-lg pb-2">Filter by keyword</h2>
+                    <div class="flex flex-wrap">
                         <span v-for="(keyword, index) in keywords" :key="index"
-                            class="cursor-pointer text-gray-600 hover:text-custom-orange">
+                            :class="[keyword === activeKeyword ? 'text-custom-orange bg-custom-orange/10' : 'text-gray-600', 'cursor-pointer hover:text-custom-orange rounded-md px-1 py-1 text-sm']"
+                            @click="setActiveKeyword(keyword)">
                             {{ keyword }}
                         </span>
                     </div>
                 </div>
-                <div class="block lg:hidden p-2 rounded-lg bg-slate-100">
-                    <h2 class="font-bold text-gray-800 text-base pb-1">Keywords</h2>
-                    <ul>
-                        <li v-for="(keyword, index) in keywords" :key="index"
-                            class="cursor-pointer text-gray-600 hover:text-custom-orange text-sm py-1">
-                            {{ keyword }}
-                        </li>
-                    </ul>
-                </div>
             </div>
             <ul class="flex-1 divide-y divide-gray-200">
-                <li class="py-12" v-for="paper in papers" :key="paper.url">
+                <li class="py-12" v-for="paper in filteredPapers()" :key="paper.url">
                     <div class="flex flex-col md:flex-row items-start">
                         <div class="hidden lg:block lg:flex-none lg:w-48 lg:h-48 md:w-32 md:h-32 md:mr-4">
                             <img :src="paper.image" :alt="'Image for ' + paper.title"
