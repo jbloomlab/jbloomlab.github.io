@@ -4,8 +4,24 @@ import { useData } from 'vitepress'
 
 export default {
     data() {
-        // Get the keywords from the papers
-        const uniqueKeywords = Array.from(new Set(papers.flatMap(paper => paper.keywords)));
+        // Count keyword frequencies
+        const keywordCounts = papers.reduce((acc, paper) => {
+            if (paper.keywords) {
+                paper.keywords.forEach(keyword => {
+                    if (acc[keyword]) {
+                        acc[keyword]++;
+                    } else {
+                        acc[keyword] = 1;
+                    }
+                });
+            }
+            return acc;
+        }, {});
+
+        // Convert object to array of [key, value] pairs
+        const items = Object.entries(keywordCounts).sort((a, b) => b[1] - a[1]);
+        // Extract keys from the sorted array
+        const sortedKeys = items.map(item => item[0]);
 
         return {
             papers: papers
@@ -16,19 +32,18 @@ export default {
                     year: new Date(paper.date).getFullYear().toString() || "",
                 })),
             frontmatter: useData().frontmatter,
-            keywords: uniqueKeywords,
-            activeKeyword: null,
+            keywords: sortedKeys,
+            activeKeywords: []
         };
     },
     methods: {
-        setActiveKeyword(keyword) {
-            this.activeKeyword = keyword;
-        },
         filteredPapers() {
-            if (!this.activeKeyword) {
+            if (this.activeKeywords.length === 0) {
                 return this.papers;
             }
-            return this.papers.filter(paper => paper.keywords.includes(this.activeKeyword));
+            return this.papers.filter(paper =>
+                paper.keywords.some(keyword => this.activeKeywords.includes(keyword))
+            );
         }
     }
 }
@@ -46,24 +61,15 @@ export default {
                     target="_blank">PubMed</a> for a complete
                 list of our publications.
             </p>
+            <MultiSelect v-model="activeKeywords" :options="keywords" placeholder="Filter by Keywords"
+                :maxSelectedLabels="3" class="w-full md:w-80" />
         </div>
         <div class="flex">
-            <div class="collapse lg:visible sidebar sticky h-full top-12 w-64 py-12 pr-5 bg-white">
-                <div class="p-2 rounded-lg bg-slate-50">
-                    <h2 class="font-bold text-gray-800 text-center text-lg pb-2">Filter by keyword</h2>
-                    <div class="flex flex-wrap">
-                        <span v-for="(keyword, index) in keywords" :key="index"
-                            :class="[keyword === activeKeyword ? 'text-custom-orange bg-custom-orange/10' : 'text-gray-600', 'cursor-pointer hover:text-custom-orange rounded-md px-1 py-1 text-sm']"
-                            @click="setActiveKeyword(keyword)">
-                            {{ keyword }}
-                        </span>
-                    </div>
-                </div>
-            </div>
+
             <ul class="flex-1 divide-y divide-gray-200">
                 <li class="py-12" v-for="paper in filteredPapers()" :key="paper.url">
                     <div class="flex flex-col md:flex-row items-start">
-                        <div class="hidden lg:block lg:flex-none lg:w-48 lg:h-48 md:w-32 md:h-32 md:mr-4">
+                        <div class="hidden md:block md:flex-none lg:w-48 lg:h-48 md:w-32 md:h-32 md:mr-4">
                             <img :src="paper.image" :alt="'Image for ' + paper.title"
                                 class="w-full h-auto object-cover rounded-lg">
                         </div>
@@ -72,7 +78,7 @@ export default {
                                 <h2 class="text-2xl leading-8 font-bold tracking-tight">
                                     <a class="text-gray-900 hover:text-gray-900 text-xl md:text-2xl no-underline"
                                         :href="paper.url">{{
-                            paper.title }}</a>
+                paper.title }}</a>
                                 </h2>
                                 <div v-if="paper.authors" class="max-w-none text-gray-700 hidden lg:block">
                                     {{ paper.authors }}

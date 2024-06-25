@@ -6,4 +6,11 @@
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --mono-font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco,
     Consolas, "Liberation Mono", "Courier New", monospace;
+  --p-checkbox-checked-background: #f26522 !important;
+  --p-checkbox-checked-hover-background: #f26522 !important;
+  --p-checkbox-checked-border-color: #f26522 !important;
+  --p-checkbox-checked-hover-border-color: #f26522 !important;
+  --p-checkbox-checked-focus-border-color: #f26522 !important;
+  --p-checkbox-focus-ring-color: #f26522 !important;
+  --p-multiselect-focus-border-color: #f26522 !important;
 }
