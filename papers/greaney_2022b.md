@@ -20,7 +20,7 @@ authors:
 journal: "PLoS pathogens"
 doi: "10.1371/journal.ppat.1010248"
 link: "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1010248"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/greaney_2022b.png"
 keywords:
     - "SARS-CoV-2"
     - "Deep mutational scanning"

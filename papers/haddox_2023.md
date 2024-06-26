@@ -12,7 +12,7 @@ authors:
 journal: "bioRxiv"
 doi: "10.1101/2023.07.31.551037"
 link: "https://www.biorxiv.org/content/10.1101/2023.07.31.551037v1"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/haddox_2023.jpg"
 keywords:
     - "SARS-CoV-2"
     - "Deep mutational scanning"

@@ -13,7 +13,7 @@ authors:
 journal: "PLoS pathogens"
 doi: "10.1371/journal.ppat.1010951"
 link: "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1010951"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/starr_greaney_2022a.png"
 keywords:
     - "SARS-CoV-2"
     - "Yeast display"

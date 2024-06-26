@@ -20,7 +20,7 @@ authors:
 journal: "Cell"
 doi: "10.1016/j.cell.2023.02.001"
 link: "https://www.cell.com/cell/pdf/S0092-8674(23)00103-4.pdf"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/dadonaite_radford_crawford_2023.png"
 keywords:
     - "SARS-CoV-2"
     - "Deep mutational scanning"

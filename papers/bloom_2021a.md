@@ -7,7 +7,7 @@ authors:
 journal: "mBio"
 doi: "10.1093/molbev/msab246"
 link: "https://academic.oup.com/mbe/article/38/12/5211/6353034"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/bloom_2021a.jpg"
 keywords:
     - "SARS-CoV-2"
 ---

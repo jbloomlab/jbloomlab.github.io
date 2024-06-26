@@ -12,7 +12,7 @@ authors:
 journal: "Elife"
 doi: "10.7554/eLife.86852.2"
 link: "https://elifesciences.org/articles/86852"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/bacsik_2023.jpg"
 keywords:
     - "Single-cell sequencing"
     - "Influenza"

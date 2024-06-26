@@ -7,7 +7,7 @@ authors:
 journal: "Virus Evolution"
 doi: "10.1093/ve/vead050"
 link: "https://academic.oup.com/ve/article/9/2/vead050/7249794"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/bloom_2023a.jpg"
 keywords:
     - "SARS-CoV-2"
 ---

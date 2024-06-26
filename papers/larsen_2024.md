@@ -14,7 +14,7 @@ authors:
 journal: "bioRxiv"
 doi: "10.1101/2024.04.17.589977"
 link: "https://www.biorxiv.org/content/10.1101/2024.04.17.589977v1.abstract"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/larsen_2024.jpg"
 keywords:
     - "Nipah"
     - "Deep mutational scanning"

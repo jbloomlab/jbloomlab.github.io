@@ -14,7 +14,7 @@ authors:
 journal: "Journal of Virology"
 doi: "10.1128/jvi.01414-23"
 link: "https://journals.asm.org/doi/full/10.1128/jvi.01414-23"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/kikawa_2023.jpg"
 keywords:
     - "Zika"
     - "Deep mutational scanning"

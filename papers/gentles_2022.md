@@ -22,8 +22,8 @@ authors:
 - "Janet A Englund"
 journal: "medRxiv"
 doi: "10.1101/2022.01.14.22269235"
-link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8811949/"
-image: "/assets/papers/starr_greany_2020.png"
+link: "https://www.medrxiv.org/content/10.1101/2022.01.14.22269235v1"
+image: "/assets/papers/gentles_2022.jpg"
 keywords:
     - "SARS-CoV-2"
     - "Immunity"

@@ -9,7 +9,7 @@ authors:
 journal: "Virus Evolution"
 doi: "10.1093/ve/veac021"
 link: "https://academic.oup.com/ve/article/8/1/veac021/6549895"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/starr_greaney_2022c.jpg"
 keywords:
     - "SARS-CoV-2"
     - "Software tools"

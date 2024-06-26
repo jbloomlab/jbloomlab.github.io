@@ -18,7 +18,7 @@ authors:
 journal: "Viruses"
 doi: "10.3390/v14092061"
 link: "https://www.mdpi.com/1999-4915/14/9/2061"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/farrell_2022.png"
 keywords:
     - "SARS-CoV-2"
 ---

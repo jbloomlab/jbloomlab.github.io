@@ -8,7 +8,7 @@ authors:
 journal: "bioRxiv"
 doi: "10.1101/2023.10.29.564578"
 link: "https://www.biorxiv.org/content/10.1101/2023.10.29.564578v1"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/hannon_2023.jpg"
 keywords:
     - "Software tools"
     - "Deep mutational scanning"
