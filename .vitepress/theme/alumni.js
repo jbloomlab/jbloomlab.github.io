@@ -5,7 +5,7 @@ export const alumni = [
     program: "MCB",
     start: "2019",
     end: "2024",
-    currentPosition: "Amazon",
+    currentPosition: "Research Scientist at Amazon",
   },
   {
     name: "David Bacsik",
@@ -16,13 +16,12 @@ export const alumni = [
     currentPosition: "Finishing medical school",
   },
   {
-    name: "Graduate Student",
+    name: "Lauren Gentles",
     title: "Graduate Student",
     program: "Microbiology",
     start: "2016",
     end: "2022",
-    currentPosition:
-      "Scientist III at Thermo Fisher Scientific, Cell Biology R&D",
+    currentPosition: "Scientist III at Thermo Fisher Scientific",
   },
   {
     name: "Allie Greaney",
@@ -38,7 +37,7 @@ export const alumni = [
     program: "MSTP and Genome Sciences",
     start: "2017",
     end: "2021",
-    currentPosition: "Pathology resident at UW",
+    currentPosition: "Laboratory Medicine and Pathology resident at UW",
   },
   {
     name: "Sarah Hilton",
@@ -46,15 +45,15 @@ export const alumni = [
     program: "Genome Sciences",
     start: "2016",
     end: "2020",
-    currentPosition: "Data Scientist at bluebird bio",
+    currentPosition: "Senior Scientist at Dyno Therapeutics",
   },
   {
     name: "Adam Dingens",
-    title: "Research Scientist (2019-2020), Graduate Student (2015-2019)",
-    program: "MCB",
+    title: "Graduate Student",
+    program: "Graduate Student (2015-2019), Research Scientist (2019-2020)",
     start: "2015",
-    end: "2020",
-    currentPosition: "Scientist in AAV Engineering at Shape Therapeutics",
+    end: "2019",
+    currentPosition: "Director building a 'stealth mode' biotech company",
   },
   {
     name: "Katherine Xue",
@@ -71,7 +70,7 @@ export const alumni = [
     program: "MSTP and Genome Sciences",
     start: "2015",
     end: "2019",
-    currentPosition: "?",
+    currentPosition: "Resident at Massachusetts General Hospital",
   },
   {
     name: "Heather Machkovech",
@@ -79,7 +78,8 @@ export const alumni = [
     program: "MSTP and Genome Sciences",
     start: "2014",
     end: "2018",
-    currentPosition: "?",
+    currentPosition:
+      "Internal Medicine resident at University of Wisconsin Hospital and Clinic",
   },
   {
     name: "Hugh Haddox",
@@ -87,7 +87,7 @@ export const alumni = [
     program: "MCB",
     start: "2013",
     end: "2017",
-    currentPosition: "Matsen lab program manager",
+    currentPosition: "Project Manager in Erick Matsen's lab at Fred Hutch",
   },
   {
     name: "Mike Doud",
@@ -95,16 +95,15 @@ export const alumni = [
     program: "MSTP and Genome Sciences",
     start: "2013",
     end: "2017",
-    currentPosition: "Medical fellowship at UCSD",
+    currentPosition: "Infectious Disease Fellow at UC San Diego Health",
   },
   {
-    name: "Katie Hooper",
+    name: "Kathryn Hooper",
     title: "Graduate Student",
     program: "MCB",
     start: "2012",
     end: "2015",
-    currentPosition:
-      "Scientist in Translational Development at Sonoma Biotherapeutics",
+    currentPosition: "Senior Scientist at Sonoma Biotherapeutics",
   },
   {
     name: "Tal Einav",
@@ -126,21 +125,23 @@ export const alumni = [
     title: "Postdoc",
     start: "2020",
     end: "2021",
-    currentPosition: "Medical Writer at Seagen (Pfizer)",
+    currentPosition: "Senior Medical Writer at Pfizer",
   },
   {
     name: "Alistair Russell",
     title: "Postdoc",
     start: "2014",
     end: "2019",
-    currentPosition: "Assistant Professor at UC San Diego",
+    currentPosition:
+      "Assistant Professor at UCSD Division of Biological Sciences",
   },
   {
     name: "Shirleen Soh",
     title: "Postdoc",
     start: "2015",
     end: "2019",
-    currentPosition: "Senior Scientist at Merck in Singapore",
+    currentPosition:
+      "Head of Academic Research at National Research Foundation, Singapore",
   },
   {
     name: "Jeremy Roop",
@@ -155,48 +156,51 @@ export const alumni = [
     start: "2013",
     end: "2017",
     currentPosition:
-      "Computational Biologist at the Klarman Cell Observatory of the Broad Institute",
+      "Associate Director, Computational Biology at Broad Institute of MIT and Harvard",
   },
   {
     name: "Baragvi Thyagarajan",
     title: "Postdoc",
     start: "2011",
     end: "2014",
-    currentPosition: "Scientific Officer at the HIV Vaccine Enterprise",
+    currentPosition:
+      "Scientific Project Manager at th Allen Institute for Brain Science",
   },
   {
     name: "Ariana Farrell",
     title: "Research Technician",
     start: "2020",
     end: "2023",
-    currentPosition: "Scientific Officer at the HIV Vaccine Enterprise",
+    currentPosition:
+      "Incoming PhD student at UW Molecular and Cellular Biology",
   },
   {
     name: "Rachel Eguia",
     title: "Research Technician",
     start: "2019",
     end: "2021",
-    currentPosition: "Associate Scientist at Century Therapeutics",
+    currentPosition: "Associate Scientist at Variant Bio",
   },
   {
     name: "Keara Malone",
     title: "Research Technician",
     start: "2019",
     end: "2021",
-    currentPosition: "Teaching English in Japan",
+    currentPosition: "Teaching English in Tochigi Prefecture, Japan",
   },
   {
     name: "Cathy Lin",
     title: "Research Administrator",
     start: "2019",
     end: "2021",
-    currentPosition: "Currently working at NOAA",
+    currentPosition: "Working at NOAA",
   },
   {
     name: "Ian Gong",
     title: "Lab Manager",
     start: "2011",
     end: "2014",
+    currentPosition: "Assistant Facility Manager at Stop & Shop",
   },
   {
     name: "Jonathan Mah",
