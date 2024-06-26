@@ -8,7 +8,7 @@ authors:
 journal: "JOSS"
 doi: "10.21105/joss.01915"
 link: "https://doi.org/10.21105%2Fjoss.01915"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/crawford_2019.png"
 keywords:
     - "Software tools"
 ---

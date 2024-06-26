@@ -9,7 +9,7 @@ authors:
 journal: "PeerJ"
 doi: "10.7717/peerj.3657"
 link: "https://peerj.com/articles/3657/"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/hilton_2017.jpg"
 keywords:
     - "Phylogenetics"
     - "Software tools"

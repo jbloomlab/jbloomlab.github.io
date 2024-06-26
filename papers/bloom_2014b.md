@@ -7,7 +7,7 @@ authors:
 journal: "Molecular Biology and Evolution"
 doi: "10.1093/molbev/msu173"
 link: "https://academic.oup.com/mbe/article/31/8/1956/2925795"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/bloom_2014b.jpg"
 keywords:
     - "Phylogenetics"
 ---

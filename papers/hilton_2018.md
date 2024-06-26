@@ -8,7 +8,7 @@ authors:
 journal: "Virus evolution"
 doi: "10.1093/ve/vey033"
 link: "https://academic.oup.com/ve/article/4/2/vey033/5163287"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/hilton_2018.jpg"
 keywords:
     - "Phylogenetics"
 ---

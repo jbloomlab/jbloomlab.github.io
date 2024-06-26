@@ -19,7 +19,7 @@ authors:
 journal: "Cell"
 doi: "10.1016/j.cell.2020.08.012"
 link: "https://www.sciencedirect.com/science/article/pii/S0092867420310035?via%3Dihub"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/starr_2020a.jpg"
 keywords:
     - "SARS-CoV-2"
     - "Yeast display"

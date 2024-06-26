@@ -10,7 +10,7 @@ authors:
 journal: "Viruses"
 doi: "10.3390/v11050439"
 link: "https://www.mdpi.com/1999-4915/11/5/439"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/dingens_2019a.jpg"
 keywords:
     - "HIV"
     - "Deep mutational scanning"

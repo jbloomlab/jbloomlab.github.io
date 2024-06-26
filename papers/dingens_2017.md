@@ -10,7 +10,7 @@ authors:
 journal: "Cell host & microbe"
 doi: "10.1016/j.chom.2017.05.003"
 link: "https://www.cell.com/cell-host-microbe/pdf/S1931-3128(17)30196-8.pdf"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/dingens_2017.jpg"
 keywords:
     - "HIV"
     - "Deep mutational scanning"

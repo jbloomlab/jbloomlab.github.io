@@ -13,7 +13,7 @@ authors:
 journal: "JOSS"
 doi: "10.21105/joss.02353"
 link: "https://joss.theoj.org/papers/10.21105/joss.02353"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/hilton_2020.png"
 keywords:
     - "Deep mutational scanning"
     - "Software tools"

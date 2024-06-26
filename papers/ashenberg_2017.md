@@ -10,7 +10,7 @@ authors:
 journal: "PLoS pathogens"
 doi: "10.1371/journal.ppat.1006288"
 link: "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006288"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/ashenberg_2017.png"
 keywords:
     - "Deep mutational scanning"
     - "Influenza"

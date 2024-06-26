@@ -25,7 +25,7 @@ authors:
 journal: "Nature Communications"
 doi: "10.1038/s41467-021-24435-8"
 link: "https://www.nature.com/articles/s41467-021-24435-8"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/greaney_2021a.jpg"
 keywords:
     - "SARS-CoV-2"
     - "Deep mutational scanning"

@@ -10,7 +10,7 @@ authors:
 journal: "Cell Reports Medicine"
 doi: "10.1016/j.xcrm.2021.100255"
 link: "https://www.cell.com/cell-reports-medicine/pdf/S2666-3791(21)00071-9.pdf"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/starr_2021b.jpg"
 keywords:
     - "SARS-CoV-2"
     - "Yeast display"

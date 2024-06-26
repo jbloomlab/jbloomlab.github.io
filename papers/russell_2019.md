@@ -11,7 +11,7 @@ authors:
 journal: "Journal of virology"
 doi: "10.1128/jvi.00500-19"
 link: "https://journals.asm.org/doi/full/10.1128/jvi.00500-19"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/russell_2019.jpg"
 keywords:
     - "Influenza"
     - "Single-cell sequencing"

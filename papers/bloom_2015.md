@@ -7,7 +7,7 @@ authors:
 journal: "BMC bioinformatics"
 doi: "10.1186/s12859-015-0590-4"
 link: "https://link.springer.com/article/10.1186/s12859-015-0590-4"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/bloom_2015.jpg"
 keywords:
     - "Software tools"
 ---

@@ -11,7 +11,7 @@ authors:
 journal: "Immunity"
 doi: "10.1016/j.immuni.2018.12.017"
 link: "https://www.sciencedirect.com/science/article/pii/S107476131830565X?via%3Dihub"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/dingens_2019b.jpg"
 keywords:
     - "HIV"
     - "Deep mutational scanning"

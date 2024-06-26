@@ -9,7 +9,7 @@ authors:
 journal: "PNAS"
 doi: "10.1073/pnas.1314781111"
 link: "https://www.pnas.org/doi/abs/10.1073/pnas.1314781111"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/ashenberg_2013.jpg"
 keywords:
     - "Epistasis"
     - "Influenza"

@@ -7,7 +7,7 @@ authors:
 journal: "PeerJ"
 doi: "10.7717/peerj.5578"
 link: "https://peerj.com/articles/5578/"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/bloom_2018.png"
 keywords:
     - "Single-cell sequencing"
 ---

@@ -8,8 +8,8 @@ authors:
     - "Jesse D Bloom"
 journal: "Cell Reports Medicine"
 doi: "10.1016/j.xcrm.2021.100257"
-link: "https://www.cell.com/cell-reports-medicine/pdf/S2666-3791(21)00073-2.pdf"
-image: "/assets/papers/starr_greany_2020.png"
+link: "https://www.sciencedirect.com/science/article/pii/S2666379121000732?via%3Dihub"
+image: "/assets/papers/greaney_welsh_2021.jpg"
 keywords:
     - "Measles"
     - "Immunity"

@@ -8,7 +8,7 @@ authors:
 journal: "Elife"
 doi: "10.7554/eLife.03300"
 link: "https://elifesciences.org/articles/3300"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/thyagarajan_2014.jpg"
 keywords:
     - "Influenza"
     - "Deep mutational scanning"

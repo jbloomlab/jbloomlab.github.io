@@ -34,7 +34,7 @@ authors:
 journal: "Elife"
 doi: "10.7554/eLife.03883.001"
 link: "https://elifesciences.org/articles/3883"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/bloom_2015b.jpg"
 keywords:
     - "Influenza"
     - "Policy"

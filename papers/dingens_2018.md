@@ -20,7 +20,7 @@ authors:
 journal: "PLoS pathogens"
 doi: "10.1371/journal.ppat.1007159"
 link: "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1007159"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/dingens_2018.png"
 keywords:
     - "HIV"
     - "Deep mutational scanning"

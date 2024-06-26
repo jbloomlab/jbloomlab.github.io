@@ -11,7 +11,7 @@ authors:
 journal: "Elife"
 doi: "10.7554/eLife.34420"
 link: "https://elifesciences.org/articles/34420"
-image: "/assets/papers/starr_greany_2020.png"
+image: "/assets/papers/haddox_2018.jpg"
 keywords:
     - "HIV"
     - "Deep mutational scanning"
