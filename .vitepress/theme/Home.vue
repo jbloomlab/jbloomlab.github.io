@@ -28,43 +28,80 @@ export default {
             if (!this.useOpacity) return color;
             let rgb = color.match(/\w\w/g).map(x => parseInt(x, 16));
             return `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${this.opacityLevel})`;
-        }
+        },
     }
 }
 </script>
 
 <template>
-    <div class="mx-auto max-w-4xl px-4 text-left">
-        <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gray-800 select-none">
-            Welcome to the <span class="block font-bold">Bloom Lab</span>
-        </h1>
-        <p class="text-xl md:text-2xl lg:text-3xl text-gray-600 mt-2 lg:mt-4 select-none">
-            where we study the evolution of
-            <transition name="fade" mode="out-in">
-                <span :key="currentVirus" class="italic"
-                    :style="{ color: currentColor, backgroundColor: getBackgroundWithOpacity(currentColor) }">{{
-                    currentVirus }}</span>
-            </transition>
-        </p>
-        <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-4 md:mt-6 lg:mt-12">
-            In the <strong>Bloom lab</strong>, we focus on the evolution of proteins and viruses. Using a blend of
-            experimental and
-            computational techniques, we explore how viruses adapt to various selective pressures. Our research aims to
-            unravel the complexities of viral genetic variation and its implications for public health.
-            <br><br>
-            Our lab is part of the <a
-                href="https://www.fredhutch.org/en/research/divisions/basic-sciences-division.html">Basic Sciences
-                Division</a> and <a
-                href="https://www.fredhutch.org/en/labs/phs/projects/herbold-computational-biology-program.html">Computational
-                Biology Program</a> at the Fred Hutch. We are
-            also affiliated with the <a
-                href="https://research.fredhutch.org/bloom/en.html#:~:text=Genome%20Sciences%20department%20at%20the%20University%20of%20Washington">Genome
-                Sciences Department</a> at the University of Washington, and Jesse Bloom is an
-            Investigator of the <a
-                href="https://research.fredhutch.org/bloom/en.html#:~:text=Howard%20Hughes%20Medical%20Institute">Howard
-                Hughes Medical Institute</a>.
-        </p>
+
+    <div class="hide-scrollbar snap-y snap-mandatory overflow-y-scroll h-screen flex-grow z-0">
+        <div class="w-full h-full snap-always snap-start mx-auto max-w-4xl px-4 text-left">
+            <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gray-800 select-none">
+                Welcome to the <span class="block font-bold">Bloom Lab</span>
+            </h1>
+            <p class="text-xl md:text-2xl lg:text-3xl text-gray-600 mt-2 lg:mt-4 select-none">
+                where we study the evolution of
+                <transition name="fade" mode="out-in">
+                    <span :key="currentVirus" class="italic"
+                        :style="{ color: currentColor, backgroundColor: getBackgroundWithOpacity(currentColor) }">{{
+                        currentVirus }}</span>
+                </transition>
+            </p>
+            <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-4 md:mt-6 lg:mt-12">
+                In the <strong>Bloom lab</strong>, we focus on the evolution of proteins and viruses. Using a blend of
+                experimental and
+                computational techniques, we explore how viruses adapt to various selective pressures. Our research aims
+                to
+                unravel the complexities of viral genetic variation and its implications for public health.
+                <br><br>
+                Our lab is part of the <a
+                    href="https://www.fredhutch.org/en/research/divisions/basic-sciences-division.html">Basic Sciences
+                    Division</a> and <a
+                    href="https://www.fredhutch.org/en/labs/phs/projects/herbold-computational-biology-program.html">Computational
+                    Biology Program</a> at the Fred Hutch. We are
+                also affiliated with the <a
+                    href="https://research.fredhutch.org/bloom/en.html#:~:text=Genome%20Sciences%20department%20at%20the%20University%20of%20Washington">Genome
+                    Sciences Department</a> at the University of Washington, and Jesse Bloom is an
+                Investigator of the <a
+                    href="https://research.fredhutch.org/bloom/en.html#:~:text=Howard%20Hughes%20Medical%20Institute">Howard
+                    Hughes Medical Institute</a>.
+            </p>
+        </div>
+        <div class="w-full h-full snap-always snap-start mx-auto max-w-4xl px-4 text-left">
+            <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gray-800 select-none">
+                Welcome to the <span class="block font-bold">Bloom Lab</span>
+            </h1>
+            <p class="text-xl md:text-2xl lg:text-3xl text-gray-600 mt-2 lg:mt-4 select-none">
+                where we study the evolution of
+                <transition name="fade" mode="out-in">
+                    <span :key="currentVirus" class="italic"
+                        :style="{ color: currentColor, backgroundColor: getBackgroundWithOpacity(currentColor) }">{{
+                        currentVirus }}</span>
+                </transition>
+            </p>
+            <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-4 md:mt-6 lg:mt-12">
+                In the <strong>Bloom lab</strong>, we focus on the evolution of proteins and viruses. Using a blend of
+                experimental and
+                computational techniques, we explore how viruses adapt to various selective pressures. Our research aims
+                to
+                unravel the complexities of viral genetic variation and its implications for public health.
+                <br><br>
+                Our lab is part of the <a
+                    href="https://www.fredhutch.org/en/research/divisions/basic-sciences-division.html">Basic Sciences
+                    Division</a> and <a
+                    href="https://www.fredhutch.org/en/labs/phs/projects/herbold-computational-biology-program.html">Computational
+                    Biology Program</a> at the Fred Hutch. We are
+                also affiliated with the <a
+                    href="https://research.fredhutch.org/bloom/en.html#:~:text=Genome%20Sciences%20department%20at%20the%20University%20of%20Washington">Genome
+                    Sciences Department</a> at the University of Washington, and Jesse Bloom is an
+                Investigator of the <a
+                    href="https://research.fredhutch.org/bloom/en.html#:~:text=Howard%20Hughes%20Medical%20Institute">Howard
+                    Hughes Medical Institute</a>.
+            </p>
+        </div>
     </div>
+
 </template>
 
 <style scoped>
@@ -80,5 +117,17 @@ export default {
 
 a {
     text-decoration: underline;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
 }
 </style>
