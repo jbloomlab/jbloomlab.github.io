@@ -175,6 +175,14 @@ export const alumni = [
       "Incoming PhD student at UW Molecular and Cellular Biology",
   },
   {
+    name: "Rosario Tarabi",
+    title: "Research Technician",
+    start: "2020",
+    end: "2024",
+    currentPosition:
+      "Business student at Franciscan University of Steubenville",
+  },
+  {
     name: "Rachel Eguia",
     title: "Research Technician",
     start: "2019",
