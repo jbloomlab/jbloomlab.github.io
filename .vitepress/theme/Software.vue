@@ -19,7 +19,7 @@ export default {
                 Projects and Software
             </h1>
             <p class="text-lg leading-7 text-gray-600">
-                Check out our projects and software on <a href="https://github.com/jbloomlab">GitHub</a>.
+                Check out all of our projects and software on <a href="https://github.com/jbloomlab">GitHub</a>.
             </p>
         </div>
     </div>
