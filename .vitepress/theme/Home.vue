@@ -14,6 +14,10 @@ export default {
     },
     mounted() {
         this.intervalId = setInterval(this.updateVirus, 2500); // Update virus every 5 seconds
+        this.disableScroll();
+    },
+    beforeUnmount() {
+        this.enableScroll();
     },
     beforeDestroy() {
         clearInterval(this.intervalId);
@@ -29,6 +33,12 @@ export default {
             let rgb = color.match(/\w\w/g).map(x => parseInt(x, 16));
             return `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${this.opacityLevel})`;
         },
+        enableScroll() {
+            document.body.style.overflow = 'auto';
+        },
+        disableScroll() {
+            document.body.style.overflow = 'hidden';
+        }
     }
 }
 </script>
