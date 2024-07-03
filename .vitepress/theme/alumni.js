@@ -62,7 +62,7 @@ export const alumni = [
     start: "2015",
     end: "2019",
     currentPosition:
-      "James S. McDonnell Foundation Fellow at Stanford working with Dmitri Petrov and David Relman",
+      "Incoming assistant professor at the University of California, Irvine",
   },
   {
     name: "Juhye Lee",

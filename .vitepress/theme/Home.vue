@@ -10,11 +10,15 @@ export default {
             useOpacity: true, // Toggle to apply opacity to background color
             opacityLevel: 0.1, // Background color opacity level
             currentColor: '#000000', // default color
+            show: false
         }
     },
     mounted() {
         this.intervalId = setInterval(this.updateVirus, 2500); // Update virus every 5 seconds
         this.disableScroll();
+        setTimeout(() => {
+            this.show = true;
+        }, 1000);
     },
     beforeUnmount() {
         this.enableScroll();
@@ -38,48 +42,71 @@ export default {
         },
         disableScroll() {
             document.body.style.overflow = 'hidden';
-        }
+        },
+        handleScroll() {
+            console.log('Scroll...');
+        },
     }
 }
 </script>
 
 <template>
 
-    <div class="hide-scrollbar snap-y snap-mandatory overflow-y-scroll overscroll-contain h-screen flex-grow z-0">
-        <div class="w-full h-full snap-always snap-start mx-auto max-w-4xl px-4 text-left">
-            <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gray-800 select-none">
-                Welcome to the <span class="block font-bold">Bloom Lab</span>
-            </h1>
-            <p class="text-xl md:text-2xl lg:text-3xl text-gray-600 mt-2 lg:mt-4 select-none">
-                where we study the evolution of
-                <transition name="fade" mode="out-in">
-                    <span :key="currentVirus" class="italic"
-                        :style="{ color: currentColor, backgroundColor: getBackgroundWithOpacity(currentColor) }">{{
-                        currentVirus }}</span>
-                </transition>
-            </p>
-            <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-4 md:mt-6 lg:mt-12">
-                In the <strong>Bloom lab</strong>, we focus on the evolution of proteins and viruses. Using a blend of
-                experimental and
-                computational techniques, we explore how viruses adapt to various selective pressures. Our research aims
-                to
-                unravel the complexities of viral genetic variation and its implications for public health.
-                <br><br>
-                Our lab is part of the <a
-                    href="https://www.fredhutch.org/en/research/divisions/basic-sciences-division.html">Basic Sciences
-                    Division</a> and <a
-                    href="https://www.fredhutch.org/en/labs/phs/projects/herbold-computational-biology-program.html">Computational
-                    Biology Program</a> at the Fred Hutch. We are
-                also affiliated with the <a
-                    href="https://research.fredhutch.org/bloom/en.html#:~:text=Genome%20Sciences%20department%20at%20the%20University%20of%20Washington">Genome
-                    Sciences Department</a> at the University of Washington, and Jesse Bloom is an
-                Investigator of the <a
-                    href="https://research.fredhutch.org/bloom/en.html#:~:text=Howard%20Hughes%20Medical%20Institute">Howard
-                    Hughes Medical Institute</a>.
-            </p>
+    <div class="carousel hide-scrollbar snap-y snap-mandatory overflow-y-scroll overscroll-contain h-screen flex-grow z-0"
+        @scroll="handleScroll">
+        <div
+            class="carousel-item w-full h-full snap-always snap-start mx-auto max-w-4xl px-4 text-left flex flex-col justify-between">
+            <div class="flex-grow">
+                <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gray-800 select-none">
+                    Welcome to the <span class="block font-bold">Bloom Lab</span>
+                </h1>
+                <p class="text-xl md:text-2xl lg:text-3xl text-gray-600 mt-2 lg:mt-4 select-none">
+                    where we study the evolution of
+                    <transition name="fade" mode="out-in">
+                        <span :key="currentVirus" class="italic"
+                            :style="{ color: currentColor, backgroundColor: getBackgroundWithOpacity(currentColor) }">{{
+            currentVirus }}</span>
+                    </transition>
+                </p>
+                <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-4 md:mt-6 lg:mt-12">
+                    In the <strong>Bloom lab</strong>, we focus on the evolution of proteins and viruses. Using a blend
+                    of
+                    experimental and
+                    computational techniques, we explore how viruses adapt to various selective pressures. Our research
+                    aims
+                    to
+                    unravel the complexities of viral genetic variation and its implications for public health.
+                    <br><br>
+                    Our lab is part of the <a
+                        href="https://www.fredhutch.org/en/research/divisions/basic-sciences-division.html">Basic
+                        Sciences
+                        Division</a> and <a
+                        href="https://www.fredhutch.org/en/labs/phs/projects/herbold-computational-biology-program.html">Computational
+                        Biology Program</a> at the Fred Hutch. We are
+                    also affiliated with the <a
+                        href="https://research.fredhutch.org/bloom/en.html#:~:text=Genome%20Sciences%20department%20at%20the%20University%20of%20Washington">Genome
+                        Sciences Department</a> at the University of Washington, and Jesse Bloom is an
+                    Investigator of the <a
+                        href="https://research.fredhutch.org/bloom/en.html#:~:text=Howard%20Hughes%20Medical%20Institute">Howard
+                        Hughes Medical Institute</a>.
+                </p>
+            </div>
+            <div class="scroll-button pb-60 sm:pb-72 md:pb-72 lg:pb-60">
+                <Transition>
+                    <div v-if="show">
+                        <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-4 md:mt-6 lg:mt-12 text-center">
+                            Scroll down to learn more
+                        </p>
+                        <div class="flex justify-center">
+                            <i
+                                class="bi bi-chevron-down text-gray-500 mt-1 animate-bounce text-lg md:text-xl lg:text-2xl"></i>
+                        </div>
+                    </div>
+                </Transition>
+            </div>
         </div>
         <!-- Research Aims... -->
-        <div class="w-full h-full snap-always snap-start mx-auto max-w-4xl px-4">
+        <div class="carousel-item w-full h-full snap-always snap-start mx-auto max-w-4xl px-4">
             <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-2 lg:mt-4 font-normal select-none">
                 We're Developing <span class="underline decoration-sky-500 font-semibold">Multiplexed Genomic
                     Assays</span>
@@ -111,9 +138,9 @@ export default {
             </div>
         </div>
         <!-- Research Aims... -->
-        <div class="w-full h-full snap-always snap-start mx-auto max-w-4xl px-4">
+        <div class="carousel-item w-full h-full snap-always snap-start mx-auto max-w-4xl px-4">
             <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-2 lg:mt-4 font-normal select-none">
-                We're Untangling <span class="underline decoration-indigo-500 font-semibold">Pathogen Host
+                We're Untangling <span class="underline decoration-indigo-500 font-semibold">Host-Pathogen
                     Interactions</span>
             </h2>
             <div class="description">
@@ -132,16 +159,16 @@ export default {
                     </p>
                     <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
                         We study virus like Influenza, SARS-CoV-2, Lassa, Nipah, Rabies, HIV, Chikungunya, 229E,
-                        Measles, Zika, Dengue, and their viral entry proteins.
+                        Measles, Zika, dengue, and their viral entry proteins.
 
                     </p>
                 </div>
             </div>
         </div>
         <!-- Research Aims... -->
-        <div class="w-full h-full snap-always snap-start mx-auto max-w-4xl px-4">
+        <div class="carousel-item w-full h-full snap-always snap-start mx-auto max-w-4xl px-4">
             <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-2 lg:mt-4 font-normal select-none">
-                We're Studying <span class="underline decoration-pink-500 font-semibold">Viral Evolution</span>
+                We're Researching <span class="underline decoration-pink-500 font-semibold">Viral Evolution</span>
             </h2>
             <div class="description">
                 <div class="">
@@ -178,6 +205,16 @@ export default {
 
 .fade-enter,
 .fade-leave-to {
+    opacity: 0;
+}
+
+.v-enter-active,
+.v-leave-active {
+    transition: opacity 1s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
     opacity: 0;
 }
 
