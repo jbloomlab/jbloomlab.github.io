@@ -33,17 +33,13 @@ You'll typically have more than one header in the document. This is another bit 
 
 What about images?
 
-![here's some alt text](../assets/papers/starr_greany_2020.png)
-
-I'm not sure if the alt text will get rendered as a figure caption or not. It would be nice if it was parsed that way.
+![here's some alt text](../assets/research/research-description.jpg)
 
 ## A final header
 
-I'm running out of ideas for what can go into a markdown file. I guess code is in markdown? 
+Here's some code.
 
 ```js
 var code = "some code is nice"
 console.log(code)
 ```
-
-So that's about it!
