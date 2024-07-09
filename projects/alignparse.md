@@ -1,12 +1,12 @@
 ---
 layout: project
 name: "alignparse"
-link: https://dms-viz.github.io/v0/
+link: https://jbloomlab.github.io/alignparse/installation.html
 logo: "/assets/projects/dms-viz-logo.png"
-github: https://github.com/dms-viz/dms-viz.github.io
-documentation: https://dms-viz.github.io/dms-viz-docs/
+github: https://github.com/jbloomlab/alignparse
+documentation: https://jbloomlab.github.io/alignparse/index.html
 ---
 
-[`dms-viz`](https://dms-viz.github.io/) is an interactive web tool for visualizing site-level data on a protein structure with the capability of handling complex scenarios like multiple epitopes.
+A Python package designed to align long sequencing reads to targets and parse out user-defined sequence features.
 
-Check out the preprint [here](https://www.biorxiv.org/content/10.1101/2023.10.29.564578v1).
+---
