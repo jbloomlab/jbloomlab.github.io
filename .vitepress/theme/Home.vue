@@ -106,39 +106,36 @@ export default {
             class="carousel-item w-full h-full snap-always snap-start mx-auto max-w-4xl px-4 text-left flex flex-col justify-between">
             <div class="flex-grow">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-2 lg:mt-4 font-normal select-none">
-                    We're Developing <span class="underline decoration-sky-500 font-semibold">Multiplexed Genomic
+                    We develop <span class="underline decoration-sky-500 font-semibold">Multiplexed Genomic
                         Assays</span>
                 </h2>
                 <div class="description">
                     <div class="">
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-12">
-                            We work on developing multiplexed genomic assays to study viral evolution. These assays
-                            allow us
-                            to
-                            measure the effects of all possible single mutations in a viral protein on viral replication
-                            and
-                            antigenicity. We use these assays to study how viruses evolve in response to selective
-                            pressures
-                            such as immune responses or antiviral drugs.
+                            We’re developing multiplexed genomic assays that enable us to take a prospective view of
+                            viral evolution. Using these high-throughput approaches, we can measure the effect of
+                            thousands of viral
+                            mutations, map antibody footprints, and assess population-level immunity. Crucially, we do
+                            this with a
+                            focus on bio-safety.
                         </p>
                         <img src="../../assets/research/research-description.jpg" alt="Description"
                             class="float-left mr-4 my-4 w-64 h-64">
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            We've developed a pseudotyped lentivirus system that allows us to measure the effects of all
-                            possible single mutations in a viral protein on viral replication. We use this system to
-                            study
-                            how
-                            viruses evolve in response to selective pressures such as immune responses or antiviral
-                            drugs.
+                            We recently pioneered a pseudovirus-based deep mutational scanning approach that is
+                            extensible to nearly any viral entry protein. The approach uses on a
+                            phenotype-genotype-linked library of non-replicative lentivirus psuedotyped with an viral
+                            entry protein of
+                            interest. We've used this system to measure the effect of mutations in viral proteins as
+                            diverse as
+                            SARS-CoV-2 Spike, HIV Env, and Lassa GPC.
                         </p>
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            We've also developed a high-throughput sequencing-based approach neutralization assays that
-                            can
-                            be used to increase the number of viral strains that can be tested in a single experiment.
-                            This
-                            approach allows us to study how viruses evolve in response to selective pressures such as
-                            immune
-                            responses or antiviral drugs.
+                            We've also developed a high-throughput sequencing-based neutralization assay for influenza
+                            that massively increases the number of neuts that a single person can perform. By increasing
+                            the throughput of neutralization assays, we can get a clearer picture of viral immunity on
+                            the population level and help inform vaccine
+                            choice.
                         </p>
                     </div>
                 </div>
@@ -162,29 +159,22 @@ export default {
             class="carousel-item w-full h-full snap-always snap-start mx-auto max-w-4xl px-4 text-left flex flex-col justify-between">
             <div class="flex-grow">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-2 lg:mt-4 font-normal select-none">
-                    We're Untangling <span class="underline decoration-indigo-500 font-semibold">Host-Pathogen
+                    We Untangle <span class="underline decoration-indigo-500 font-semibold">Host-Pathogen
                         Interactions</span>
                 </h2>
                 <div class="description">
                     <div class="">
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-12">
-                            We study how viruses interact with their hosts. We are particularly interested in how
-                            viruses
-                            evolve to evade host immune responses. We use a combination of experimental and
-                            computational
-                            approaches to study how viruses evolve to evade host immune responses.
+                            I added this section to mention the work from Andrew, David, Alistair, and Lissie.
                         </p>
                         <img src="../../assets/research/research-description.jpg" alt="Description"
                             class="float-left mr-4 my-4 w-64 h-64">
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            Using techniques ranging from deep mutational scanning to single cell RNA sequencing, we
-                            study
-                            how viruses
-                            evade immunity, determine host range, and cause disease.
+                            Maybe we don't need this section, but I think it's a good place to highlight our work on
+                            single-cell RNA sequencing.
                         </p>
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            We study virus like Influenza, SARS-CoV-2, Lassa, Nipah, Rabies, HIV, Chikungunya, 229E,
-                            Measles, Zika, dengue, and their viral entry proteins.
+                            Let me know what you think!
                         </p>
                     </div>
                 </div>
@@ -208,28 +198,22 @@ export default {
             class="carousel-item w-full h-full snap-always snap-start mx-auto max-w-4xl px-4 text-left flex flex-col justify-between">
             <div class="flex-grow">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-2 lg:mt-4 font-normal select-none">
-                    We're Researching <span class="underline decoration-pink-500 font-semibold">Viral Evolution</span>
+                    We Study<span class="underline decoration-pink-500 font-semibold">Viral Evolution</span>
                 </h2>
                 <div class="description">
                     <div class="">
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-12">
-                            We develop and apply experimental and computational methods to study the evolution of
-                            viruses.
-                            We've use combination of phylodynamic and deep mutational scanning approaches to study how
-                            viruses evolve in response to selective pressures such as immune responses or antiviral
-                            drugs.
+                            Finally, I added this section on viral evolution. I think it's a good place to highlight the
+                            intrahost evolution work that we do.
                         </p>
                         <img src="../../assets/research/research-description.jpg" alt="Description"
                             class="float-left mr-4 my-4 w-64 h-64">
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            For example, see this study on the evolution of SARS-CoV-2 in the context of the COVID-19
-                            pandemic.
-                            We use deep sequencing to track the evolution of the virus in real time within and between
-                            hosts.
+                            I also think this is a good place to talk about our work on epistasis.
                         </p>
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            We study virus like Influenza, SARS-CoV-2, Lassa, Nipah, Rabies, HIV, Chikungunya, 229E,
-                            Measles, Zika, Dengue, and their viral entry proteins.
+                            Again, I'm not sure we need this section, but I figured I'd put the infrastructure in place
+                            to add it. Let me know what you're thinking!
                         </p>
                     </div>
                 </div>
