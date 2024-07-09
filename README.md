@@ -65,12 +65,12 @@ The general file structure of this website is as follows:
 ```bash
 .
 ├── README.md
-├── people/ # <-------------- team member pages
-├── papers/ # <-------------- publication pages
+├── people/ # <-------------- team members
+├── papers/ # <-------------- publications
 ├── posts/ # <-------------- blog posts
-├── projects/ # <-------------- projects and software write-ups
+├── projects/ # <-------------- projects and software
 ├── index.md
-├── assets
+├── assets/ # <-------------- images
 ├── public
 ├── .vitepress # <-------------- source code
 ├── tailwind.config.mjs
@@ -83,25 +83,105 @@ Any file ending `*.md` is converted to a page on the site. The main markdown con
 
 ### Adding Team Members
 
-*More details to come*
+To add a team member, navigate to the `people` directory. Within the `people` directory, make a new `.md` file with the name of the person you're adding. At the top of the page, add `YAML` with the following fields:
+
+```yaml
+---
+layout: person # <-------------- Determines the layout
+name: "Will Hannon" # <-------------- Your preferred name
+image: "/assets/people/will-hannon.jpeg" # <-------------- The path to an image of you (a link also works)
+title: "Data Scientist" # <-------------- Your title. Please be as consistent as possible
+category: "Staff" # <-------------- One of [Graduate Students, Postdocs, or Staff]
+links: # <-------------- Links to your socials. Icons should be one of [github, linkedin, orcid, twitter, or website]
+  - link: "https://github.com/WillHannon-MCB"
+    icon: "github"
+  - link: "https://www.linkedin.com/in/williamhannon/"
+    icon: "linkedin"
+---
+```
+
+It's **key** that you add `layout: person` to the top of the page. This ensures that the markdown file is parsed as a team member page. The other fields are explained above.
+
+Below this `YAML` frontmatter, add a short description of yourself using standard markdown syntax. This description appears when you click on a team member.
 
 ### Adding Blog Posts
 
-*More details to come*
+To add a blog post, you create a `*.md` file in the `posts/` directory. At the top of the page, add the following `YAML`:
+
+```yaml
+---
+layout: post
+title: Example markdown styles
+date: 2024-04-17
+author: Will Hannon
+---
+```
+
+The fields are self-explanatory; their values are visible on the Blog section of the website. Underneath this `YAML` frontmatter, add a short description followed by a `---`. This short description will appear as an excerpt on the Blog section of the website below the post.
+
+```md
+---
+layout: post
+title: Example markdown styles
+---
+
+Here's a short excerpt to appear as a description of the post in the blog index.
+---
+```
+
+The content of the blog post is written using standard markdown syntax.
 
 ### Adding Key Publications
 
-*More details to come*
+To add a publication to the website, add a `*.md` file to the `papers/` directory. The file should be named based on the author's last name and the year of publication. This information isn't used by the website, but it's nice for consistency.
+
+Add the following `YAML` to the top of the document:
+
+```yaml
+---
+layout: paper
+title: "Within-host evolution of human influenza virus"
+date: "2018-09-01"
+authors: 
+    - "Katherine S Xue"
+    - "Louise H Moncla"
+    - "Trevor Bedford"
+    - "Jesse D Bloom"
+journal: "Trends in Microbiology"
+doi: "10.1016/j.tim.2018.02.007"
+link: "https://www.cell.com/trends/microbiology/fulltext/S0966-842X(18)30043-X"
+image: "/assets/papers/xue_2018.jpg"
+keywords:
+    - "Influenza"
+    - "Within-host evolution"
+---
+```
+
+Most fields are self-explanatory. The `keywords` field is automatically parsed by the website, allowing you to quickly filter all of our publications for the ones relevant to you. Please reference this for existing keywords that pertain to your paper. Select a representative image from your paper and add it to the `assets/papers` directory.
 
 ### Adding Software/Projects
 
-*More details to come*
+To add software to the website, add a `*.md` file in `projects/`. Add the following `YAML` to the top of the page:
 
-## TODO: 
+```yaml
+---
+layout: project
+name: "dms-viz"
+link: https://dms-viz.github.io/v0/
+github: https://github.com/dms-viz/dms-viz.github.io
+documentation: https://dms-viz.github.io/dms-viz-docs/
+---
+```
 
-Some features haven't been added yet. Here are the most pressing feature requests:
+Underneath this, add a short markdown description of the software followed by a `---`. This excerpt appears as a description in the Software section of the website.
 
-- Add filters based on keys for the papers
-- Add research description to the homepage
-- Add social media links (Twitter + GitHub) to the navigation bar
-- Add alumni to the team page
+```md
+---
+layout: project
+...
+---
+
+An interactive web tool for visualizing site-level data on a protein structure with the capability of handling complex scenarios like multiple epitopes.
+
+---
+```
