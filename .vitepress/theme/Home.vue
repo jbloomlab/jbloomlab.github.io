@@ -198,7 +198,7 @@ export default {
             class="carousel-item w-full h-full snap-always snap-start mx-auto max-w-4xl px-4 text-left flex flex-col justify-between">
             <div class="flex-grow">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-2 lg:mt-4 font-normal select-none">
-                    We Study<span class="underline decoration-pink-500 font-semibold">Viral Evolution</span>
+                    We Study <span class="underline decoration-pink-500 font-semibold">Viral Evolution</span>
                 </h2>
                 <div class="description">
                     <div class="">
