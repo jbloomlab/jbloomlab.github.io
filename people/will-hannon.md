@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Will Hannon"
-image: "/assets/people/will-hannon.jpeg"
+image: "/assets/people/will-hannon.jpg"
 title: "Data Scientist"
 category: "Staff"
 links:
