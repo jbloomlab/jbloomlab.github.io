@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Tim Yu"
-image: "https://research.fredhutch.org/content/stripe/bloom/en/members/_jcr_content/par/labmember_1874078203/image.img.png/1635439265387.png"
+image: "/assets/people/tim-yu.jpg"
 title: "Graduate Student"
 category: "Grad Students"
 links:
@@ -10,3 +10,5 @@ links:
   - link: "https://www.linkedin.com/in/timyu316/"
     icon: "linkedin"
 ---
+
+As a graduate student in the Bloom lab, I use deep mutational scanning to help predict seasonal H3N2 influenza evolution.

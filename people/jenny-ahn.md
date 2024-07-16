@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Jenny Ahn"
-image: "https://research.fredhutch.org/content/stripe/bloom/en/members/_jcr_content/par/labmember_80865050/image.img.png/1686066546217.png"
+image: "/assets/people/jenny-ahn.jpg"
 title: "Graduate Student"
 category: "Grad Students"
 links:
@@ -10,3 +10,5 @@ links:
   - link: "https://www.linkedin.com/in/jennyahn0/"
     icon: "linkedin"
 ---
+
+As a Graduate student in the Bloom lab, I am using deep mutational scanning to study the evolution of pandemic potential avian influenza. I am interested in looking at how viruses evolve to improve our response to viral surveillance, vaccine development, and antibody engineering.
