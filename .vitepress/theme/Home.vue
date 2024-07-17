@@ -14,11 +14,11 @@ export default {
         }
     },
     mounted() {
-        this.intervalId = setInterval(this.updateVirus, 2500); // Update virus every 5 seconds
+        this.intervalId = setInterval(this.updateVirus, 4000); // Update virus every 5 seconds
         this.disableScroll();
         setTimeout(() => {
             this.show = true;
-        }, 1000);
+        }, 2000);
     },
     beforeUnmount() {
         this.enableScroll();
