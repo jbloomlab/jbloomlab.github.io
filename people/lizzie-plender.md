@@ -1,10 +1,12 @@
 ---
 layout: person
 name: "Lizzie Plender"
-image: "https://research.fredhutch.org/content/stripe/bloom/en/members/_jcr_content/par/labmember_339511657/image.img.jpg/1696871431667.jpg"
+image: "/assets/people/lizzie-plender.jpg"
 title: "Graduate Student"
 category: "Grad Students"
 links:
   - link: "https://github.com/plendere"
     icon: "github"
 ---
+
+Lizzie is a graduate student in the Bloom lab studying genetic variation in mucins, a group of innate immunity proteins that play critical roles in pathogen entrapment in health and disease.  
