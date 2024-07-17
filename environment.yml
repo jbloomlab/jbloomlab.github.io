@@ -1,4 +1,4 @@
-name: jbloomlab.org
+name: jbloomlab.github.io
 channels:
   - conda-forge
 dependencies:
