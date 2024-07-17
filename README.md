@@ -9,13 +9,13 @@ The content of our lab's website draws inspiration from lab websites like those 
 
 ## Installation
 
-Contributions to the lab website are made through [GitHub](https://github.com/jbloomlab/bloom-lab-website) using pull requests.
+Contributions to the lab website are made through [GitHub](https://github.com/jbloomlab/jbloomlab.github.io) using pull requests.
 
 Clone the `git` repository locally to edit the site:
 
 ```bash
-git git@github.com:jbloomlab/bloom-lab-website.git
-cd bloom-lab-website
+git clone https://github.com/jbloomlab/jbloomlab.github.io
+cd jbloomlab.github.io
 ```
 
 You'll need to install Javascript and its relevant packages to preview the site as you make changes. You're going to need two pieces of software to do this: `Node.js` and `npm`. 
