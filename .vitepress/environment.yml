@@ -1,0 +1,5 @@
+name: jbloomlab.org
+channels:
+  - conda-forge
+dependencies:
+  - nodejs

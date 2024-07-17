@@ -32,7 +32,7 @@ If you have `conda` on your operating system, you can use it to install `node` a
 
 ```bash
 conda env create -f environment.yml
-conda activate dms-vep.org
+conda activate jbloomlab.org
 ```
 
 Regardless of how you installed `Node` and `npm`, verify that the installation worked by running:
