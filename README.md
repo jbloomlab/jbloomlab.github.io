@@ -42,7 +42,7 @@ node -v
 npm -v
 ```
 
-If this is the first time you're contributing to the website, you'll need to tell `npm` to install all of the packages in the `packages.json` file. To do this, run the following command from within the repository:
+If this is the first time you're contributing to the website, you'll need to tell `npm` to install all of the packages in the `package.json` file. To do this, run the following command from within the repository:
 
 ```bash
 npm install
