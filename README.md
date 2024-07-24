@@ -131,7 +131,7 @@ Here's a short excerpt to appear as a description of the post in the blog index.
 
 The content of the blog post is written using standard markdown syntax.
 
-### Adding Key Publications
+### Adding Publications
 
 To add a publication to the website, add a `*.md` file to the `papers/` directory. The file should be named based on the author's last name and the year of publication. This information isn't used by the website, but it's nice for consistency.
 
@@ -154,10 +154,13 @@ image: "/assets/papers/xue_2018.jpg"
 keywords:
     - "Influenza"
     - "Within-host evolution"
+selected: true # <------- OPTIONAL, this will add the publication to a list of selected publications
 ---
 ```
 
 Most fields are self-explanatory. The `keywords` field is automatically parsed by the website, allowing you to quickly filter all of our publications for the ones relevant to you. Please reference this for existing keywords that pertain to your paper. Select a representative image from your paper and add it to the `assets/papers` directory.
+
+There is an optional key called `selected:` that if added and set to `true` will add the publication to a list of selected publications at the top of the page.
 
 ### Adding Software/Projects
 

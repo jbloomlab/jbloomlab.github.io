@@ -44,9 +44,13 @@ export default {
             return this.papers.filter(paper =>
                 paper.keywords.some(keyword => this.activeKeywords.includes(keyword))
             );
+        },
+        selectedPapers() {
+            return this.papers.filter(paper => paper.selected);
         }
     }
 }
+
 </script>
 
 <template>
@@ -64,6 +68,28 @@ export default {
             <MultiSelect v-model="activeKeywords" :options="keywords" placeholder="Filter by Keywords"
                 :maxSelectedLabels="3" class="w-full md:w-80" />
         </div>
+
+        <div class="selected-publications mb-8">
+            <h2 class="text-2xl leading-8 font-bold text-gray-800 tracking-tight mt-4 mb-4">Key Publications</h2>
+            <div class="grid grid-cols-2 gap-4">
+                <div v-for="paper in selectedPapers()" :key="paper.url"
+                    class="hover:shadow-lg hover:shadow-custom-orange flex flex-col gap-px rounded-lg w-full h-full overflow-hidden transition-shadow duration-300 ease-in-out">
+                    <a :href="paper.url" class="flex-grow bg-custom-soft no-underline p-4">
+                        <div class="">
+                            <h3 class="m-0 text-gray-800 font-semibold text-lg leading-6 ease-in-out pb-2">
+                                {{ paper.title }}
+                            </h3>
+                            <a :href="paper.link" target="_blank"
+                                class="m-0 font-medium text-gray-600 pt-1 text-base no-underline">
+                                {{ paper.journal }}. {{ paper.year }}
+                            </a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
         <div class="flex">
 
             <ul class="flex-1 divide-y divide-gray-200">
