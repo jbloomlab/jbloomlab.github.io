@@ -9,6 +9,8 @@ links:
     icon: "github"
   - link: "https://www.linkedin.com/in/williamhannon/"
     icon: "linkedin"
+  - link: "whannon@fredhutch.org"
+    icon: "email"
 ---
 
 As a Data Scientist in the Bloom Lab, I develop and implement computational approaches to study viral evolution and communicate with our data. I’m interested in improving access to the information-rich datasets we generate to aid in antigen engineering, therapeutic design, viral surveillance, and gaining a better understanding of viral evolution.

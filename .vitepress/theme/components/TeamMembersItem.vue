@@ -10,6 +10,13 @@ export default {
             type: Object,
             required: true
         }
+    },
+    methods: {
+        navigate(url) {
+            if (url) {
+                window.location.href = url;
+            }
+        }
     }
 }
 </script>
@@ -17,7 +24,8 @@ export default {
 <template>
     <article
         class="hover:shadow-lg hover:shadow-custom-orange flex flex-col gap-px rounded-lg w-full h-full overflow-hidden transition-shadow duration-300 ease-in-out">
-        <a :href="member.url" class="py-8 px-6 sm:py-12 sm:px-8 flex-grow bg-custom-soft no-underline">
+        <div :href="member.url" class="py-8 px-6 sm:py-12 sm:px-8 flex-grow bg-custom-soft cursor-pointer"
+            @click="navigate(member.url)">
             <figure class="relative shrink-0 mx-auto rounded-full shadow w-24 h-24">
                 <img class="absolute inset-0 rounded-full object-cover" :src="member.image" :alt="member.name" />
             </figure>
@@ -35,6 +43,6 @@ export default {
                     <SocialLink v-for="{ link, icon } in member.links" :key="link" :icon="icon" :link="link" />
                 </div>
             </div>
-        </a>
+        </div>
     </article>
 </template>
