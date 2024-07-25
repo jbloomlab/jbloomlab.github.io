@@ -1,6 +1,6 @@
 <script>
 import { data as people } from './people.data.js';
-import { alumni } from './alumni.js';
+import { alumni } from '../../people/alumni.js';
 import TeamMembers from './components/TeamMembers.vue';
 
 export default {
