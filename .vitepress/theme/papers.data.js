@@ -12,6 +12,7 @@ export default createContentLoader("papers/*.md", {
         link: frontmatter.link,
         image: frontmatter.image,
         keywords: frontmatter.keywords,
+        selected: frontmatter.selected,
         url,
       }))
       .sort((a, b) => new Date(b.date) - new Date(a.date));

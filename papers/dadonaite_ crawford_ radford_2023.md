@@ -25,6 +25,7 @@ keywords:
     - "SARS-CoV-2"
     - "Deep mutational scanning"
     - "Pseudovirus"
+selected: true
 ---
 
 ## Abstract
