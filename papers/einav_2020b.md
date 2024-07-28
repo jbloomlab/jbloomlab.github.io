@@ -8,7 +8,7 @@ authors:
 journal: "PLoS computational biology"
 doi: "10.1371/journal.pcbi.1007830"
 link: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007830"
-image: "/assets/papers/eniav_2020b.png"
+image: "/assets/papers/einav_2020b.png"
 keywords:
     - "Modeling"
     - "Immunity"
