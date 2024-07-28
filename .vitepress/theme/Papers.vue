@@ -58,19 +58,20 @@ export default {
         <div class="pt-6 pb-8 space-y-2 md:space-y-5">
             <h1
                 class="text-3xl leading-9 font-bold text-gray-800 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-                Publications
+                Papers
             </h1>
             <p class="text-lg leading-7 text-gray-600">
-                Key papers from the Bloom Lab team. Check out <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Bloom+JD"
-                    target="_blank">PubMed</a> for a complete
-                list of our publications.
+                Papers from the Bloom Lab team. See also <a href="https://scholar.google.com/citations?user=S12x_eQAAAAJ&hl"
+                    target="_blank">Google Scholar</a> for a complete
+                list of publications.
             </p>
             <MultiSelect v-model="activeKeywords" :options="keywords" placeholder="Filter by Keywords"
                 :maxSelectedLabels="3" class="w-full md:w-80" />
         </div>
 
         <div class="selected-publications mb-8">
-            <h2 class="text-2xl leading-8 font-bold text-gray-800 tracking-tight mt-4 mb-4">Key Publications</h2>
+            <h2 class="text-3xl leading-8 font-bold text-gray-800 tracking-tight mt-4 mb-4">Key Papers</h2>
+            <h3 class="text-xl leading-8 text-gray-800 tracking-tight mt-4 mb-4">These papers exemplify key current areas of research in the lab.</h3>
             <div class="grid grid-cols-2 gap-4">
                 <div v-for="paper in selectedPapers()" :key="paper.url"
                     class="hover:shadow-lg hover:shadow-custom-orange flex flex-col gap-px rounded-lg w-full h-full overflow-hidden transition-shadow duration-300 ease-in-out">
@@ -90,6 +91,8 @@ export default {
         </div>
 
 
+        <h2 class="text-3xl leading-8 font-bold text-gray-800 tracking-tight mt-4 mb-4">All Papers</h2>
+        <h3 class="text-xl leading-8 text-gray-800 tracking-tight mt-4 mb-4">Below is a complete list of primary research papers from our group.</h3>
         <div class="flex">
 
             <ul class="flex-1 divide-y divide-gray-200">
