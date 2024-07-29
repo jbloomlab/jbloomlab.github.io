@@ -66,7 +66,7 @@ The general file structure of this website is as follows:
 .
 ├── README.md
 ├── people/ # <-------------- team members
-├── papers/ # <-------------- publications
+├── papers/ # <-------------- papers
 ├── posts/ # <-------------- blog posts
 ├── projects/ # <-------------- projects and software
 ├── index.md
@@ -158,9 +158,10 @@ Here's a short excerpt to appear as a description of the post in the blog index.
 
 The content of the blog post is written using standard markdown syntax.
 
-### Adding Publications
+### Adding Papers
 
-To add a publication to the website, add a `*.md` file to the `papers/` directory. The file should be named based on the author's last name and the year of publication. This information isn't used by the website, but it's nice for consistency.
+To add a paper to the website, add a `*.md` file to the `papers/` directory. The file should be named based on the year of the paper and author's last name (like `2021_starr.md`).
+This information isn't used by the website, but it's nice for consistency.
 
 Add the following `YAML` to the top of the document:
 
@@ -181,13 +182,13 @@ image: "/assets/papers/xue_2018.jpg"
 keywords:
     - "Influenza"
     - "Within-host evolution"
-selected: true # <------- OPTIONAL, this will add the publication to a list of selected publications
+selected: true # <------- OPTIONAL, this will add the paper to a list of selected paper
 ---
 ```
 
-Most fields are self-explanatory. The `keywords` field is automatically parsed by the website, allowing you to quickly filter all of our publications for the ones relevant to you. Please reference this for existing keywords that pertain to your paper. Select a representative image from your paper and add it to the `assets/papers` directory.
+Most fields are self-explanatory. The `keywords` field is automatically parsed by the website, allowing you to quickly filter all of our papers for the ones relevant to you. Please reference this for existing keywords that pertain to your paper. Select a representative image from your paper and add it to the `assets/papers` directory using the same base name as for the markdown file.
 
-There is an optional key called `selected:` that if added and set to `true` will add the publication to a list of selected publications at the top of the page.
+There is an optional key called `selected:` that if added and set to `true` will add the paper to a list of selected paper at the top of the page.
 
 ### Adding Software/Projects
 
