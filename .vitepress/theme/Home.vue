@@ -211,22 +211,32 @@ export default {
             class="carousel-item w-full h-full snap-always snap-start mx-auto max-w-4xl px-4 text-left flex flex-col justify-between">
             <div class="flex-grow">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-2 lg:mt-4 font-normal select-none">
-                    We Study <span class="underline decoration-pink-500 font-semibold">Viral Evolution</span>
+                    <span class="underline decoration-pink-500 font-semibold">Big Datasets and Viral Evolution</span>
                 </h2>
                 <div class="description">
                     <div class="">
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-12">
-                            Finally, I added this section on viral evolution. I think it's a good place to highlight the
-                            intrahost evolution work that we do.
-                        </p>
-                        <img src="../../assets/research/research-description.jpg" alt="Description"
-                            class="float-left mr-4 my-4 w-64 h-64">
-                        <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            I also think this is a good place to talk about our work on epistasis.
+                            We also develop new ways to leverage large datasets to better understand viral evolution.
                         </p>
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            Again, I'm not sure we need this section, but I figured I'd put the infrastructure in place
-                            to add it. Let me know what you're thinking!
+                            We have come up with a way to leverage the millions of publicly available
+                            SARS-CoV-2 sequences to estimate the effect of individual mutations on viral fitness
+                            (see <a href="https://academic.oup.com/ve/article/9/2/vead055/7265011">this paper</a>
+                            and <a href="https://slides.com/jbloom/sars2-mut-fitness/">these slides</a>).
+                            We've also created a platform to
+                            <a href="https://jbloomlab.github.io/SARS2-mut-fitness/">visualize the mutational effects</a>
+                            to aid in interpretation of viral evolution.
+                        </p>
+                        <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
+                            We have also integrated thousands of deep mutational scanning measurements
+                            into an <a href="https://jbloomlab.github.io/SARS2-RBD-escape-calc/">antibody-escape calculator</a>
+                            that was <a href="https://slides.com/jbloom/sars2-rbd-escape-calc#/12">widely used</a> during the SARS-CoV-2 pandemic to understand
+                            the antigenic effects of viral mutations.
+                        </p>
+                        <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
+                            We also have projects that involve analyzing the evolution of viruses
+                            <a href="https://elifesciences.org/articles/26875">within individual infected humans</a>, and developing models
+                            to <a href="https://academic.oup.com/ve/article/8/2/veac110/6889254">understand epistasis among viral mutations</a>.
                         </p>
                     </div>
                 </div>
