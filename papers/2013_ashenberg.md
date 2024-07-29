@@ -3,7 +3,7 @@ layout: paper
 title: "Mutational effects on stability are largely conserved during protein evolution"
 date: "2013-12-24"
 authors: 
-    - "Orr Ashenberg*"
+    - "Orr Ashenberg"
     - "Lizhi Ian Gong"
     - "Jesse D Bloom"
 journal: "PNAS"

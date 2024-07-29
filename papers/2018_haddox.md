@@ -4,11 +4,11 @@ title: "Mapping mutational effects along the evolutionary landscape of HIV envel
 date: "2018-03-28"
 authors: 
     - "Hugh K Haddox*"
-    - "Adam S Dingens"
+    - "Adam S Dingens*"
     - "Sarah K Hilton"
     - "Julie Overbaugh"
     - "Jesse D Bloom"
-journal: "Elife"
+journal: "eLife"
 doi: "10.7554/eLife.34420"
 link: "https://elifesciences.org/articles/34420"
 image: "/assets/papers/2018_haddox.jpg"

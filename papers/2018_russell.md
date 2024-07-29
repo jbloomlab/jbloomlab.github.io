@@ -3,10 +3,10 @@ layout: paper
 title: "Extreme heterogeneity of influenza virus infection in single cells"
 date: "2018-02-16"
 authors: 
-    - "Alistair B Russell*"
+    - "Alistair B Russell"
     - "Cole Trapnell"
     - "Jesse D Bloom"
-journal: "Elife"
+journal: "eLife"
 doi: "10.7554/eLife.32303"
 link: "https://elifesciences.org/articles/32303"
 image: "/assets/papers/2018_russell.jpg"

@@ -3,8 +3,8 @@ layout: paper
 title: "Prospective mapping of viral mutations that escape antibodies used to treat COVID-19"
 date: "2021-02-19"
 authors: 
-    - "Tyler N Starr"
-    - "Allison J Greaney"
+    - "Tyler N Starr*"
+    - "Allison J Greaney*"
     - "Amin Addetia"
     - "William W Hannon"
     - "Manish C Choudhary"

@@ -3,7 +3,7 @@ layout: paper
 title: "Comprehensive mapping of mutations in the SARS-CoV-2 receptor-binding domain that affect recognition by polyclonal human plasma antibodies"
 date: "2021-03-10"
 authors: 
-    - "Allison J Greaney*"
+    - "Allison J Greaney"
     - "Andrea N Loes"
     - "Katharine HD Crawford"
     - "Tyler N Starr"

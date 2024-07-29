@@ -3,7 +3,7 @@ layout: paper
 title: "Influenza viruses with receptor-binding N1 neuraminidases occur sporadically in several lineages and show no attenuation in cell culture or mice"
 date: "2015-04-01"
 authors: 
-    - "Kathryn A Hooper*"
+    - "Kathryn A Hooper"
     - "James E Crowe Jr"
     - "Jesse D Bloom"
 journal: "Journal of virology"

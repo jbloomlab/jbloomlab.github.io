@@ -3,7 +3,7 @@ layout: paper
 title: "Serological identification of SARS-CoV-2 infections among children visiting a hospital during the initial Seattle outbreak"
 date: "2020-09-01"
 authors: 
-    - "Adam S Dingens*"
+    - "Adam S Dingens"
     - "Katharine HD Crawford"
     - "Amanda Adler"
     - "Sarah L Steele"

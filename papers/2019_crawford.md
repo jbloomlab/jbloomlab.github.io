@@ -3,7 +3,7 @@ layout: paper
 title: "alignparse: A Python package for parsing complex features from high-throughput long-read sequencing"
 date: "2019-01-23"
 authors: 
-    - "Katharine HD Crawford*"
+    - "Katharine HD Crawford"
     - "Jesse D Bloom"
 journal: "JOSS"
 doi: "10.21105/joss.01915"

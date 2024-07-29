@@ -1,23 +1,27 @@
 ---
 layout: paper
 title: "Full-spike deep mutational scanning helps predict the evolutionary success of SARS-CoV-2 clades"
-date: "2023-11-14"
+date: "2024-07-03"
 authors: 
-    - "Bernadeta Dadonaite*"
+    - "Bernadeta Dadonaite"
     - "Jack Brown"
     - "Teagan E McMahon"
     - "Ariana G Farrell"
+    - "Marlin D Figgins"
     - "Daniel Asarnow"
     - "Cameron Stewart"
+    - "Jimin Lee"
     - "Jenni Logue"
+    - "Trevor Bedford"
     - "Ben Murrell"
     - "Helen Y Chu"
     - "David Veesler"
     - "Jesse D Bloom"
-journal: "bioRxiv"
-doi: "10.1101/2023.11.13.566961"
-link: "https://www.biorxiv.org/content/10.1101/2023.11.13.566961v1"
-image: "/assets/papers/2023_dadonaite.jpg"
+journal: "Nature"
+doi: "10.1038/s41586-024-07636-1"
+link: "https://www.nature.com/articles/s41586-024-07636-1"
+image: "/assets/papers/2024_dadonaite_a.jpg"
+selected: true
 keywords:
     - "SARS-CoV-2"
     - "Deep mutational scanning"

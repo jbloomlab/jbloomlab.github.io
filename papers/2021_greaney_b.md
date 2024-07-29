@@ -3,7 +3,7 @@ layout: paper
 title: "Antibodies elicited by mRNA-1273 vaccination bind more broadly to the receptor binding domain than do those from SARS-CoV-2 infection"
 date: "2021-06-30"
 authors: 
-    - "Allison J Greaney*"
+    - "Allison J Greaney"
     - "Andrea N Loes"
     - "Lauren E Gentles"
     - "Katharine HD Crawford"

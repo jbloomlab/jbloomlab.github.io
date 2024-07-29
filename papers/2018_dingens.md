@@ -3,7 +3,7 @@ layout: paper
 title: "Complete functional mapping of infection-and vaccine-elicited antibodies against the fusion peptide of HIV"
 date: "2018-07-05"
 authors: 
-    - "Adam S Dingens*"
+    - "Adam S Dingens"
     - "Priyamvada Acharya"
     - "Hugh K Haddox"
     - "Reda Rawi"

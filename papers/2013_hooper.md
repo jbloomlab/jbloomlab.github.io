@@ -3,7 +3,7 @@ layout: paper
 title: "A mutant influenza virus that uses an N1 neuraminidase as the receptor-binding protein"
 date: "2013-12-01"
 authors: 
-    - "Kathryn A Hooper*"
+    - "Kathryn A Hooper"
     - "Jesse D Bloom"
 journal: "Journal of virology"
 doi: "10.1128/jvi.01889-13"

@@ -3,7 +3,7 @@ layout: paper
 title: "Massively parallel profiling of HIV-1 resistance to the fusion inhibitor enfuvirtide"
 date: "2019-05-15"
 authors: 
-    - "Adam S Dingens*"
+    - "Adam S Dingens"
     - "Dana Arenz"
     - "Julie Overbaugh"
     - "Jesse D Bloom"

@@ -3,7 +3,7 @@ layout: paper
 title: "The SARS-CoV-2 Delta variant induces an antibody response largely focused on class 1 and 2 antibody epitopes"
 date: "2022-06-29"
 authors: 
-    - "Allison J Greaney*"
+    - "Allison J Greaney"
     - "Rachel T Eguia"
     - "Tyler N Starr"
     - "Khadija Khan"

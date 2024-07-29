@@ -3,7 +3,7 @@ layout: paper
 title: "SARS-CoV-2 RBD antibodies that maximize breadth and resistance to escape"
 date: "2021-09-02"
 authors: 
-    - "Tyler N Starr*"
+    - "Tyler N Starr"
     - "Nadine Czudnochowski"
     - "Zhuoming Liu"
     - "Fabrizia Zatta"

@@ -3,7 +3,7 @@ layout: paper
 title: "Complete map of SARS-CoV-2 RBD mutations that escape the monoclonal antibody LY-CoV555 and its cocktail with LY-CoV016"
 date: "2021-04-20"
 authors: 
-    - "Tyler N Starr*"
+    - "Tyler N Starr"
     - "Allison J Greaney"
     - "Adam S Dingens"
     - "Jesse D Bloom"

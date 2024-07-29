@@ -3,7 +3,7 @@ layout: paper
 title: "Age-dependent heterogeneity in the antigenic effects of mutations to influenza hemagglutinin"
 date: "2024-07-19"
 authors: 
-    - "Frances C Welsh*"
+    - "Frances C Welsh"
     - "Rachel T Eguia"
     - "Juhye M Lee"
     - "Hugh K Haddox"

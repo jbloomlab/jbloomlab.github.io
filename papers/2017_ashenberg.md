@@ -3,7 +3,7 @@ layout: paper
 title: "Deep mutational scanning identifies sites in influenza nucleoprotein that affect viral inhibition by MxA"
 date: "2017-03-27"
 authors: 
-    - "Orr Ashenberg*"
+    - "Orr Ashenberg"
     - "Jai Padmakumar"
     - "Michael B Doud"
     - "Jesse D Bloom"

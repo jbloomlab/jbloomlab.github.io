@@ -3,7 +3,7 @@ layout: paper
 title: "dms-viz: Structure-informed visualizations for deep mutational scanning and other mutation-based datasets"
 date: "2023-11-01"
 authors: 
-    - "William W Hannon*"
+    - "William W Hannon"
     - "Jesse D Bloom"
 journal: "bioRxiv"
 doi: "10.1101/2023.10.29.564578"

@@ -14,7 +14,7 @@ authors:
     - "PJ Klasse"
     - "Andrew B Ward"
     - "Jesse D Bloom"
-journal: "Elife"
+journal: "eLife"
 doi: "10.7554/eLife.64281"
 link: "https://elifesciences.org/articles/64281"
 image: "/assets/papers/2021_dingens.jpg"

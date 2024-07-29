@@ -3,7 +3,7 @@ layout: paper
 title: "When two are better than one: Modeling the mechanisms of antibody mixtures"
 date: "2020-05-04"
 authors: 
-    - "Tal Einav*"
+    - "Tal Einav"
     - "Jesse D Bloom"
 journal: "PLoS computational biology"
 doi: "10.1371/journal.pcbi.1007830"

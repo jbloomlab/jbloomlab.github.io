@@ -3,7 +3,7 @@ layout: paper
 title: "phydms: Software for phylogenetic analyses informed by deep mutational scanning"
 date: "2017-07-31"
 authors: 
-    - "Sarah K Hilton*"
+    - "Sarah K Hilton"
     - "Michael B Doud"
     - "Jesse D Bloom"
 journal: "PeerJ"

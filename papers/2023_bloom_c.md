@@ -9,6 +9,7 @@ journal: "Virus Evolution"
 doi: "10.1093/ve/veae026"
 link: "https://academic.oup.com/ve/article/9/2/vead055/7265011"
 image: "/assets/papers/2023_bloom_c.jpg"
+selected: true
 keywords:
     - "SARS-CoV-2"
     - "Phylogenetics"

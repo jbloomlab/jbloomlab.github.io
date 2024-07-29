@@ -3,7 +3,7 @@ layout: paper
 title: "A human coronavirus evolves antigenically to escape antibody immunity"
 date: "2021-04-08"
 authors: 
-    - "Rachel T Eguia*"
+    - "Rachel T Eguia"
     - "Katharine HD Crawford"
     - "Terry Stevens-Ayers"
     - "Laurel Kelnhofer-Millevolte"
@@ -16,7 +16,7 @@ doi: "10.1371/journal.ppat.1009453"
 link: "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1009453"
 image: "/assets/papers/2021_eguia.png"
 keywords:
-    - "Seasonal Coronavirus"
+    - "Coronavirus"
     - "Immunity"
 ---
 

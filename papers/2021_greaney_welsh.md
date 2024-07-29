@@ -3,7 +3,7 @@ layout: paper
 title: "Co-dominant neutralizing epitopes make anti-measles immunity resistant to viral evolution"
 date: "2021-04-20"
 authors: 
-    - "Allison J Greaney*"
+    - "Allison J Greaney"
     - "Frances C Welsh"
     - "Jesse D Bloom"
 journal: "Cell Reports Medicine"

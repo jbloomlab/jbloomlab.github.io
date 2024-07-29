@@ -3,7 +3,7 @@ layout: paper
 title: "Single-cell virus sequencing of influenza infections that trigger innate immunity"
 date: "2019-07-15"
 authors: 
-    - "Alistair B Russell*"
+    - "Alistair B Russell"
     - "Elizaveta Elshina"
     - "Jacob R Kowalsky"
     - "Aartjan JW Te Velthuis"

@@ -3,7 +3,7 @@ layout: paper
 title: "A SARS-CoV-2 variant elicits an antibody response with a shifted immunodominance hierarchy"
 date: "2022-02-08"
 authors: 
-    - "Allison J Greaney*"
+    - "Allison J Greaney"
     - "Tyler N Starr"
     - "Rachel T Eguia"
     - "Andrea N Loes"

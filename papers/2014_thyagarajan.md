@@ -5,7 +5,7 @@ date: "2014-07-08"
 authors: 
     - "Bargavi Thyagarajan"
     - "Jesse D Bloom"
-journal: "Elife"
+journal: "eLife"
 doi: "10.7554/eLife.03300"
 link: "https://elifesciences.org/articles/3300"
 image: "/assets/papers/2014_thyagarajan.jpg"

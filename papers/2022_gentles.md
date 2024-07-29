@@ -1,9 +1,9 @@
 ---
 layout: paper
-title: "A SARS-CoV-2 variant elicits an antibody response with a shifted immunodominance hierarchy"
+title: "Dynamics of infection-elicited SARS-CoV-2 antibodies in children over time"
 date: "2022-01-25"
 authors: 
-- "Lauren E Gentles*"
+- "Lauren E Gentles"
 - "Leanne Kehoe"
 - "Katharine HD Crawford"
 - "Kirsten Lacombe"

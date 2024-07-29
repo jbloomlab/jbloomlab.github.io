@@ -3,7 +3,7 @@ layout: paper
 title: "ACE2 binding is an ancestral and evolvable trait of sarbecoviruses"
 date: "2022-03-31"
 authors: 
-- "Tyler N Starr*"
+- "Tyler N Starr"
 - "Samantha K Zepeda"
 - "Alexandra C Walls"
 - "Allison J Greaney"
@@ -15,7 +15,7 @@ doi: "10.1038/s41586-022-04464-z"
 link: "https://www.nature.com/articles/s41586-022-04464-z"
 image: "/assets/papers/2022_starr_a.jpg"
 keywords:
-    - "Sarbecoviruses"
+    - "Coronavirus"
     - "Phylogenetics"
     - "Yeast display"
 ---

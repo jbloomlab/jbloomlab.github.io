@@ -3,7 +3,7 @@ layout: paper
 title: "Antibody neutralization of an influenza virus that uses neuraminidase for receptor binding"
 date: "2020-05-30"
 authors: 
-    - "Lauren E Gentles*"
+    - "Lauren E Gentles"
     - "Hongquan Wan"
     - "Maryna C Eichelberger"
     - "Jesse D Bloom"

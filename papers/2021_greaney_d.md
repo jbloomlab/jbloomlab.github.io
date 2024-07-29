@@ -4,7 +4,7 @@ title: "Complete mapping of mutations to the SARS-CoV-2 spike receptor-binding d
 date: "2021-01-13"
 authors: 
     - "Allison J Greaney*"
-    - "Tyler N Starr"
+    - "Tyler N Starr*"
     - "Pavlo Gilchuk"
     - "Seth J Zost"
     - "Elad Binshtein"

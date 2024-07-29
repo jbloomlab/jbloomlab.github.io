@@ -3,7 +3,7 @@ layout: paper
 title: "The effect of single mutations in Zika virus envelope on escape from broadly neutralizing antibodies"
 date: "2023-11-30"
 authors: 
-    - "Caroline Kikawa*"
+    - "Caroline Kikawa"
     - "Catiana H Cartwright-Acar"
     - "Jackson B Stuart"
     - "Maya Contreras"

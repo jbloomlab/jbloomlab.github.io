@@ -4,7 +4,7 @@ title: "Deep mutational scanning of SARS-CoV-2 receptor binding domain reveals c
 date: "2020-09-03"
 authors: 
 - "Tyler N Starr*"
-- "Allison J Greaney"
+- "Allison J Greaney*"
 - "Sarah K Hilton"
 - "Daniel Ellis"
 - "Katharine HD Crawford"

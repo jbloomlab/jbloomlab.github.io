@@ -3,7 +3,7 @@ layout: paper
 title: "Mapping the neutralizing specificity of human anti-HIV serum by deep mutational scanning"
 date: "2023-07-12"
 authors: 
-    - "Caelan E Radford*"
+    - "Caelan E Radford"
     - "Philipp Schommers"
     - "Lutz Gieselmann"
     - "Katharine HD Crawford"

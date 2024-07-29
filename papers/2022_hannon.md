@@ -3,7 +3,7 @@ layout: paper
 title: "Narrow transmission bottlenecks and limited within-host viral diversity during a SARS-CoV-2 outbreak on a fishing boat"
 date: "2022-07-01"
 authors: 
-    - "William W Hannon*"
+    - "William W Hannon"
     - "Pavitra Roychoudhury"
     - "Hong Xie"
     - "Lasata Shrestha"
