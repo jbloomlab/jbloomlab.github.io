@@ -160,22 +160,34 @@ export default {
             class="carousel-item w-full h-full snap-always snap-start mx-auto max-w-4xl px-4 text-left flex flex-col justify-between">
             <div class="flex-grow">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-2 lg:mt-4 font-normal select-none">
-                    We Untangle <span class="underline decoration-indigo-500 font-semibold">Host-Pathogen
-                        Interactions</span>
+                    <span class="underline decoration-indigo-500 font-semibold">Interplay of Immunity and Viral Evolution</span>
                 </h2>
                 <div class="description">
                     <div class="">
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-12">
-                            I added this section to mention the work from Andrew, David, Alistair, and Lissie.
+                            We study immunity and viral evolution at both the population and single-cell
+                            levels.
                         </p>
-                        <img src="../../assets/research/research-description.jpg" alt="Description"
-                            class="float-left mr-4 my-4 w-64 h-64">
+                        <img src="../../assets/research/seqneut.jpg" alt="Description"
+                            class="float-left mr-4 my-4 w-80 h-134">
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            Maybe we don't need this section, but I think it's a good place to highlight our work on
-                            single-cell RNA sequencing.
+                            At the population level, differences in exposure history and immune imprinting lead 
+                            human individuals to make antibody responses that target different regions
+                            of rapidly evolving viruses like influenza and SARS-CoV-2.
+                            This population heterogeneity has profound implications for viral evolution and disease susceptibility, as
+                            it causes viral mutations to impact the immunity of different individuals
+                            differently. We are characterizing this population heterogeneity using both
+                            <a href="https://www.sciencedirect.com/science/article/pii/S1931312824002336">deep mutational scanning</a>
+                            and a <a href="https://doi.org/10.1101/2024.03.08.584176">sequencing based-neutralization assay</a>
+                            we developed that increases the throughput of traditional neutralization assays by several orders of magnitude (see schematic at left).
+
                         </p>
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            Let me know what you think!
+                            At the single-cell level, we developed approaches to
+                            <a href="https://journals.asm.org/doi/10.1128/jvi.00500-19">sequence viruses in single cells</a>
+                            and <a href="https://elifesciences.org/articles/86852">quantify how many progeny each infected cell produces</a>.
+                            We use these approaches to understand how viral variation impacts the
+                            outcome of infection in individual cells.
                         </p>
                     </div>
                 </div>
