@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Caelan Radford"
-image: "https://research.fredhutch.org/content/stripe/bloom/en/members/_jcr_content/par/labmember_1830037644/image.img.jpg/1709609989334.jpg"
+image: "/assets/people/caelan-radford.jpg"
 title: "Staff Scientist"
 category: "Staff"
 links:

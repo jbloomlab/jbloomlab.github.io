@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Cassandra Simonich"
-image: "https://research.fredhutch.org/content/stripe/bloom/en/members/_jcr_content/par/labmember_1123816119/image.img.png/1697145922324.png"
+image: "/assets/people/cassandra-simonich.png"
 title: "Pediatric Infectious Disease Fellow"
 category: "Postdocs"
 links:
