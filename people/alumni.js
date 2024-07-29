@@ -159,12 +159,12 @@ export const alumni = [
       "Associate Director, Computational Biology at Broad Institute of MIT and Harvard",
   },
   {
-    name: "Baragvi Thyagarajan",
+    name: "Bargavi Thyagarajan",
     title: "Postdoc",
     start: "2011",
     end: "2014",
     currentPosition:
-      "Scientific Project Manager at th Allen Institute for Brain Science",
+      "Scientific Project Manager at the Allen Institute for Brain Science",
   },
   {
     name: "Ariana Farrell",
