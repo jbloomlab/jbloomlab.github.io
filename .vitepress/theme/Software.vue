@@ -16,10 +16,15 @@ export default {
         <div class="pt-6 pb-8 space-y-2 md:space-y-5">
             <h1
                 class="text-3xl leading-9 font-bold text-gray-800 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-                Projects and Software
+                Software
             </h1>
             <p class="text-lg leading-7 text-gray-600">
-                Check out all of our projects and software on <a href="https://github.com/jbloomlab">GitHub</a>.
+                Below are some of the main software packages maintained by our lab.
+                For a complete list of projects, check out the
+                <a href="https://github.com/jbloomlab">https://github.com/jbloomlab</a> (most
+                lab projects) and
+                <a href="https://github.com/dms-vep">https://github.com/dms-vep</a> (projects
+                related to deep mutational scanning of viral entry proteins).
             </p>
         </div>
     </div>

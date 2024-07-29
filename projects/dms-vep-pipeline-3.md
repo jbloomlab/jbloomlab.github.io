@@ -1,11 +1,11 @@
 ---
 layout: project
-name: "dms-vep-pipeline"
+name: "dms-vep-pipeline-3"
 link: https://github.com/dms-vep/dms-vep-pipeline-3
 github: https://github.com/dms-vep/dms-vep-pipeline-3
 documentation: https://github.com/dms-vep/dms-vep-pipeline-3
 ---
 
-A Snakemake pipeline for analysis of deep mutational scanning of barcoded viral entry proteins.
+Snakemake pipeline for analyzing deep mutational scanning of barcoded viral entry proteins.
 
 ---
