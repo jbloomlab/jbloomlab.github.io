@@ -7,6 +7,8 @@ category: "Postdocs"
 links:
   - link: "https://github.com/arjunaditham"
     icon: "github"
+  - link: "aaditham@fredhutch.org"
+    icon: "email"
   - link: "https://www.linkedin.com/in/arjun-aditham/"
     icon: "linkedin"
 ---

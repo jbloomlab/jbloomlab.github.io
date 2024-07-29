@@ -9,4 +9,6 @@ links:
     icon: "github"
   - link: "https://www.linkedin.com/in/caelan-radford-a51b61b3/"
     icon: "linkedin"
+  - link: "ceradfor@fredhutch.org"
+    icon: "email"
 ---

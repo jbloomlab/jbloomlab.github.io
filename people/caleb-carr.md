@@ -7,4 +7,6 @@ category: "Grad Students"
 links:
   - link: "https://github.com/Caleb-Carr"
     icon: "github"
+  - link: "ccarr@fredhutch.org"
+    icon: "email"
 ---

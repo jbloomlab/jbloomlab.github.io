@@ -7,4 +7,6 @@ category: "Grad Students"
 links:
   - link: "https://github.com/ckikawa"
     icon: "github"
+  - link: "ckikawa@fredhutch.org"
+    icon: "email"
 ---

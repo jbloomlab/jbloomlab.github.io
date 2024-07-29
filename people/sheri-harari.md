@@ -11,6 +11,8 @@ links:
     icon: "linkedin"
   - link: "https://x.com/SheriHarari"
     icon: "twitter"
+  - link: "sharari@fredhutch.org"
+    icon: "email"
 ---
 
 Sheri is a postdoc in the Bloom Lab utilizing deep mutational scanning approaches to characterize the HCoV-229E spike glycoprotein.

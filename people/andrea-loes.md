@@ -7,6 +7,8 @@ category: "Staff"
 links:
   - link: "https://github.com/anloes"
     icon: "github"
+  - link: "aloes@fredhutch.org"
+    icon: "email"
   - link: "https://www.linkedin.com/in/andrea-loes-ph-d-59210419/"
     icon: "linkedin"
 ---

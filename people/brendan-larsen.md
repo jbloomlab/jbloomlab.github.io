@@ -9,4 +9,6 @@ links:
     icon: "github"
   - link: "https://twitter.com/i/flow/login?redirect_after_login=%2Fbblarsen1"
     icon: "twitter"
+  - link: "blarsen@fredhutch.org"
+    icon: "email"
 ---

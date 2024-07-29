@@ -9,6 +9,8 @@ links:
     icon: "github"
   - link: "https://www.linkedin.com/in/xiaohui-ju-13b4912a7"
     icon: "linkedin"
+  - link: "xju@fredhutch.org"
+    icon: "email"
 ---
 
 As a postdoc in Bloom Lab, I utilize deep mutational scanning approaches to characterize the Chikungunya virus envelope protein and non-structural protein in both vertebrate and invertebrate cells.

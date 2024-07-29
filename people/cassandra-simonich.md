@@ -7,4 +7,6 @@ category: "Postdocs"
 links:
   - link: "https://github.com/CSimonich"
     icon: "github"
+  - link: "Cassandra.simonich@seattlechildrens.org"
+    icon: "email"
 ---
