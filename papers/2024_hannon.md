@@ -1,14 +1,14 @@
 ---
 layout: paper
 title: "dms-viz: Structure-informed visualizations for deep mutational scanning and other mutation-based datasets"
-date: "2023-11-01"
+date: "2024-07-17"
 authors: 
     - "William W Hannon"
     - "Jesse D Bloom"
-journal: "bioRxiv"
-doi: "10.1101/2023.10.29.564578"
-link: "https://www.biorxiv.org/content/10.1101/2023.10.29.564578v1"
-image: "/assets/papers/2023_hannon.jpg"
+journal: "Journal of Open Source Software"
+doi: "10.21105/joss.06129"
+link: "https://joss.theoj.org/papers/10.21105/joss.06129"
+image: "/assets/papers/2024_hannon.jpg"
 keywords:
     - "Software tools"
     - "Deep mutational scanning"
