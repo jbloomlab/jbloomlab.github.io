@@ -35,6 +35,8 @@ conda env create -f environment.yml
 conda activate jbloomlab.org
 ```
 
+### Install `npm` packages and view page
+
 Regardless of how you installed `Node` and `npm`, verify that the installation worked by running:
 
 ```bash
@@ -216,3 +218,6 @@ An interactive web tool for visualizing site-level data on a protein structure w
 
 ---
 ```
+
+### Editing the home page and section home pages
+While the individual posts can be edited by just editing the Markdown, to edit the homepage and the top text for each section (*Blog*, *Team*, *Papers*, *Software*) you will need to edit the corresponding `*.vue` file at [.vitepress/theme](.vitepress/theme) (eg, [.vitepress/theme/Home.vue](.vitepress/theme/Home.vue) for the home page).
