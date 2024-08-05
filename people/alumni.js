@@ -159,16 +159,16 @@ export const alumni = [
       "Associate Director, Computational Biology at Broad Institute of MIT and Harvard",
   },
   {
-    name: "Baragvi Thyagarajan",
+    name: "Bargavi Thyagarajan",
     title: "Postdoc",
     start: "2011",
     end: "2014",
     currentPosition:
-      "Scientific Project Manager at th Allen Institute for Brain Science",
+      "Scientific Project Manager at the Allen Institute for Brain Science",
   },
   {
     name: "Ariana Farrell",
-    title: "Research Technician",
+    title: "Staff Member",
     start: "2020",
     end: "2023",
     currentPosition:
@@ -176,7 +176,7 @@ export const alumni = [
   },
   {
     name: "Rosario Tarabi",
-    title: "Research Technician",
+    title: "Staff Member",
     start: "2020",
     end: "2024",
     currentPosition:
@@ -184,28 +184,21 @@ export const alumni = [
   },
   {
     name: "Rachel Eguia",
-    title: "Research Technician",
+    title: "Staff Member",
     start: "2019",
     end: "2021",
     currentPosition: "Associate Scientist at Variant Bio",
   },
   {
     name: "Keara Malone",
-    title: "Research Technician",
+    title: "Staff Member",
     start: "2019",
     end: "2021",
     currentPosition: "Teaching English in Tochigi Prefecture, Japan",
   },
   {
-    name: "Cathy Lin",
-    title: "Research Administrator",
-    start: "2019",
-    end: "2021",
-    currentPosition: "Working at NOAA",
-  },
-  {
     name: "Ian Gong",
-    title: "Lab Manager",
+    title: "Staff Member",
     start: "2011",
     end: "2014",
     currentPosition: "Assistant Facility Manager at Stop & Shop",
@@ -292,12 +285,6 @@ export const alumni = [
     name: "Sam Schetterer",
     title: "Undergraduate Researcher",
     start: "2011",
-    end: "2012",
-  },
-  {
-    name: "Libanos Redda",
-    title: "High School Intern",
-    start: "2012",
     end: "2012",
   },
 ];

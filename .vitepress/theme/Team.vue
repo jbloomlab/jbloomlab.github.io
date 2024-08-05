@@ -29,7 +29,7 @@ export default {
                 }, {});
         },
         categorizeAlumni(alumni) {
-            const titles = ["Postdoc", "Graduate Student", "Research Technician", "Research Administrator", "Lab Manager", "Undergraduate Researcher", "High School Intern"];
+            const titles = ["Postdoc", "Graduate Student", "Staff Member", "Undergraduate Researcher"];
             const alumniCategories = {};
             titles.forEach(title => {
                 alumniCategories[title] = alumni.filter(a => a.title === title);
@@ -48,9 +48,6 @@ export default {
                 class="text-3xl leading-9 font-bold text-gray-800 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
                 Meet the Team
             </h1>
-            <p class="text-lg leading-7 text-gray-600">
-                Get <a href="/about">in touch with us</a> if you're interested in joining the team!
-            </p>
         </div>
         <div class="w-full border-t border-gray-200"></div>
         <div v-for="category in categories" :key="category" class="category-section my-6">
@@ -68,7 +65,7 @@ export default {
         class="text-3xl leading-9 font-bold text-gray-800 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 border-t border-gray-200 pt-10">
         Alumni
     </h1>
-    <div v-for=" title in ['Postdoc', 'Graduate Student', 'Lab Manager', 'Research Technician', 'Research Administrator', 'Undergraduate Researcher', 'High School Intern']"
+    <div v-for=" title in ['Postdoc', 'Graduate Student', 'Staff Member', 'Undergraduate Researcher']"
         :key="title">
         <div class="alumni-section my-6">
             <div class="pt-6 pb-8 space-y-2 md:space-y-5">
