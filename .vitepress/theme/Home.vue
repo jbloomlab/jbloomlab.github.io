@@ -2,7 +2,7 @@
 export default {
     data() {
         return {
-            viruses: ["Influenza", "SARS-CoV-2", "Lassa", "Nipah", "Rabies", "HIV", "Chikungunya", "229E", "Measles", "Zika", "Dengue", "Proteins"],
+            viruses: ["Influenza", "SARS-CoV-2", "Lassa", "Nipah", "Rabies", "HIV", "Chikungunya", "CoV-229E", "Proteins"],
             currentVirus: 'Viruses',
             virusIndex: -1,
             intervalId: null,
@@ -65,26 +65,24 @@ export default {
                     </transition>
                 </p>
                 <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-4 md:mt-6 lg:mt-12">
-                    In the <strong>Bloom lab</strong>, we focus on the evolution of proteins and viruses. Using a blend
-                    of
-                    experimental and
-                    computational techniques, we explore how viruses adapt to various selective pressures. Our research
-                    aims
-                    to
-                    unravel the complexities of viral genetic variation and its implications for public health.
+                    In the <strong>Bloom lab</strong>, we study the evolution of viruses and proteins.
+                    We use experimental and computational techniques to understand
+                    the molecular constraints on viral proteins, and how these constraints shape
+                    the capacity of viruses to evolve to escape antibodies, erode pre-existing immunity,
+                    and adapt to new hosts.
+
                     <br><br>
-                    Our lab is part of the <a
-                        href="https://www.fredhutch.org/en/research/divisions/basic-sciences-division.html">Basic
-                        Sciences
-                        Division</a> and <a
-                        href="https://www.fredhutch.org/en/labs/phs/projects/herbold-computational-biology-program.html">Computational
-                        Biology Program</a> at the Fred Hutch. We are
-                    also affiliated with the <a
-                        href="https://research.fredhutch.org/bloom/en.html#:~:text=Genome%20Sciences%20department%20at%20the%20University%20of%20Washington">Genome
-                        Sciences Department</a> at the University of Washington, and Jesse Bloom is an
-                    Investigator of the <a
-                        href="https://research.fredhutch.org/bloom/en.html#:~:text=Howard%20Hughes%20Medical%20Institute">Howard
-                        Hughes Medical Institute</a>.
+                    Our lab is part of the
+                    <a href="https://www.fredhutch.org/en/research/divisions/basic-sciences-division.html">Basic Sciences Divison</a>
+                    and the
+                    <a href="https://www.fredhutch.org/en/research/divisions/public-health-sciences-division/research/computational-biology.html">Computational Biology Program</a>
+                    at the Fred Hutch. We are also affiliated with the
+                    <a href="https://www.gs.washington.edu/">Genome Sciences</a>
+                    and <a href="https://microbiology.washington.edu/uw-microbiology-home">Microbiology</a>
+                    Departments at the University of Washington, and graduate students often join our
+                    lab through the <a href="https://mcb-seattle.edu">MCB program</a>.
+                    Jesse Bloom is an Investigator of the
+                    <a href="https://www.hhmi.org/research">Howard Hughes Medical Institute</a>.
                 </p>
             </div>
             <div class="scroll-button pb-60 sm:pb-72 md:pb-72 lg:pb-60">
@@ -106,36 +104,39 @@ export default {
             class="carousel-item w-full h-full snap-always snap-start mx-auto max-w-4xl px-4 text-left flex flex-col justify-between">
             <div class="flex-grow">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-2 lg:mt-4 font-normal select-none">
-                    We develop <span class="underline decoration-sky-500 font-semibold">Multiplexed Genomic
-                        Assays</span>
+                    <span class="underline decoration-sky-500 font-semibold">Deep Mutational Scanning</span>
                 </h2>
                 <div class="description">
                     <div class="">
-                        <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-12">
-                            We’re developing multiplexed genomic assays that enable us to take a prospective view of
-                            viral evolution. Using these high-throughput approaches, we can measure the effect of
-                            thousands of viral
-                            mutations, map antibody footprints, and assess population-level immunity. Crucially, we do
-                            this with a
-                            focus on bio-safety.
+                        <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-12"> 
+                            Our lab uses deep mutational scanning to
+                            experimentally measure how tens-of-thousands of mutations to viral proteins
+                            affect key properties including function, immune escape, and receptor binding.
                         </p>
-                        <img src="../../assets/research/research-description.jpg" alt="Description"
-                            class="float-left mr-4 my-4 w-64 h-64">
+                        <img src="../../assets/research/dms.png" alt="Example of deep mutational scanning"
+                            class="float-left mr-4 my-4 w-107 h-64">
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            We recently pioneered a pseudovirus-based deep mutational scanning approach that is
-                            extensible to nearly any viral entry protein. The approach uses on a
-                            phenotype-genotype-linked library of non-replicative lentivirus psuedotyped with an viral
-                            entry protein of
-                            interest. We've used this system to measure the effect of mutations in viral proteins as
-                            diverse as
-                            SARS-CoV-2 Spike, HIV Env, and Lassa GPC.
+                            We primarily perform these experiments using a
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0092867423001034">pseudovirus system</a>
+                            that allows us to safely characterize mutants of entry proteins from a wide range
+                            of viruses, including
+                            <a href="https://www.nature.com/articles/s41586-024-07636-1">SARS-CoV-2 spike</a>,
+                            <a href="https://doi.org/10.1101/2024.05.23.595634">influenza hemagglutinin</a>,
+                            <a href="https://www.sciencedirect.com/science/article/pii/S1074761324003194">Lassa virus GPC</a>,
+                            <a href="https://www.sciencedirect.com/science/article/pii/S1931312823002184">HIV envelope</a>, and
+                            <a href="https://doi.org/10.1101/2024.04.17.589977">Nipah virus RBP</a>.
                         </p>
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            We've also developed a high-throughput sequencing-based neutralization assay for influenza
-                            that massively increases the number of neuts that a single person can perform. By increasing
-                            the throughput of neutralization assays, we can get a clearer picture of viral immunity on
-                            the population level and help inform vaccine
-                            choice.
+                            Deep mutational scanning can inform efforts to
+                            <a href="https://www.nature.com/articles/s41586-024-07636-1">forecast the evolution of human seasonal viruses</a>
+                            and
+                            <a href="https://doi.org/10.1101/2024.05.23.595634">surveil the evolution of potential pandemic viruses</a>.
+                            To facilitate the use of deep mutational scanning for these important goals,
+                            we develop <a href="https://dms-viz.github.io/">interactive visualization tools</a>
+                            and <a href="https://github.com/dms-vep/dms-vep-pipeline-3">data analysis pipelines</a>.
+                            See <a href="https://dms-vep.org/Flu_H5_American-Wigeon_South-Carolina_2021-H5N1_DMS/">here</a>
+                            for an example of how we analyze and visualize large datasets to
+                            inform the study of viral evolution.
                         </p>
                     </div>
                 </div>
@@ -159,22 +160,34 @@ export default {
             class="carousel-item w-full h-full snap-always snap-start mx-auto max-w-4xl px-4 text-left flex flex-col justify-between">
             <div class="flex-grow">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-2 lg:mt-4 font-normal select-none">
-                    We Untangle <span class="underline decoration-indigo-500 font-semibold">Host-Pathogen
-                        Interactions</span>
+                    <span class="underline decoration-indigo-500 font-semibold">Interplay of Immunity and Viral Evolution</span>
                 </h2>
                 <div class="description">
                     <div class="">
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-12">
-                            I added this section to mention the work from Andrew, David, Alistair, and Lissie.
+                            We study immunity and viral evolution at both the population and single-cell
+                            levels.
                         </p>
-                        <img src="../../assets/research/research-description.jpg" alt="Description"
-                            class="float-left mr-4 my-4 w-64 h-64">
+                        <img src="../../assets/research/seqneut.jpg" alt="Description"
+                            class="float-left mr-4 my-4 w-80 h-134">
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            Maybe we don't need this section, but I think it's a good place to highlight our work on
-                            single-cell RNA sequencing.
+                            At the population level, differences in exposure history and immune imprinting lead 
+                            human individuals to make antibody responses that target different regions
+                            of rapidly evolving viruses like influenza and SARS-CoV-2.
+                            This population heterogeneity has profound implications for viral evolution and disease susceptibility, as
+                            it causes viral mutations to impact the immunity of different individuals
+                            differently. We are characterizing this population heterogeneity using both
+                            <a href="https://www.sciencedirect.com/science/article/pii/S1931312824002336">deep mutational scanning</a>
+                            and a <a href="https://doi.org/10.1101/2024.03.08.584176">sequencing based-neutralization assay</a>
+                            we developed that increases the throughput of traditional neutralization assays by several orders of magnitude (see schematic at left).
+
                         </p>
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            Let me know what you think!
+                            At the single-cell level, we developed approaches to
+                            <a href="https://journals.asm.org/doi/10.1128/jvi.00500-19">sequence viruses in single cells</a>
+                            and <a href="https://elifesciences.org/articles/86852">quantify how many progeny each infected cell produces</a>.
+                            We use these approaches to understand how viral variation impacts the
+                            outcome of infection in individual cells.
                         </p>
                     </div>
                 </div>
@@ -198,22 +211,32 @@ export default {
             class="carousel-item w-full h-full snap-always snap-start mx-auto max-w-4xl px-4 text-left flex flex-col justify-between">
             <div class="flex-grow">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-2 lg:mt-4 font-normal select-none">
-                    We Study <span class="underline decoration-pink-500 font-semibold">Viral Evolution</span>
+                    <span class="underline decoration-pink-500 font-semibold">Big Datasets and Viral Evolution</span>
                 </h2>
                 <div class="description">
                     <div class="">
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-12">
-                            Finally, I added this section on viral evolution. I think it's a good place to highlight the
-                            intrahost evolution work that we do.
-                        </p>
-                        <img src="../../assets/research/research-description.jpg" alt="Description"
-                            class="float-left mr-4 my-4 w-64 h-64">
-                        <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            I also think this is a good place to talk about our work on epistasis.
+                            We also develop new ways to leverage large datasets to better understand viral evolution.
                         </p>
                         <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
-                            Again, I'm not sure we need this section, but I figured I'd put the infrastructure in place
-                            to add it. Let me know what you're thinking!
+                            We have come up with a way to leverage the millions of publicly available
+                            SARS-CoV-2 sequences to estimate the effect of individual mutations on viral fitness
+                            (see <a href="https://academic.oup.com/ve/article/9/2/vead055/7265011">this paper</a>
+                            and <a href="https://slides.com/jbloom/sars2-mut-fitness/">these slides</a>).
+                            We've also created a platform to
+                            <a href="https://jbloomlab.github.io/SARS2-mut-fitness/">visualize the mutational effects</a>
+                            to aid in interpretation of viral evolution.
+                        </p>
+                        <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
+                            We have also integrated thousands of deep mutational scanning measurements
+                            into an <a href="https://jbloomlab.github.io/SARS2-RBD-escape-calc/">antibody-escape calculator</a>
+                            that was <a href="https://slides.com/jbloom/sars2-rbd-escape-calc#/12">widely used</a> during the SARS-CoV-2 pandemic to understand
+                            the antigenic effects of viral mutations.
+                        </p>
+                        <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-8">
+                            We also have projects that involve analyzing the evolution of viruses
+                            <a href="https://elifesciences.org/articles/26875">within individual infected humans</a>, and developing models
+                            to <a href="https://academic.oup.com/ve/article/8/2/veac110/6889254">understand epistasis among viral mutations</a>.
                         </p>
                     </div>
                 </div>
