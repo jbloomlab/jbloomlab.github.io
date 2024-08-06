@@ -108,6 +108,8 @@ It's **key** that you add `layout: person` to the top of the page. This ensures 
 
 Below this `YAML` frontmatter, add a short description of yourself using standard markdown syntax. This description appears when you click on a team member.
 
+**Note**: ensure that images for each team member (i.e. `image: "/assets/people/will-hannon.jpeg"`) have a square aspect ratio.
+
 #### Adding Alumni
 
 Add Alumni by editing [`/people/alumni.js`](/people/alumni.js). There is a javascript object in the file (basically `JSON` if you're familiar with it). Add an entry to this object:
