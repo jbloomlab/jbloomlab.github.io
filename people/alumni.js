@@ -62,7 +62,7 @@ export const alumni = [
     start: "2015",
     end: "2019",
     currentPosition:
-      "Incoming assistant professor at the University of California, Irvine",
+      "Incoming <a href='https://katherinesxue.com/'>Assistant Professor</a> at the University of California, Irvine",
   },
   {
     name: "Juhye Lee",
@@ -134,7 +134,7 @@ export const alumni = [
     start: "2014",
     end: "2019",
     currentPosition:
-      "Assistant Professor at UCSD Division of Biological Sciences",
+      "<a href='https://www.russell-lab.com/'>Assistant Professor</a> at UCSD Division of Biological Sciences",
   },
   {
     name: "Shirleen Soh",
