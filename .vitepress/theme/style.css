@@ -224,7 +224,7 @@ span.lang {
 /* List Styles */
 .prose ul,
 .prose ol {
-  @apply list-inside pl-5 my-4;
+  @apply pl-5 my-4;
 }
 
 .prose ul {
