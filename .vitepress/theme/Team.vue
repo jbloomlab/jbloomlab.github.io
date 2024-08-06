@@ -65,8 +65,7 @@ export default {
         class="text-3xl leading-9 font-bold text-gray-800 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 border-t border-gray-200 pt-10">
         Alumni
     </h1>
-    <div v-for=" title in ['Postdoc', 'Graduate Student', 'Staff Member', 'Undergraduate Researcher']"
-        :key="title">
+    <div v-for=" title in ['Postdoc', 'Graduate Student', 'Staff Member', 'Undergraduate Researcher']" :key="title">
         <div class="alumni-section my-6">
             <div class="pt-6 pb-8 space-y-2 md:space-y-5">
                 <h1
@@ -77,7 +76,7 @@ export default {
             <div v-for="alum in alumniCategories[title]" :key="alum.name" class="ml-4">
                 <div class="font-bold">{{ alum.name }}</div>
                 <div>{{ alum.start }} - {{ alum.end }}</div>
-                <div>{{ alum.currentPosition }}</div>
+                <div v-html="alum.currentPosition"></div>
             </div>
         </div>
     </div>

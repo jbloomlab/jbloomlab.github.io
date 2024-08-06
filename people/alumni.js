@@ -111,14 +111,15 @@ export const alumni = [
     start: "2019",
     end: "2023",
     currentPosition:
-      "Assistant Professor at the La Jolla Institute of Immunology in San Diego",
+      "<a href='https://www.lji.org/labs/einav-lab/'>Assistant Professor</a> at the La Jolla Institute of Immunology in San Diego",
   },
   {
     name: "Tyler Starr",
     title: "Postdoc",
     start: "2018",
     end: "2023",
-    currentPosition: "Assistant Professor at the University of Utah",
+    currentPosition:
+      "<a href='https://starr.biochem.utah.edu/'>Assistant Professor</a> at the University of Utah",
   },
   {
     name: "Karen Barnard",
