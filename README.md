@@ -94,7 +94,7 @@ name: "Will Hannon" # <-------------- Your preferred name
 image: "/assets/people/will-hannon.jpeg" # <-------------- The path to an image of you (a link also works)
 title: "Data Scientist" # <-------------- Your title. Please be as consistent as possible
 category: "Staff" # <-------------- One of [Graduate Students, Postdocs, or Staff]
-links: # <-------------- Links to your socials. Icons should be one of [github, linkedin, orcid, twitter, email, or website]
+links: # <-------------- Links to your socials. Icons should be one of [github, linkedin, orcid, twitter, email, scholar, or website]
   - link: "https://github.com/WillHannon-MCB"
     icon: "github"
   - link: "https://www.linkedin.com/in/williamhannon/"
@@ -107,6 +107,8 @@ links: # <-------------- Links to your socials. Icons should be one of [github, 
 It's **key** that you add `layout: person` to the top of the page. This ensures that the markdown file is parsed as a team member page. The other fields are explained above.
 
 Below this `YAML` frontmatter, add a short description of yourself using standard markdown syntax. This description appears when you click on a team member.
+
+**Note**: ensure that images for each team member (i.e. `image: "/assets/people/will-hannon.jpeg"`) have a square aspect ratio.
 
 #### Adding Alumni
 
@@ -123,15 +125,17 @@ export const alumni = [
     currentPosition: "Research Scientist at Amazon",
   },
   {
-    name: "...",
-    title: "...",
-    program: "...",
-    start: "...",
-    end: "...",
-    currentPosition: "...",
-  },
+    name: "Tyler Starr",
+    title: "Postdoc",
+    start: "2018",
+    end: "2023",
+    currentPosition:
+      "<a href='https://starr.biochem.utah.edu/'>Assistant Professor</a> at the University of Utah",
+  }
 ]
 ```
+
+`currentPosition` is parsed as HTML so you can add hyperlinks to current positions.
 
 ### Adding Blog Posts
 

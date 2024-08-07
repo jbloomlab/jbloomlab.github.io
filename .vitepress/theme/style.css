@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  color-scheme: light !important;
+}
+
 body {
   font-family: var(--primary-font-family);
   text-rendering: optimizeLegibility;
@@ -220,7 +224,7 @@ span.lang {
 /* List Styles */
 .prose ul,
 .prose ol {
-  @apply list-inside pl-5 my-4;
+  @apply pl-5 my-4;
 }
 
 .prose ul {

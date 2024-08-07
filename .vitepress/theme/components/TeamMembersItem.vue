@@ -24,9 +24,9 @@ export default {
 <template>
     <article
         class="hover:shadow-lg hover:shadow-custom-orange flex flex-col gap-px rounded-lg w-full h-full overflow-hidden transition-shadow duration-300 ease-in-out">
-        <div :href="member.url" class="py-8 px-6 sm:py-12 sm:px-8 flex-grow bg-custom-soft cursor-pointer"
+        <div :href="member.url" class="py-6 px-4 sm:py-8 sm:px-6 flex-grow bg-custom-soft cursor-pointer"
             @click="navigate(member.url)">
-            <figure class="relative shrink-0 mx-auto rounded-full shadow w-24 h-24">
+            <figure class="relative shrink-0 mx-auto rounded-full shadow w-36 h-36">
                 <img class="absolute inset-0 rounded-full object-cover" :src="member.image" :alt="member.name" />
             </figure>
             <div class="text-center pt-6">

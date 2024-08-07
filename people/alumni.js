@@ -62,7 +62,7 @@ export const alumni = [
     start: "2015",
     end: "2019",
     currentPosition:
-      "Incoming assistant professor at the University of California, Irvine",
+      "Incoming <a href='https://katherinesxue.com/'>Assistant Professor</a> at the University of California, Irvine",
   },
   {
     name: "Juhye Lee",
@@ -111,14 +111,15 @@ export const alumni = [
     start: "2019",
     end: "2023",
     currentPosition:
-      "Assistant Professor at the La Jolla Institute of Immunology in San Diego",
+      "<a href='https://www.lji.org/labs/einav-lab/'>Assistant Professor</a> at the La Jolla Institute of Immunology in San Diego",
   },
   {
     name: "Tyler Starr",
     title: "Postdoc",
     start: "2018",
     end: "2023",
-    currentPosition: "Assistant Professor at the University of Utah",
+    currentPosition:
+      "<a href='https://starr.biochem.utah.edu/'>Assistant Professor</a> at the University of Utah",
   },
   {
     name: "Karen Barnard",
@@ -133,7 +134,7 @@ export const alumni = [
     start: "2014",
     end: "2019",
     currentPosition:
-      "Assistant Professor at UCSD Division of Biological Sciences",
+      "<a href='https://www.russell-lab.com/'>Assistant Professor</a> at UCSD Division of Biological Sciences",
   },
   {
     name: "Shirleen Soh",

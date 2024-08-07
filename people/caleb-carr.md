@@ -10,3 +10,5 @@ links:
   - link: "ccarr@fredhutch.org"
     icon: "email"
 ---
+
+As a graduate student in the Bloom lab, I am using our deep mutational scanning (DMS) pipeline to study the glycoprotein complex of Lassa virus.
