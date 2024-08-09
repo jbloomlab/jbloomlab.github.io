@@ -4,6 +4,7 @@ export default defineConfig({
   title: "Bloom Lab",
   description: "We study the evolution of viruses.",
   appearance: false,
+  ignoreDeadLinks: true,
   head: [
     [
       "link",
