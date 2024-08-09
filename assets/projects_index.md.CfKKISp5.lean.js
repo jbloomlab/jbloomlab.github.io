@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./chunks/framework.BF-rJS87.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{"software":true},"headers":[],"relativePath":"projects/index.md","filePath":"projects/index.md"}'),a={name:"projects/index.md"};function o(s,n,c,d,i,p){return r(),t("div")}const m=e(a,[["render",o]]);export{f as __pageData,m as default};
