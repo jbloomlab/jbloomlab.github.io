@@ -11,6 +11,8 @@ links:
     icon: "twitter"
   - link: "jbloom@fredhutch.org"
     icon: "email"
+  - link: "https://scholar.google.com/citations?user=S12x_eQAAAAJ"
+    icon: "scholar"
   - link: "https://orcid.org/0000-0003-1267-3408"
     icon: "orcid"
 ---
