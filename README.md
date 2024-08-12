@@ -224,3 +224,7 @@ An interactive web tool for visualizing site-level data on a protein structure w
 
 ### Editing the home page and section home pages
 While the individual posts can be edited by just editing the Markdown, to edit the homepage and the top text for each section (*Blog*, *Team*, *Papers*, *Software*) you will need to edit the corresponding `*.vue` file at [.vitepress/theme](.vitepress/theme) (eg, [.vitepress/theme/Home.vue](.vitepress/theme/Home.vue) for the home page).
+
+## Deployment
+
+The deployment is handled by GitHub Actions. A workflow script located at [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) is run on **pushes** or **pull requests** to the `main` branch. The workflow script builds the website using `npm run build` and copies the contents of the resulting `.dist/` directory to a branch called `gh-pages`. The website is automatically deployed from the root of this branch by GitHub Pages.
