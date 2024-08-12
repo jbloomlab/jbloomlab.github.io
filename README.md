@@ -72,8 +72,7 @@ The general file structure of this website is as follows:
 ├── posts/ # <-------------- blog posts
 ├── projects/ # <-------------- projects and software
 ├── index.md
-├── assets/ # <-------------- images
-├── public
+├── public/assets/ # <-------------- images (note that paths to this directory are simply /assets/)
 ├── .vitepress # <-------------- source code
 ├── tailwind.config.mjs
 ├── postcss.config.mjs
@@ -192,7 +191,7 @@ selected: true # <------- OPTIONAL, this will add the paper to a list of selecte
 ---
 ```
 
-Most fields are self-explanatory. The `keywords` field is automatically parsed by the website, allowing you to quickly filter all of our papers for the ones relevant to you. Please reference this for existing keywords that pertain to your paper. Select a representative image from your paper and add it to the `assets/papers` directory using the same base name as for the markdown file.
+Most fields are self-explanatory. The `keywords` field is automatically parsed by the website, allowing you to quickly filter all of our papers for the ones relevant to you. Please reference this for existing keywords that pertain to your paper. Select a representative image from your paper and add it to the `/public/assets/papers` directory using the same base name as for the markdown file.
 
 There is an optional key called `selected:` that if added and set to `true` will add the paper to a list of selected paper at the top of the page.
 
