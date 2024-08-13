@@ -223,7 +223,20 @@ An interactive web tool for visualizing site-level data on a protein structure w
 ```
 
 ### Editing the home page and section home pages
+
 While the individual posts can be edited by just editing the Markdown, to edit the homepage and the top text for each section (*Blog*, *Team*, *Papers*, *Software*) you will need to edit the corresponding `*.vue` file at [.vitepress/theme](.vitepress/theme) (eg, [.vitepress/theme/Home.vue](.vitepress/theme/Home.vue) for the home page).
+
+However, you can edit the research aims that appear on the Home Page ([.vitepress/theme/Home.vue](.vitepress/theme/Home.vue)) using markdown files located in [research/*.md](/research/). These research aims will automatically populate the Home Page.
+
+```md
+---
+title: Big Datasets and Viral Evolution # Title of the aim
+color: pink # Color  of the underline
+order: 3 # Order of the research aim
+---
+```
+
+The frontmatter above specifies the title of the aim, the color of the title's underline, and the order of the aim.
 
 ## Deployment
 
