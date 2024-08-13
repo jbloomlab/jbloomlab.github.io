@@ -111,8 +111,8 @@ export default {
         <div class="research-aims pb-40">
             <div class="mx-auto max-w-4xl px-4 text-left flex flex-col justify-between"
                 v-for="(aim, index) in sortedAims" :key="index">
-                <h2 class="snap-always snap-start text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-4 md:mt-6 lg:mt-12 mb-2 marker:select-none underline font-semibold"
-                    :class="`decoration-${aim.color}-500`">
+                <h2 class="snap-always snap-start text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-4 md:mt-6 lg:mt-12 mb-2 select-none underline font-semibold"
+                    :class="`${aim.color}`">
                     {{ aim.title }}
                 </h2>
                 <div class="aim-content" v-html="aim.html"></div>
@@ -140,5 +140,17 @@ export default {
 .hide-scrollbar::-webkit-scrollbar {
     display: none;
     /* Chrome, Safari, Opera */
+}
+
+.sky {
+    @apply decoration-sky-500;
+}
+
+.pink {
+    @apply decoration-pink-500;
+}
+
+.indigo {
+    @apply decoration-indigo-500;
 }
 </style>
