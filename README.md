@@ -224,17 +224,7 @@ An interactive web tool for visualizing site-level data on a protein structure w
 
 ### Editing Research
 
-Edit the research aims that appear on the Research Page ([.vitepress/theme/Research.vue](.vitepress/theme/Home.vue)) using markdown files located in [research/*.md](/research/). These research aims will automatically populate the Research Page.
-
-```md
----
-title: Big Datasets and Viral Evolution # Title of the aim
-color: pink # Color  of the underline
-order: 3 # Order of the research aim
----
-```
-
-The frontmatter above specifies the title of the aim, the color of the title's underline, and the order of the aim.
+Edit the research aims that appear on the Research Page ([.vitepress/theme/Research.vue](.vitepress/theme/Home.vue)) using markdown file [research/research-aims.md](/research/research-aims.md). These research aims will automatically populate the Research Page.
 
 ### Editing the home page and section home pages
 

@@ -5,8 +5,7 @@ export default createContentLoader("research/*.md", {
   transform: (raw) => {
     return raw.map((page) => ({
       title: page.frontmatter.title,
-      color: page.frontmatter.color,
-      order: page.frontmatter.order,
+      isAim: page.frontmatter.isAim,
       html: page.html,
     }));
   },
