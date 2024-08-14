@@ -16,6 +16,7 @@ export default {
         });
 
         const menuItems = computed(() => [
+            { text: 'Research', href: '/research/', active: currentPath.value.startsWith('research/') },
             { text: 'Blog', href: '/posts/', active: currentPath.value.startsWith('posts/') },
             { text: 'Papers', href: '/papers/', active: currentPath.value.startsWith('papers/') },
             { text: 'Team', href: '/people/', active: currentPath.value.startsWith('people/') },
