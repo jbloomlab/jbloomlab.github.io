@@ -17,10 +17,6 @@ export default {
     },
     mounted() {
         this.intervalId = setInterval(this.updateVirus, 4000); // Update virus every 5 seconds
-        this.disableScroll();
-    },
-    beforeUnmount() {
-        this.enableScroll();
     },
     beforeDestroy() {
         clearInterval(this.intervalId);
@@ -36,12 +32,6 @@ export default {
             let rgb = color.match(/\w\w/g).map(x => parseInt(x, 16));
             return `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${this.opacityLevel})`;
         },
-        enableScroll() {
-            document.body.style.overflow = 'auto';
-        },
-        disableScroll() {
-            document.body.style.overflow = 'hidden';
-        },
     },
     computed: {
         sortedAims() {
@@ -52,10 +42,9 @@ export default {
 </script>
 
 <template>
-    <div class="hide-scrollbar snap-y snap-mandatory overflow-y-scroll overscroll-contain h-screen">
+    <div class="">
         <!-- Welcome to the Bloom Lab content -->
-        <div
-            class="hide-scrollbar snap-always snap-start mx-auto max-w-4xl px-4 text-left flex flex-col justify-between h-screen overflow-scroll ">
+        <div class="mx-auto max-w-4xl px-4 text-left flex flex-col justify-between h-screen">
             <div class="flex-grow">
                 <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gray-800 select-none">
                     Welcome to the <span class="block font-bold">Bloom Lab</span>
@@ -91,33 +80,20 @@ export default {
                     Jesse Bloom is an Investigator of the
                     <a href="https://www.hhmi.org/research">Howard Hughes Medical Institute</a>.
                 </p>
-                <!-- Scroll arrow -->
-                <div class="scroll-button pt-2">
-                    <Transition>
-                        <div>
-                            <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-10 md:mt-6 lg:mt-12 text-center">
-                                Scroll down to learn more
-                            </p>
-                            <div class="flex justify-center">
-                                <i
-                                    class="bi bi-chevron-down text-gray-500 mt-1 animate-bounce text-lg md:text-xl lg:text-2xl"></i>
-                            </div>
-                        </div>
-                    </Transition>
+            </div>
+            <!-- Research Aims -->
+            <div class="research-aims pb-10">
+                <div class="mx-auto max-w-4xl text-left flex flex-col justify-between"
+                    v-for="(aim, index) in sortedAims" :key="index">
+                    <h2 class="text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-4 md:mt-6 lg:mt-12 mb-2 select-none underline font-semibold"
+                        :class="`${aim.color}`">
+                        {{ aim.title }}
+                    </h2>
+                    <div class="aim-content" v-html="aim.html"></div>
                 </div>
             </div>
         </div>
-        <!-- Research Aims -->
-        <div class="research-aims pb-40">
-            <div class="mx-auto max-w-4xl px-4 text-left flex flex-col justify-between"
-                v-for="(aim, index) in sortedAims" :key="index">
-                <h2 class="snap-always snap-start text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-4 md:mt-6 lg:mt-12 mb-2 select-none underline font-semibold"
-                    :class="`${aim.color}`">
-                    {{ aim.title }}
-                </h2>
-                <div class="aim-content" v-html="aim.html"></div>
-            </div>
-        </div>
+
     </div>
 </template>
 
@@ -128,18 +104,6 @@ export default {
 
 .aim-content img {
     @apply mx-auto md:float-left md:mr-4 my-4 max-w-sm md:max-w-md;
-}
-
-.hide-scrollbar {
-    -ms-overflow-style: none;
-    /* Internet Explorer 10+ */
-    scrollbar-width: none;
-    /* Firefox */
-}
-
-.hide-scrollbar::-webkit-scrollbar {
-    display: none;
-    /* Chrome, Safari, Opera */
 }
 
 .sky {
