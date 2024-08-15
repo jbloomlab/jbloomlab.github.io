@@ -76,7 +76,7 @@ export default {
             <div v-for="alum in alumniCategories[title]" :key="alum.name" class="ml-4">
                 <div class="font-bold">{{ alum.name }}</div>
                 <div>{{ alum.start }} - {{ alum.end }}</div>
-                <div v-html="alum.currentPosition"></div>
+                <div v-if="alum.currentPosition" v-html="alum.currentPosition"></div>
             </div>
         </div>
     </div>
