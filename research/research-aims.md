@@ -32,15 +32,3 @@ We have come up with a way to leverage the millions of publicly available SARS-C
 We have also integrated thousands of deep mutational scanning measurements into an [antibody-escape calculator](https://jbloomlab.github.io/SARS2-RBD-escape-calc/) that was [widely used](https://slides.com/jbloom/sars2-rbd-escape-calc#/12) during the SARS-CoV-2 pandemic to understand the antigenic effects of viral mutations.
 
 We also have projects that involve analyzing the evolution of viruses [within individual infected humans](https://elifesciences.org/articles/26875), and developing models to [understand epistasis among viral mutations](https://academic.oup.com/ve/article/8/2/veac110/6889254).
-
-<!-- Note!
-If you add another research aim ("##" headings) 
-you need to edit the <style></style> element in .vitepress/theme/Research.vue
-by adding the following CSS code:
-
-.research-aims h2:nth-of-type(<n>) {
-    @apply decoration-<color>-500;
-}
-
-replacing 'n' with the order of the header in this file and <color> with a new color
--->

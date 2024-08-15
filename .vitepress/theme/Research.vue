@@ -40,17 +40,4 @@ export default {
 .research-aims h2 {
     @apply text-2xl md:text-3xl lg:text-4xl text-gray-600 mt-4 md:mt-6 lg:mt-12 mb-2 select-none underline font-semibold !important;
 }
-
-/* If you add another aim, you need to add another color style incremented accordingly */
-.research-aims h2:nth-of-type(1) {
-    @apply decoration-sky-500;
-}
-
-.research-aims h2:nth-of-type(2) {
-    @apply decoration-pink-500;
-}
-
-.research-aims h2:nth-of-type(3) {
-    @apply decoration-indigo-500;
-}
 </style>
