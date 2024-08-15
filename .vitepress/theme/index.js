@@ -11,6 +11,9 @@ export default {
     app.use(PrimeVue, {
       theme: {
         preset: Aura,
+        options: {
+          darkModeSelector: "", // Disable dark mode
+        },
       },
     });
     app.component("MultiSelect", MultiSelect);
