@@ -36,7 +36,7 @@ export default {
 <template>
     <transition name="fade">
         <div v-if="showNotification"
-            class="fixed top-2 left-1/2 transform -translate-x-1/2 border-2 border-custom-orange bg-white text-custom-orange text-center py-2 px-4 rounded-lg">
+            class="fixed top-2 left-1/2 transform -translate-x-1/2 border-2 border-custom-orange bg-white text-custom-orange text-center py-2 px-4 rounded-lg z-50">
             Email address copied to clipboard!
         </div>
     </transition>
