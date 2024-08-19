@@ -32,7 +32,7 @@ If you have `conda` on your operating system, you can use it to install `node` a
 
 ```bash
 conda env create -f environment.yml
-conda activate jbloomlab.org
+conda activate jbloomlab.github.io
 ```
 
 ### Install `npm` packages and view page
