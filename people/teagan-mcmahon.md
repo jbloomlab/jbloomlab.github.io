@@ -7,6 +7,6 @@ category: "Staff"
 links:
   - link: "https://github.com/tmcmaho"
     icon: "github"
-  - link: "sharari@fredhutch.org"
+  - link: "tmcmahon@fredhutch.org"
     icon: "email"
 ---
