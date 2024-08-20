@@ -26,8 +26,8 @@ export default {
         class="hover:shadow-lg hover:shadow-custom-orange flex flex-col gap-px rounded-lg w-full h-full overflow-hidden transition-shadow duration-300 ease-in-out">
         <div :href="member.url" class="py-6 px-4 sm:py-8 sm:px-6 flex-grow bg-custom-soft cursor-pointer"
             @click="navigate(member.url)">
-            <figure class="relative shrink-0 mx-auto rounded-full shadow w-36 h-36">
-                <img class="absolute inset-0 rounded-full object-cover" :src="member.image" :alt="member.name" />
+            <figure class="relative shrink-0 mx-auto w-36 h-36 rounded-full overflow-hidden shadow">
+                <img class="absolute inset-0 w-full h-full object-cover" :src="member.image" :alt="member.name" />
             </figure>
             <div class="text-center pt-6">
                 <h1 class="m-0 text-gray-800 font-semibold tracking-wide leading-7 text-lg ease-in-out">

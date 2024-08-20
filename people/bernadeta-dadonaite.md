@@ -9,7 +9,7 @@ links:
     icon: "github"
   - link: "https://x.com/bdadonaite?lang=en"
     icon: "twitter"
-  - link: "aaditham@fredhutch.org"
+  - link: "bdadonai@fredhutch.org"
     icon: "email"
 ---
 

@@ -36,13 +36,13 @@ export default {
                     <div class="w-full border-t border-gray-200 block md:hidden mb-5"></div>
                     <h3 class="text-2xl leading-8 font-bold tracking-tight">
                         <code class="bg-gray-200">
-                            <a :href="project.link" class="no-underline">{{ project.name }}</a>
+                            <a :href="project.link" rel="external" target="_blank" class="no-underline">{{ project.name }}</a>
                         </code>
                     </h3>
                     <div v-if="project.excerpt" class="max-w-none text-gray-500 mt-2" v-html="project.excerpt">
                     </div>
                     <p class="max-w-none text-gray-700 mt-2 md:mt-4">
-                        Check out the <a :href="project.documentation">documentation</a>
+                        Check out the <a :href="project.documentation" rel="external" target="_blank">documentation</a>
                     </p>
                 </div>
             </div>
