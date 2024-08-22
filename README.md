@@ -232,4 +232,20 @@ While the individual posts can be edited by just editing the Markdown, to edit t
 
 ## Deployment
 
-The deployment is handled by GitHub Actions. A workflow script located at [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) is run on **pushes** or **pull requests** to the `main` branch. The workflow script builds the website using `npm run build` and copies the contents of the resulting `.dist/` directory to a branch called `gh-pages`. The website is automatically deployed from the root of this branch by GitHub Pages.
+The lab website is a static [VitePress](https://vitepress.dev/) site built with a fully [custom theme and layout](https://vitepress.dev/guide/custom-theme) using [Vue](https://vuejs.org/) to organize the JavaScript code and [Tailwind](https://tailwindcss.com/) to simplify the CSS.
+
+Deployment works by building the compiled site (`npm run build`) and serving the resulting `.dist/` directory from a server. GitHub Actions handles deployment by running a workflow script located at [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) on **pushes** or **pull requests** to the `main` branch.
+
+There a [several platforms capable of hosting VitePress sites](https://vitepress.dev/guide/deploy#platform-guides). We're currently serving the website from the hosting platform [Netlify](https://www.netlify.com/) as opposed to GitHub pages. We're avoiding GitHub pages because we're already using `jbloom.github.io` as the root domain of several websites.
+
+The instructions for hosting a VitePress site with Netlify can be found [here](https://vitejs.dev/guide/static-deploy#netlify-with-git). It's a fairly simple process and Netlify does most of the work.
+
+### Connecting a custom domain
+
+We own the domain `jbloomlab.org` for the next 10 years. We purchased the domain through the website [Namecheap](https://www.namecheap.com/). You need to update the DNS (Domain Name System) to make sure that people navigating to jbloomlab.org end up at the site we're hosting with Netlify. The basic process involves:
+
+ 1. Provide Netlify the name of our custom domain
+ 2. Copy the list of DNS servers that Netlify provides
+ 3. Navigate to Namecheap and add each of these servers to the NAMESERVERS section
+
+Now the DNS is configured so that the internet knows that our jbloomlab.org domain should navigate to the website we're hosting with Netlify!
