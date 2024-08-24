@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Cassandra Simonich"
-image: "/assets/people/cassandra-simonich.png"
+image: "/assets/people/cassandra-simonich.jpg"
 title: "Pediatric Infectious Disease Fellow"
 category: "Postdocs"
 links:
