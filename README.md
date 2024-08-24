@@ -107,7 +107,7 @@ It's **key** that you add `layout: person` to the top of the page. This ensures 
 
 Below this `YAML` frontmatter, add a short description of yourself using standard markdown syntax. This description appears when you click on a team member.
 
-**Note**: ensure that images for each team member (i.e. `image: "/assets/people/will-hannon.jpeg"`) have a square aspect ratio.
+**Note**: please ensure that images for each team member (i.e. `image: "/assets/people/will-hannon.jpeg"`) have a **square aspect ratio** to avoid issues with distortion. Also, images shouldn't be larger than 200KB, otherwise they're slow to load on the website.
 
 #### Adding Alumni
 
