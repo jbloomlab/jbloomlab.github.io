@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Wenlin Ren"
-image: "/assets/people/wenlin-ren.png"
+image: "/assets/people/wenlin-ren.jpg"
 title: "Postdoctoral Fellow"
 category: "Postdocs"
 links:

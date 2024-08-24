@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Jesse Bloom"
-image: "/assets/people/jesse-bloom.png"
+image: "/assets/people/jesse-bloom.jpg"
 title: "Principal Investigator"
 category: "Faculty"
 links:

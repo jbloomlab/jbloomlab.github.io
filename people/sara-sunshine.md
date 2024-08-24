@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Sara Sunshine"
-image: "/assets/people/sara-sunshine.png"
+image: "/assets/people/sara-sunshine.jpg"
 title: "Postdoctoral Fellow"
 category: "Postdocs"
 links:

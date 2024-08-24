@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Teagan McMahon"
-image: "/assets/people/teagan-mcmahon.png"
+image: "/assets/people/teagan-mcmahon.jpg"
 title: "Research Technician"
 category: "Staff"
 links:
