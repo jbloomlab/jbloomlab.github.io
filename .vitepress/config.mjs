@@ -7,6 +7,14 @@ export default defineConfig({
   ignoreDeadLinks: true,
   head: [
     [
+      "meta",
+      {
+        name: "keywords",
+        content:
+          "Jesse Bloom, Bloom Lab, Fred Hutch Cancer Center, Deep Mutational Scanning, Virus Evolution, Lentiviral Psuedotyping",
+      },
+    ],
+    [
       "link",
       {
         rel: "icon",
