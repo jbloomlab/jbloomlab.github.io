@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,f as e}from"./chunks/framework.B63u0Dcf.js";const E=JSON.parse('{"title":"Bloom Lab Website","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),t={name:"README.md"},n=e("",65),l=[n];function h(p,o,r,d,k,c){return a(),i("div",null,l)}const y=s(t,[["render",h]]);export{E as __pageData,y as default};
