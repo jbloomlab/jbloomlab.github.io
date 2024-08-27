@@ -1,6 +1,6 @@
-# Bloom Lab Website
+# [Bloom Lab Website](https://jbloomlab.org/)
 
-This repository contains the code the Bloom Lab's public website. The website is based on a custom [VitePress](https://vitepress.dev/guide/what-is-vitepress) theme. Using VitePress allows us to take advantage of the
+This repository contains the code the Bloom Lab's [public website](https://jbloomlab.org/). The website is based on a custom [VitePress](https://vitepress.dev/guide/what-is-vitepress) theme. Using VitePress allows us to take advantage of the
 VitePress ecosystem for routing and markdown processing.
 
 Contributions to the website are made by writing markdown documents and editing YAML and JSON configuration files.
@@ -232,4 +232,17 @@ While the individual posts can be edited by just editing the Markdown, to edit t
 
 ## Deployment
 
-The deployment is handled by GitHub Actions. A workflow script located at [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) is run on **pushes** or **pull requests** to the `main` branch. The workflow script builds the website using `npm run build` and copies the contents of the resulting `.dist/` directory to a branch called `gh-pages`. The website is automatically deployed from the root of this branch by GitHub Pages.
+The Bloom Lab website is a static [VitePress](https://vitepress.dev/) website with a [fully custom theme and layout](https://vitepress.dev/guide/custom-theme) built using [Vue.js](https://vuejs.org/) for Javascript code and [Tailwind](https://tailwindcss.com/) for CSS styles. The website is hosted with the *free* tier of [Netlify](https://www.netlify.com/) and accessed from a custom domain ([jbloomlab.org](https://jbloomlab.org/)) purchased from [Namecheap](https://www.namecheap.com/) for the next 10 years.
+
+Netlify watches for **pushes** and **pull requests** to the `main` branch of this GitHub repository. These events trigger Netlify to build the website by running `npm run build` and serve the contents of the resulting `.dist/` directory as the website's source.
+
+Here's the Netlify configuration for hosting this site:
+
+```yaml
+Site name: jbloomlab
+Branch to deploy: main
+Build command: npm run build
+Publish directory: .vitepress/dist
+```
+
+We've also configured Netlify to use a custom domain for this website and updated the DNS (**D**omain **N**ame **S**ystem is a set of instructions in a database that connects domain names to IP addresses in DNS servers) by adding the address of the Name Servers hosting our website with Netlify to the Name Servers records on Namecheap.
