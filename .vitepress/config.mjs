@@ -7,6 +7,21 @@ export default defineConfig({
   ignoreDeadLinks: true,
   head: [
     [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "ZIQn6aYwzgvrO-eWI5MYIU5R21R5LnUk95UPij-RXWQ",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content:
+          "Jesse Bloom, Bloom Lab, Fred Hutch Cancer Center, Deep Mutational Scanning, Virus Evolution, Lentiviral Psuedotyping",
+      },
+    ],
+    [
       "link",
       {
         rel: "icon",
