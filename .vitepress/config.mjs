@@ -36,4 +36,17 @@ export default defineConfig({
       },
     ],
   ],
+  // Add canonical link to each page (https://vitepress.dev/reference/site-config#example-adding-a-canonical-url-link)
+  // It's necessary to do this because we need to tell google that we're hosting from jbloomlab.org and not from github.io
+  transformPageData(pageData) {
+    const canonicalUrl = `https://jbloomlab.org/${pageData.relativePath}`
+      .replace(/index\.md$/, "")
+      .replace(/\.md$/, ".html");
+
+    pageData.frontmatter.head ??= [];
+    pageData.frontmatter.head.push([
+      "link",
+      { rel: "canonical", href: canonicalUrl },
+    ]);
+  },
 });
