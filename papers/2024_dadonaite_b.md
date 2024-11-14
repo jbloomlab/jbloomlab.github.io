@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Deep mutational scanning of H5 hemagglutinin to inform influenza virus surveillance"
-date: "2024-05-23"
+date: "2024-11-14"
 authors: 
     - "Bernadeta Dadonaite"
     - "Jenny J Ahn"
@@ -19,8 +19,8 @@ authors:
     - "Louise H Moncla"
     - "Jesse D Bloom"
 journal: "bioRxiv"
-doi: "10.1101/2024.05.23.595634"
-link: "https://doi.org/10.1101/2024.05.23.595634"
+doi: "10.1371/journal.pbio.3002916"
+link: "https://doi.org/10.1371/journal.pbio.3002916"
 image: "/assets/papers/2024_dadonaite_b.png"
 selected: true
 keywords:
