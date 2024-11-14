@@ -18,7 +18,7 @@ authors:
     - "Thomas P Peacock"
     - "Louise H Moncla"
     - "Jesse D Bloom"
-journal: "bioRxiv"
+journal: "PLoS Biology"
 doi: "10.1371/journal.pbio.3002916"
 link: "https://doi.org/10.1371/journal.pbio.3002916"
 image: "/assets/papers/2024_dadonaite_b.png"
