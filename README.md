@@ -93,7 +93,7 @@ name: "Will Hannon" # <-------------- Your preferred name
 image: "/assets/people/will-hannon.jpeg" # <-------------- The path to an image of you (a link also works)
 title: "Data Scientist" # <-------------- Your title. Please be as consistent as possible
 category: "Staff" # <-------------- One of [Graduate Students, Postdocs, or Staff]
-links: # <-------------- Links to your socials. Icons should be one of [github, linkedin, orcid, twitter, email, scholar, or website]
+links: # <-------------- Links to your socials. Icons should be one of [github, linkedin, orcid, twitter, bluesky, email, scholar, or website]
   - link: "https://github.com/WillHannon-MCB"
     icon: "github"
   - link: "https://www.linkedin.com/in/williamhannon/"
