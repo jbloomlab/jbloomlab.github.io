@@ -17,11 +17,11 @@ See the [original paper](https://academic.oup.com/ve/article/8/1/veac021/6549895
 The current calculator shows data from a wonderful set of deep mutational scanning studies by the lab of Yunlong Cao (eg, [Cao et al (2023)](https://www.nature.com/articles/s41586-022-05644-7), [Yisimaya et al (2024)](https://www.nature.com/articles/s41586-023-06753-7), and [Jian et al (2024)](https://www.nature.com/articles/s41586-024-08315-x)).
 The current update adds the deep mutational scanning data from the last of these papers ([Jian et al (2024)](https://www.nature.com/articles/s41586-024-08315-x)), which incorporates antibodies from people with XBB or JN.1 lineage infections.
 
-If you use the calculator to compare the sites of escape in the KP.3 variant from the current set of antibodies versus the original RBD from antibodies elicited by the ancestral vaccine, it is remarkable how much the antigenicity (key sites of escape) in the RBD hvae changed over the last four years:
+If you use the calculator to compare the sites of escape in the KP.3 variant from the current set of antibodies versus the original RBD from antibodies elicited by the ancestral vaccine, it is remarkable how much the antigenicity (key sites of escape) in the RBD have changed over the last four years:
 
 ![change_in_key_sites](/assets/research/2024-11-10_escapecalc_update/change_in_key_sites.jpg)
 
-Note that unlike the logo plots in the [Cao lab papers](https://www.nature.com/articles/s41586-024-08315-x), the escap calculator is **not** weighted by how mutations affect ACE2 binding or their amino-acid accessibility given the genetic code.
+Note that unlike the logo plots in the [Cao lab papers](https://www.nature.com/articles/s41586-024-08315-x), the escape calculator is **not** weighted by how mutations affect ACE2 binding or their amino-acid accessibility given the genetic code.
 So the calculator is designed to quantify the antigenic effect if a site is mutated, not predict how likely it is to mutate.
 
 The strongest sites of escape from binding by neutralizing antibodies targeting the RBD are shown in the plot below, and fall in three different epitopes in the Cao lab nomenclature:
@@ -44,7 +44,7 @@ And most mutations at those sites actually **increase** neutralization by polycl
 
 ![F3_epitope](/assets/research/2024-11-10_escapecalc_update/F3_epitope.jpg)
 
-In our [recent paper](https://www.nature.com/articles/s41586-024-07636-1), we showed that sites that modulate RBD up-down positioning are characterized by opposing effects on full-spike ACE2 binding and polyclonal serum neutralization.
+The data in our [recent paper](https://www.nature.com/articles/s41586-024-07636-1) indicates that sites that modulate RBD up-down positioning are characterized by opposing effects on full-spike ACE2 binding and polyclonal serum neutralization.
 In particular, mutations that move the RBD more to an up conformation increase binding to ACE2 by the full spike (since the RBD is better poised to bind ACE2), but also increase serum neutralization since the RBD in the up conformation exposes more neutralizing epitopes.
 Importantly, these effects are not apparent in deep mutational scanning of just yeast-displayed RBD, since the RBD is outside the context of the full spike.
 If you look at our pseudovirus deep mutational scanning data (the full data can be interactively explored [here](https://dms-vep.org/SARS-CoV-2_XBB.1.5_spike_DMS/htmls/summary_overlaid.html)), you can see that most mutations at sites 403, 405, and 504 increase full-spike serum antibody neutralization while also increasing full-spike ACE2 binding, suggesting the put the RBD in a more up conformation. (For site 505, it is more complicated because mutations at this site often also directly impair the direct 1:1 RBD-ACE2 binding, as can be seen [here](https://tstarrlab.github.io/SARS-CoV-2-RBD_DMS_Omicron-EG5-FLip-BA286/RBD-heatmaps/)).
