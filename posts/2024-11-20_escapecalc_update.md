@@ -28,7 +28,7 @@ The strongest sites of escape from binding by neutralizing antibodies targeting 
 
 ![key_sites](/assets/research/2024-11-10_escapecalc_update/key_sites.jpg)
 
-Note that while the [escape calculator](https://jbloomlab.github.io/SARS2-RBD-escape-calc/) initially just looks like a line plot, its interactivity allows you to explore epitope relationships among sites. For instance, clicking site 505 to simulate mutatin git also escapes most antibodies targeting sites 403, 405, and 504, since these sites are in the same epitope.
+Note that while the [escape calculator](https://jbloomlab.github.io/SARS2-RBD-escape-calc/) initially just looks like a line plot, its interactivity allows you to explore epitope relationships among sites. For instance, clicking site 505 to simulate mutating it also escapes most antibodies targeting sites 403, 405, and 504, since these sites are in the same epitope.
 
 ![epitope_interactivity](/assets/research/2024-11-10_escapecalc_update/epitope_interactivity.jpg)
 
@@ -39,7 +39,7 @@ And mutations at sites 403, 405, and 504 (less so site 505) are often tolerable 
 So why aren't these sites substituting more right now?
 
 Answering this question requires thinking about the full spike, not just the RBD.
-Sites 403, 404, 504, and 505 are clustered near an inter-protomer interface in the down RBD structure.
+Sites 403, 405, 504, and 505 are clustered near an inter-protomer interface in the down RBD structure.
 And most mutations at those sites actually **increase** neutralization by polyclonal sera in our lab's recent [XBB.1.5 full-spike deep mutational scanning](https://www.nature.com/articles/s41586-024-07636-1):
 
 ![F3_epitope](/assets/research/2024-11-10_escapecalc_update/F3_epitope.jpg)
@@ -52,7 +52,7 @@ If you look at our pseudovirus deep mutational scanning data (the full data can 
 ![pseudovirus_DMS](/assets/research/2024-11-10_escapecalc_update/pseudovirus_DMS.jpg)
 
 Therefore, evolution of the RBD is currently constrained by pleiotropic effects of mutations at key sites on antibody binding to RBD, RBD up-down motion, and 1:1 RBD-ACE2 affinity.
-That’s probably why mutations at key escape sites like 403, 405, 504, and 505 have not yet swept.
+That's probably why mutations at key escape sites like 403, 405, 504, and 505 have not yet swept.
 
 Note that I expect evolution will eventually solve this pleiotropic puzzle through some epistatic combination of mutations--we’ve seen SARS-CoV-2 fix antibody escape mutations that were individually deleterious in the past.
 But for now, above observations may explain why recent variants (KP.3.1.1 & XEC) are mostly escaping neutralization via NTD mutations that put RBD more down (as described in [recent work by David Ho](https://www.biorxiv.org/content/10.1101/2024.11.17.624037v1) and [Shan-Lu Liu](https://www.biorxiv.org/content/10.1101/2024.11.12.623078v1)), rather than by direct antibody-escape mutations in the RBD as was common until recently.
