@@ -65,7 +65,7 @@ export default {
             <p class="text-sm md:text-base lg:text-lg text-gray-500 mt-2 md:mt-4 lg:mt-6">
                 Our lab is part of the
                 <a href="https://www.fredhutch.org/en/research/divisions/basic-sciences-division.html">Basic
-                    Sciences Divison</a>
+                    Sciences Division</a>
                 and the
                 <a
                     href="https://www.fredhutch.org/en/research/divisions/public-health-sciences-division/research/computational-biology.html">Computational
