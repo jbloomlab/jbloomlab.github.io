@@ -5,7 +5,7 @@ export default {
     data() {
         return {
             aims: aimsData,
-            viruses: ["Influenza", "SARS-CoV-2", "Lassa", "Nipah", "Rabies", "HIV", "Chikungunya", "CoV-229E", "Proteins"],
+            viruses: ["Influenza", "SARS-CoV-2", "Lassa", "Nipah", "Rabies", "HIV", "Chikungunya", "CoV-229E", "RSV", "MERS", "Proteins"],
             currentVirus: 'Viruses',
             virusIndex: -1,
             intervalId: null,
