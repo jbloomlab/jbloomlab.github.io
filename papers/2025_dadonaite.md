@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "SARS-CoV-2 neutralizing antibody specificities differ dramatically between recently infected infants and immune-imprinted individuals"
-date: "2025-01-20"
+date: "2025-03-25"
 authors: 
     - "Bernadeta Dadonaite"
     - "Allison R Burrell"
@@ -11,9 +11,9 @@ authors:
     - "David B Haslam"
     - "Mary A Staat"
     - "Jesse D Bloom"
-journal: "bioRxiv"
-doi: "10.1101/2025.01.17.633612"
-link: "https://doi.org/10.1101/2025.01.17.633612"
+journal: "Journal of Virology"
+doi: "10.1128/jvi.00109-25"
+link: "https://doi.org/10.1128/jvi.00109-25"
 image: "/assets/papers/2025_dadonaite.png"
 selected: false
 keywords:
