@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Functional and antigenic landscape of the Nipah virus receptor binding protein"
-date: "2024-04-17"
+date: "2025-03-24"
 authors: 
     - "Brendan B Larsen"
     - "Teagan McMahon"
@@ -11,10 +11,10 @@ authors:
     - "James E Crowe"
     - "David Veesler"
     - "Jesse D Bloom"
-journal: "bioRxiv"
-doi: "10.1101/2024.04.17.589977"
-link: "https://www.biorxiv.org/content/10.1101/2024.04.17.589977v1.abstract"
-image: "/assets/papers/2024_larsen.jpg"
+journal: "Cell"
+doi: "10.1016/j.cell.2025.02.030"
+link: "https://doi.org/10.1016/j.cell.2025.02.030"
+image: "/assets/papers/2025_larsen.jpg"
 keywords:
     - "Nipah"
     - "Deep mutational scanning"
