@@ -11,7 +11,7 @@ authors:
     - "Jesse D Bloom"
 journal: "Cell Host & Microbe"
 doi: "10.1016/j.chom.2025.04.018"
-link: "hhttps://doi.org/10.1016/j.chom.2025.04.018"
+link: "https://doi.org/10.1016/j.chom.2025.04.018"
 image: "/assets/papers/2024_aditham.png"
 selected: false
 keywords:
