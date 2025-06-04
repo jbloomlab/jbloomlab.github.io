@@ -106,6 +106,12 @@ export const alumni = [
     currentPosition: "Senior Scientist at Sonoma Biotherapeutics",
   },
   {
+    name: "Arjun Aditham",
+    title: "Postdoc",
+    start: "2022",
+    end: "2025",
+    currentPosition: "Senior Scientist I at SystImmune",
+  {
     name: "Tal Einav",
     title: "Postdoc",
     start: "2019",
