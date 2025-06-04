@@ -111,6 +111,7 @@ export const alumni = [
     start: "2022",
     end: "2025",
     currentPosition: "Senior Scientist I at SystImmune",
+  },
   {
     name: "Tal Einav",
     title: "Postdoc",
