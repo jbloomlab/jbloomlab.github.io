@@ -1,11 +1,19 @@
 export const alumni = [
   {
+    name: "Will Hannon",
+    title: "Graduate Student",
+    program: "MCB",
+    start: "2021",
+    end: "2024",
+    currentPosition: "Scientist I at Allen Institute (SeaHub)",
+  },
+  {
     name: "Frances Welsh",
     title: "Graduate Student",
     program: "MCB",
     start: "2020",
     end: "2024",
-    currentPosition: "Research Scientist at Amazon",
+    currentPosition: "Scientist at Xaira Therapeutics",
   },
   {
     name: "David Bacsik",
@@ -62,7 +70,7 @@ export const alumni = [
     start: "2015",
     end: "2019",
     currentPosition:
-      "Incoming <a href='https://katherinesxue.com/'>Assistant Professor</a> at the University of California, Irvine",
+      "<a href='https://katherinesxue.com/'>Assistant Professor</a> at the University of California, Irvine",
   },
   {
     name: "Juhye Lee",
@@ -70,7 +78,7 @@ export const alumni = [
     program: "MSTP and Genome Sciences",
     start: "2015",
     end: "2019",
-    currentPosition: "Resident at Massachusetts General Hospital",
+    currentPosition: "Hospitalist at Kaiser Permanente Orange Count",
   },
   {
     name: "Heather Machkovech",
@@ -79,7 +87,7 @@ export const alumni = [
     start: "2014",
     end: "2018",
     currentPosition:
-      "Internal Medicine resident at University of Wisconsin Hospital and Clinic",
+      "Infectious Disease Instructor at University of Wisconsin Hospital and Clinic",
   },
   {
     name: "Hugh Haddox",
@@ -180,7 +188,7 @@ export const alumni = [
     start: "2020",
     end: "2023",
     currentPosition:
-      "Incoming PhD student at UW Molecular and Cellular Biology",
+      "PhD student in UW Molecular and Cellular Biology",
   },
   {
     name: "Rosario Tarabi",
@@ -202,7 +210,7 @@ export const alumni = [
     title: "Staff Member",
     start: "2019",
     end: "2021",
-    currentPosition: "Teaching English in Tochigi Prefecture, Japan",
+    currentPosition: "Program Assistant at Fred Hutch",
   },
   {
     name: "Ian Gong",

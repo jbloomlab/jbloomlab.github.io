@@ -2,8 +2,8 @@
 layout: person
 name: "Jesse Bloom"
 image: "/assets/people/jesse-bloom.jpg"
-title: "Principal Investigator"
-category: "Faculty"
+title: "Professor"
+category: "Staff"
 links:
   - link: "https://github.com/jbloom"
     icon: "github"
