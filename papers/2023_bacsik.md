@@ -13,7 +13,7 @@ journal: "eLife"
 doi: "10.7554/eLife.86852.2"
 link: "https://elifesciences.org/articles/86852"
 image: "/assets/papers/2023_bacsik.jpg"
-selected: true
+selected: false
 keywords:
     - "Single-cell sequencing"
     - "Influenza"
