@@ -26,7 +26,7 @@ authors:
 journal: "bioRxiv"
 doi: "10.1101/2025.09.06.674661"
 link: "https://doi.org/10.1101/2025.09.06.674661"
-image: "/assets/papers/2025_kikawa_b.jgg"
+image: "/assets/papers/2025_kikawa_b.jpg"
 selected: false
 keywords:
     - "Influenza"
