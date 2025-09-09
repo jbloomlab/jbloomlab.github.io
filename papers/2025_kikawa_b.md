@@ -24,9 +24,9 @@ authors:
     - "Trevor Bedford"
     - "Jesse D Bloom"
 journal: "bioRxiv"
-doi: "2025.09.06.674661"
+doi: "10.1101/2025.09.06.674661"
 link: "https://doi.org/10.1101/2025.09.06.674661"
-image: "/assets/papers/2025_kikawa_b.png"
+image: "/assets/papers/2025_kikawa_b.jgg"
 selected: false
 keywords:
     - "Influenza"
