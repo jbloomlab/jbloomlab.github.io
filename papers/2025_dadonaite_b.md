@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Spike mutations that affect the function and antigenicity of recent KP.3.1.1-like SARS-CoV-2 variants"
-date: "2025-08-18"
+date: "2025-10-13"
 authors: 
     - "Bernadeta Dadonaite"
     - "Sheri Harari"
@@ -13,7 +13,7 @@ authors:
     - "Jesse D Bloom"
 journal: "bioRxiv"
 doi: "10.1101/2025.08.18.671001"
-link: "https://doi.org/10.1101/2025.08.18.671001"
+link: "https://journals.asm.org/doi/10.1128/jvi.01423-25"
 image: "/assets/papers/2025_dadonaite_b.png"
 selected: false
 keywords:
