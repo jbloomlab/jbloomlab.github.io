@@ -11,8 +11,8 @@ authors:
     - "Anna Elias-Warren"
     - "Helen Y Chu"
     - "Jesse D Bloom"
-journal: "bioRxiv"
-doi: "10.1101/2025.08.18.671001"
+journal: "Journal of Virology"
+doi: "10.1128/jvi.01423-25"
 link: "https://journals.asm.org/doi/10.1128/jvi.01423-25"
 image: "/assets/papers/2025_dadonaite_b.png"
 selected: false
