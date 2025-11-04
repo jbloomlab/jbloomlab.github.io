@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Gavin Juviler"
-image: "/assets/people/gavin-juviler.jpg"
+image: "/assets/people/gavin-juviler.jpeg"
 title: "Research Technician"
 category: "Staff"
 links:

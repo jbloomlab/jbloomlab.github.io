@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Ruby San Pedro"
-image: "/assets/people/ruby-san-pedro.jpg"
+image: "/assets/people/ruby-san-pedro.jpeg"
 title: "Research Administrator"
 category: "Staff"
 links:
