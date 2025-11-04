@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Near real-time data on the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection in September 2025"
-date: "2025-09-09"
+date: "2025-11-03"
 authors: 
     - "Caroline Kikawa"
     - "John Huddleston"
@@ -23,9 +23,9 @@ authors:
     - "Derek J Smith"
     - "Trevor Bedford"
     - "Jesse D Bloom"
-journal: "bioRxiv"
-doi: "10.1101/2025.09.06.674661"
-link: "https://doi.org/10.1101/2025.09.06.674661"
+journal: "Virus Evolution"
+doi: "10.1093/ve/veaf086"
+link: "https://doi.org/10.1093/ve/veaf086"
 image: "/assets/papers/2025_kikawa_b.jpg"
 selected: false
 keywords:
