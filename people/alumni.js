@@ -1,5 +1,13 @@
 export const alumni = [
   {
+    name: "Tim Yu",
+    title: "Graduate Student",
+    program: "MCB",
+    start: "2022",
+    end: "2025",
+    currentPosition: "Postdoc with Tami Lieberman at MIT",
+  },
+  {
     name: "Will Hannon",
     title: "Graduate Student",
     program: "MCB",
