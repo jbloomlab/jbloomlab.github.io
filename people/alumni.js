@@ -1,5 +1,13 @@
 export const alumni = [
   {
+    name: "Tim Yu",
+    title: "Graduate Student",
+    program: "MCB",
+    start: "2022",
+    end: "2025",
+    currentPosition: "Postdoc with Tami Lieberman at MIT",
+  },
+  {
     name: "Will Hannon",
     title: "Graduate Student",
     program: "MCB",
@@ -45,7 +53,7 @@ export const alumni = [
     program: "MSTP and Genome Sciences",
     start: "2017",
     end: "2021",
-    currentPosition: "Laboratory Medicine and Pathology resident at UW",
+    currentPosition: "Laboratory Medicine and Pathology resident at University of Washington",
   },
   {
     name: "Sarah Hilton",
@@ -78,7 +86,7 @@ export const alumni = [
     program: "MSTP and Genome Sciences",
     start: "2015",
     end: "2019",
-    currentPosition: "Hospitalist at Kaiser Permanente Orange Count",
+    currentPosition: "Hospitalist at Kaiser Permanente Orange County",
   },
   {
     name: "Heather Machkovech",
@@ -164,7 +172,7 @@ export const alumni = [
     title: "Postdoc",
     start: "2016",
     end: "2019",
-    currentPosition: "Scientist at Berkeley Brewing Science",
+    currentPosition: "R&D team lead at Berkeley Brewing Science",
   },
   {
     name: "Orr Ashenberg",
@@ -199,11 +207,11 @@ export const alumni = [
       "Business student at Franciscan University of Steubenville",
   },
   {
-    name: "Rachel Eguia",
+    name: "Rachel Reddy (Eguia)",
     title: "Staff Member",
     start: "2019",
     end: "2021",
-    currentPosition: "Associate Scientist at Variant Bio",
+    currentPosition: "Senior Associate Scientist at Variant Bio",
   },
   {
     name: "Keara Malone",
@@ -217,7 +225,7 @@ export const alumni = [
     title: "Staff Member",
     start: "2011",
     end: "2014",
-    currentPosition: "Assistant Facility Manager at Stop & Shop",
+    currentPosition: "Working in cross-border commerce and residential property advisory",
   },
   {
     name: "Jonathan Mah",
