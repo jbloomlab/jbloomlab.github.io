@@ -16,9 +16,9 @@ authors:
     - "Scott E Hensley"
     - "Trevor Bedford"
     - "Jesse D Bloom"
-journal: "bioRxiv"
-doi: "10.1101/2025.03.04.641544"
-link: "https://www.biorxiv.org/content/10.1101/2025.03.04.641544v1"
+journal: "eLife"
+doi: "10.7554/eLife.106811.3"
+link: "https://doi.org/10.7554/eLife.106811.3"
 image: "/assets/papers/2025_kikawa.jpg"
 keywords:
     - "Influenza"

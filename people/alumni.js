@@ -1,5 +1,11 @@
 export const alumni = [
   {
+    name: "Teagan McMahon",
+    title: "Staff Member",
+    start: "2023",
+    end: "2026",
+  },
+  {
     name: "Tim Yu",
     title: "Graduate Student",
     program: "MCB",

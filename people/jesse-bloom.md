@@ -17,6 +17,8 @@ links:
     icon: "scholar"
   - link: "https://orcid.org/0000-0003-1267-3408"
     icon: "orcid"
+  - link: "https://www.linkedin.com/in/jesse-bloom-a085ba361/"
+    icon: "linkedin"
 ---
 
 Jesse is a professor at the Fred Hutchinson Cancer Research Center and an Investigator the Howard Hughes Medical Institute.
