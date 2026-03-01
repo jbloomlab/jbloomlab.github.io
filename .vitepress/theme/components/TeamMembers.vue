@@ -1,6 +1,7 @@
 <script>
 import { computed } from 'vue'
 import TeamMembersItem from './TeamMembersItem.vue'
+
 export default {
     components: {
         TeamMembersItem
@@ -18,13 +19,10 @@ export default {
     }
 }
 </script>
+
 <template>
     <div :class="classes">
-        <div class="max-w-sm grid grid-cols-1 md:grid-cols-[repeat(auto-fit,minmax(14rem,1fr))] gap-6" :class="{
-            'md:max-w-7xl': members.length >= 3,
-            'md:max-w-[14rem]': members.length === 1,
-            'md:max-w-3xl': members.length === 2
-        }">
+        <div class="mx-auto max-w-sm md:max-w-7xl grid grid-cols-1 md:grid-cols-[repeat(auto-fill,minmax(14rem,1fr))] gap-6">
             <div v-for="member in members" :key="member.name" class="item">
                 <TeamMembersItem :member="member" />
             </div>
