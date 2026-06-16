@@ -1,5 +1,12 @@
 export const alumni = [
   {
+    name: "Jenny Ahn",
+    title: "Graduate Student",
+    start: "2023",
+    end: "2026",
+    currentPosition: "",
+  },
+  {
     name: "Andrea Loes",
     title: "Staff Member",
     start: "2019",
