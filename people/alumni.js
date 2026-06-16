@@ -7,7 +7,6 @@ export const alumni = [
     currentPosition: "",
   },
   {
-  {
     name: "Andrea Loes",
     title: "Staff Member",
     start: "2019",
