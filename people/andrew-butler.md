@@ -2,8 +2,8 @@
 layout: person
 name: "Andrew Butler"
 image: "/assets/people/andrew-butler.jpg"
-title: "Postdoctoral Fellow"
-category: "Postdocs"
+title: "Staff Scientist"
+category: "Staff"
 links:
   - link: "https://github.com/andrewwbutler"
     icon: "github"
@@ -13,4 +13,4 @@ links:
     icon: "website"
 ---
 
-As a postdoc in the Bloom Lab, I am interested in developing and applying single-cell methods to better understand heterogeneity in the context of viral infections.
+As a staff scientist in the Bloom Lab, I am working on both experimental and computational methods to use sequencing-based neutralization assays to study influenza immunity and inform vaccine strain selection.
