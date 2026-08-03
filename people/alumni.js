@@ -4,7 +4,7 @@ export const alumni = [
     title: "Graduate Student",
     start: "2023",
     end: "2026",
-    currentPosition: "",
+    currentPosition: "Scientist (stem cell biologist) at Plurexa",
   },
   {
     name: "Andrea Loes",
