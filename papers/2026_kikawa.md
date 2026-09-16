@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Near real-time data on the human neutralizing antibody landscape to influenza virus as of early 2026 to inform vaccine-strain selection"
-date: "2026-02-19"
+date: "2026-07-26"
 authors: 
     - "Caroline Kikawa"
     - "John Huddleston"
@@ -27,9 +27,9 @@ authors:
     - "Trevor Bedford"
     - "Scott E Hensley"
     - "Jesse D Bloom"
-journal: "bioRxiv"
-doi: "10.64898/2026.02.18.706711"
-link: "https://doi.org/10.64898/2026.02.18.706711"
+journal: "Virus Evolution"
+doi: "10.1093/ve/veag046"
+link: "https://doi.org/10.1093/ve/veag046"
 image: "/assets/papers/2026_kikawa.jpg"
 selected: false
 keywords:
