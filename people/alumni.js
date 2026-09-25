@@ -73,7 +73,7 @@ export const alumni = [
     program: "MSTP and Genome Sciences",
     start: "2017",
     end: "2021",
-    currentPosition: "Laboratory Medicine and Pathology resident at University of Washington",
+    currentPosition: "<a href='https://dlmp.uw.edu/faculty/crawford'>Acting Assistant Professor</a> at University of Washington Lab Medicine",
   },
   {
     name: "Sarah Hilton",
