@@ -2,7 +2,7 @@
 layout: person
 name: "Cassandra Simonich"
 image: "/assets/people/cassandra-simonich.jpg"
-title: "Acting Instructor (UW Dept of Pediatrics), Research Associate (Fred Hutch)"
+title: "Acting Instructor (UW Dept of Pediatrics), Associate (Fred Hutch)"
 category: "Staff"
 links:
   - link: "https://github.com/CSimonich"
