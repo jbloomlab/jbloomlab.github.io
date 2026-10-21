@@ -13,7 +13,7 @@ image: "/assets/papers/2026_jacobdolan.jpg"
 keywords:
     - "SARS-CoV-2"
     - "Immunity"
-selected: true
+selected: false
 ---
 
 ## Abstract
