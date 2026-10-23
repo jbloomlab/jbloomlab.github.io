@@ -6,7 +6,7 @@ authors:
     - "Catherine Jacob-Dolan"
     - "Jim B Boonyaratanakornkit"
     - "Jesse D Bloom"
-journal: "Journal of Virology"
+journal: "bioRxiv"
 doi: "10.64898/2026.10.15.759476"
 link: "https://doi.org/10.64898/2026.10.15.759476"
 image: "/assets/papers/2026_jacobdolan.jpg"
